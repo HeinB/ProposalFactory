@@ -1,0 +1,22 @@
+---
+# Sample tender context for ARM-IT045 — used to demonstrate KVE Phase A
+# This file is the Mode 2 (Assembly Validation) input per KNOWLEDGE_VALIDATION_ENGINE.md §4.3
+# Location: 08_Commercial/Assembly_Engine/ (adjacent to kve_engine.py for demo purposes)
+# Production use: provided by Tender Intelligence Layer (TIL) Stage 0 Block G output
+
+tender_context:
+  tender_id: "ARM-IT045"
+  tender_date: "2026-06-27"
+  pattern: "P1"
+  platform: "Oracle HCM Cloud"
+  engagement_type: "Implementation"
+  modules:
+    - "Oracle HCM Core"
+    - "Oracle Recruiting Cloud"
+    - "Oracle Learning Cloud"
+  country: "RSA"
+  client_size: "Enterprise"
+  client_sector: "Government"
+  payroll_integration: false
+  am_clearances: []
+  ptc_clearances: []

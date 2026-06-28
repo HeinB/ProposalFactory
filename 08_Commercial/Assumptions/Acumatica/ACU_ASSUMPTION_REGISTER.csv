@@ -1,0 +1,153 @@
+assumption_id,pack,section_code,section_name,short_description,status,applies_to
+ACU-GEN-001,ACU,ACU-GEN,General Engagement Scope,Scope limited to SOW; additions are Change Requests,Approved,All Acumatica engagements
+ACU-GEN-002,ACU,ACU-GEN,General Engagement Scope,Cloud SaaS only; no on-premises Acumatica,Approved,All Acumatica engagements
+ACU-GEN-003,ACU,ACU-GEN,General Engagement Scope,Licence must be active before configuration begins,Approved,All Acumatica engagements
+ACU-GEN-004,ACU,ACU-GEN,General Engagement Scope,Client provides committed module business owners,Approved,All Acumatica engagements
+ACU-GEN-005,ACU,ACU-GEN,General Engagement Scope,Standard OOTB functionality as starting point; customisation requires justification,Approved,All Acumatica engagements
+ACU-GEN-006,ACU,ACU-GEN,General Engagement Scope,Client processes adapt to Acumatica; not a legacy replication project,Approved,All Acumatica engagements
+ACU-GEN-007,ACU,ACU-GEN,General Engagement Scope,Structured delivery methodology; client PM participation required,Approved,All Acumatica engagements
+ACU-GEN-008,ACU,ACU-GEN,General Engagement Scope,Single Acumatica tenant assumed; multiple tenants separately scoped,Approved,All Acumatica engagements
+ACU-GEN-009,ACU,ACU-GEN,General Engagement Scope,APPSolve is an Acumatica Gold Partner — cite 'Acumatica Gold Partner' only; never cite 'Gold Certified',Approved,All Acumatica proposals
+ACU-ENV-001,ACU,ACU-ENV,Environments,Two environments standard: Production + one non-Production,Approved,All Acumatica engagements
+ACU-ENV-002,ACU,ACU-ENV,Environments,Acumatica provisions its own cloud environments; APPSolve does not control timeline,Approved,All Acumatica engagements
+ACU-ENV-003,ACU,ACU-ENV,Environments,Configuration starts only after non-Production environment is available,Approved,All Acumatica engagements
+ACU-ENV-004,ACU,ACU-ENV,Environments,All configuration in non-Production first; Production promoted after UAT sign-off,Approved,All Acumatica engagements
+ACU-ENV-005,ACU,ACU-ENV,Environments,Access via standard web browser; no custom mobile app configuration,Approved,All Acumatica engagements
+ACU-ENV-006,ACU,ACU-ENV,Environments,Performance and load testing not included in standard scope,Approved,All Acumatica engagements
+ACU-CFG-001,ACU,ACU-CFG,Configuration and Customisation,Low-Code/No-Code framework only; no direct DB or source code modification,Approved,All Acumatica engagements
+ACU-CFG-002,ACU,ACU-CFG,Configuration and Customisation,Custom development (C# etc.) beyond LCNC is separately priced,Approved,All Acumatica engagements
+ACU-CFG-003,ACU,ACU-CFG,Configuration and Customisation,Generic Inquiries are the standard tool for custom data views,Approved,All Acumatica engagements
+ACU-CFG-004,ACU,ACU-CFG,Configuration and Customisation,Business Events and Push Notifications configured for agreed automations only,Approved,All Acumatica engagements
+ACU-CFG-005,ACU,ACU-CFG,Configuration and Customisation,Report Designer for standard reports; external BI out of scope,Approved,All Acumatica engagements
+ACU-CFG-006,ACU,ACU-CFG,Configuration and Customisation,Screen customisation individually scoped and capped in SOW,Approved,All Acumatica engagements
+ACU-CFG-007,ACU,ACU-CFG,Configuration and Customisation,Dashboards via standard widgets connected to GIs,Approved,All Acumatica engagements
+ACU-CFG-008,ACU,ACU-CFG,Configuration and Customisation,Configuration Workbook delivered at project close,Approved,All Acumatica engagements
+ACU-DAT-001,ACU,ACU-DAT,Data Migration,Data migration limited to entities named in approved Data Migration Plan,Approved,All Acumatica engagements
+ACU-DAT-002,ACU,ACU-DAT,Data Migration,Client extracts and populates APPSolve templates; APPSolve validates,Approved,All Acumatica engagements
+ACU-DAT-003,ACU,ACU-DAT,Data Migration,APPSolve validates format and integrity; client cleanses data,Approved,All Acumatica engagements
+ACU-DAT-004,ACU,ACU-DAT,Data Migration,Standard three-cycle migration: pilot + dress rehearsal + production,Approved,All Acumatica engagements
+ACU-DAT-005,ACU,ACU-DAT,Data Migration,Opening balances migrated at agreed balance date; no historical transactions by default,Approved,All Acumatica engagements
+ACU-DAT-006,ACU,ACU-DAT,Data Migration,Active master data only; inactive/archived excluded,Approved,All Acumatica engagements
+ACU-DAT-007,ACU,ACU-DAT,Data Migration,Client sign-off on migrated data in non-Production required before final migration,Approved,All Acumatica engagements
+ACU-DAT-008,ACU,ACU-DAT,Data Migration,APPSolve provides go-live migration runbook with rollback criteria,Approved,All Acumatica engagements
+ACU-DAT-009,ACU,ACU-DAT,Data Migration,Post-go-live data corrections beyond hypercare scope are Change Requests,Approved,All Acumatica engagements
+ACU-FIN-001,ACU,ACU-FIN,Financials,GL/AP/AR/Cash Management is the mandatory base module,Approved,All Acumatica engagements
+ACU-FIN-002,ACU,ACU-FIN,Financials,Client designs Chart of Accounts; APPSolve configures,Approved,All Acumatica engagements
+ACU-FIN-003,ACU,ACU-FIN,Financials,Fiscal year structure confirmed before configuration; changes after sign-off are major CR,Approved,All Acumatica engagements
+ACU-FIN-004,ACU,ACU-FIN,Financials,Multi-currency configured where client operates in multiple currencies; FX feed separately scoped,Approved,Acumatica multi-currency engagements
+ACU-FIN-005,ACU,ACU-FIN,Financials,Bank accounts configured with client-provided details; direct bank feed separately scoped,Approved,All Acumatica engagements
+ACU-FIN-006,ACU,ACU-FIN,Financials,AP configuration includes standard workflows; AP automation/OCR separately licensed,Approved,All Acumatica engagements
+ACU-FIN-007,ACU,ACU-FIN,Financials,AR includes standard configuration; customer portal separately scoped,Approved,All Acumatica engagements
+ACU-FIN-008,ACU,ACU-FIN,Financials,Fixed Assets included where in scope; IFRS 16 and impairment out of scope,Approved,Acumatica Fixed Assets engagements
+ACU-FIN-009,ACU,ACU-FIN,Financials,SA VAT/WHT configured; eFiling submission is client responsibility; non-SA tax separately scoped,Approved,All Acumatica engagements
+ACU-FIN-010,ACU,ACU-FIN,Financials,Period-end procedures documented; first month-end supported in hypercare,Approved,All Acumatica engagements
+ACU-ORG-001,ACU,ACU-ORG,Organisation Structure,Entity count confirmed in SOW; additional entities separately scoped,Approved,All Acumatica engagements
+ACU-ORG-002,ACU,ACU-ORG,Organisation Structure,Entity structure finalised before configuration; changes are high-impact CR,Approved,All Acumatica engagements
+ACU-ORG-003,ACU,ACU-ORG,Organisation Structure,Inter-company transactions configured where confirmed in SOW; netting separately scoped,Approved,Acumatica multi-entity engagements
+ACU-ORG-004,ACU,ACU-ORG,Organisation Structure,Branch accounting via Acumatica subaccount structure,Approved,All Acumatica engagements
+ACU-ORG-005,ACU,ACU-ORG,Organisation Structure,Approval workflows for confirmed processes; complex multi-level trees separately scoped,Approved,All Acumatica engagements
+ACU-INV-001,ACU,ACU-INV,Inventory and Warehouse,Inventory config included where module in scope; valuation method confirmed during design,Approved,Acumatica Distribution engagements
+ACU-INV-002,ACU,ACU-INV,Inventory and Warehouse,Warehouses named in SOW; additional warehouses are CR,Approved,Acumatica Distribution engagements
+ACU-INV-003,ACU,ACU-INV,Inventory and Warehouse,Opening on-hand quantities migrated; historic transactions excluded,Approved,Acumatica Distribution engagements
+ACU-INV-004,ACU,ACU-INV,Inventory and Warehouse,Barcode/scanning/RFID separately scoped; standard is manual or mobile app,Approved,Acumatica Distribution engagements
+ACU-INV-005,ACU,ACU-INV,Inventory and Warehouse,Replenishment/MRP included where in SOW; APS separately scoped,Approved,Acumatica Distribution engagements
+ACU-PUR-001,ACU,ACU-PUR,Purchasing and Procurement,PR/PO management with three-way match as default standard,Approved,All Acumatica engagements
+ACU-PUR-002,ACU,ACU-PUR,Purchasing and Procurement,Supplier master configured from client-provided data; supplier portal separately scoped,Approved,All Acumatica engagements
+ACU-PUR-003,ACU,ACU-PUR,Purchasing and Procurement,Blanket POs and supplier contracts included where in SOW,Approved,All Acumatica engagements
+ACU-PUR-004,ACU,ACU-PUR,Purchasing and Procurement,E-procurement/punchout integration out of scope,Approved,All Acumatica engagements
+ACU-PAY-001,ACU,ACU-PAY,PaySpace Payroll Integration,PaySpace is the standard SA payroll system; integration method confirmed at pre-sales per client PaySpace licence tier,Approved,Acumatica + PaySpace engagements
+ACU-PAY-002,ACU,ACU-PAY,PaySpace Payroll Integration,Integration scope = payroll journal to Acumatica GL only,Approved,Acumatica + PaySpace engagements
+ACU-PAY-003,ACU,ACU-PAY,PaySpace Payroll Integration,Client must be active PaySpace subscriber before integration design begins,Approved,Acumatica + PaySpace engagements
+ACU-PAY-004,ACU,ACU-PAY,PaySpace Payroll Integration,Integration method confirmed at pre-sales (API preferred; file-based if no API access); locked in SOW,Approved,Acumatica + PaySpace engagements
+ACU-PAY-005,ACU,ACU-PAY,PaySpace Payroll Integration,GL mapping requires both payroll and finance team input; sign-off mandatory,Approved,Acumatica + PaySpace engagements
+ACU-PAY-006,ACU,ACU-PAY,PaySpace Payroll Integration,Integration testing requires live PaySpace test environment; client admin coordination required,Approved,Acumatica + PaySpace engagements
+ACU-PAY-007,ACU,ACU-PAY,PaySpace Payroll Integration,PaySpace is system of record for payroll; Acumatica is system of record for finance,Approved,Acumatica + PaySpace engagements
+ACU-CRM-001,ACU,ACU-CRM,CRM and Customer Management,CRM config included where module in scope; advanced features separately scoped,Approved,Acumatica CRM engagements
+ACU-CRM-002,ACU,ACU-CRM,CRM and Customer Management,CRM data migration from legacy CRM via client-provided templates,Approved,Acumatica CRM engagements
+ACU-CRM-003,ACU,ACU-CRM,CRM and Customer Management,Microsoft 365 integration included where in SOW; requires M365 admin access,Approved,Acumatica CRM engagements
+ACU-CRM-004,ACU,ACU-CRM,CRM and Customer Management,Customer self-service portal separately scoped,Approved,Acumatica CRM engagements
+ACU-PRJ-001,ACU,ACU-PRJ,Project Accounting,Project Accounting included where module in scope,Approved,Acumatica Project Accounting engagements
+ACU-PRJ-002,ACU,ACU-PRJ,Project Accounting,Project structure defined by client; APPSolve configures,Approved,Acumatica Project Accounting engagements
+ACU-PRJ-003,ACU,ACU-PRJ,Project Accounting,Time entry included where time-based billing in scope,Approved,Acumatica Project Accounting engagements
+ACU-PRJ-004,ACU,ACU-PRJ,Project Accounting,Standard billing models configured; custom billing logic separately scoped,Approved,Acumatica Project Accounting engagements
+ACU-PRJ-005,ACU,ACU-PRJ,Project Accounting,PaySpace-to-project labour cost allocation requires project-coded GL mapping,Approved,Acumatica Project Accounting + PaySpace
+ACU-MFG-001,ACU,ACU-MFG,Manufacturing,Manufacturing included where module in scope; discrete manufacturing primary,Approved,Acumatica Manufacturing engagements
+ACU-MFG-002,ACU,ACU-MFG,Manufacturing,BOM data migration — client provides BOM data; engineering team must validate,Approved,Acumatica Manufacturing engagements
+ACU-MFG-003,ACU,ACU-MFG,Manufacturing,Production order management per confirmed process; IoT separately scoped,Approved,Acumatica Manufacturing engagements
+ACU-MFG-004,ACU,ACU-MFG,Manufacturing,MRP included where in SOW; APS out of scope,Approved,Acumatica Manufacturing engagements
+ACU-MFG-005,ACU,ACU-MFG,Manufacturing,Quality management included where in SOW; third-party QMS separately scoped,Approved,Acumatica Manufacturing engagements
+ACU-INT-001,ACU,ACU-INT,Integration,Only integrations named in SOW are in scope; each individually scoped,Approved,All Acumatica engagements
+ACU-INT-002,ACU,ACU-INT,Integration,Acumatica REST API standard for real-time; Import Scenarios for file-based,Approved,All Acumatica engagements
+ACU-INT-003,ACU,ACU-INT,Integration,BeBanking integration separately scoped; not in Acumatica Base pack,Approved,Acumatica + BeBanking engagements
+ACU-INT-004,ACU,ACU-INT,Integration,E-commerce integration separately scoped,Approved,Acumatica e-commerce engagements
+ACU-INT-005,ACU,ACU-INT,Integration,3PL integration separately scoped,Approved,Acumatica distribution + 3PL engagements
+ACU-INT-006,ACU,ACU-INT,Integration,Integration testing requires stable third-party test environment,Approved,All Acumatica integrations
+ACU-REP-001,ACU,ACU-REP,Reporting and Analytics,Standard Acumatica report library included per module in scope,Approved,All Acumatica engagements
+ACU-REP-002,ACU,ACU-REP,Reporting and Analytics,Defined GI set delivered; super-users trained to create GIs post-go-live,Approved,All Acumatica engagements
+ACU-REP-003,ACU,ACU-REP,Reporting and Analytics,Role-based dashboards configured per agreed set; additional dashboards are CR,Approved,All Acumatica engagements
+ACU-REP-004,ACU,ACU-REP,Reporting and Analytics,External BI tool integration separately scoped,Approved,Acumatica + BI tool engagements
+ACU-REP-005,ACU,ACU-REP,Reporting and Analytics,Compliance reports prepared in Acumatica; submission is client responsibility,Approved,All Acumatica engagements
+ACU-TRN-001,ACU,ACU-TRN,Training,Super-user and key-user training included; end-user training is client responsibility,Approved,All Acumatica engagements
+ACU-TRN-002,ACU,ACU-TRN,Training,Virtual facilitated training is standard; on-site incurs travel costs billed separately,Approved,All Acumatica engagements
+ACU-TRN-003,ACU,ACU-TRN,Training,Training materials in English; branded/multilingual materials separately scoped,Approved,All Acumatica engagements
+ACU-TRN-004,ACU,ACU-TRN,Training,Acumatica Open University recommended for pre-training self-learning,Approved,All Acumatica engagements
+ACU-TRN-005,ACU,ACU-TRN,Training,Training in non-Production environment using representative data,Approved,All Acumatica engagements
+ACU-UAT-001,ACU,ACU-UAT,Testing,UAT is client responsibility; APPSolve provides framework and support,Approved,All Acumatica engagements
+ACU-UAT-002,ACU,ACU-UAT,Testing,APPSolve resolves configuration defects in UAT; scope changes are CR,Approved,All Acumatica engagements
+ACU-UAT-003,ACU,ACU-UAT,Testing,Single UAT cycle + one remediation pass; additional cycles are CR,Approved,All Acumatica engagements
+ACU-UAT-004,ACU,ACU-UAT,Testing,Regression testing post-UAT is client responsibility,Approved,All Acumatica engagements
+ACU-UAT-005,ACU,ACU-UAT,Testing,Written UAT sign-off mandatory before go-live,Approved,All Acumatica engagements
+ACU-CUT-001,ACU,ACU-CUT,Cutover and Go-Live,Go-Live Runbook provided; client sponsor approves before cutover window,Approved,All Acumatica engagements
+ACU-CUT-002,ACU,ACU-CUT,Cutover and Go-Live,Parallel run not assumed by default; included only where SOW specifies,Approved,All Acumatica engagements
+ACU-CUT-003,ACU,ACU-CUT,Cutover and Go-Live,Legacy system availability during cutover is client responsibility,Approved,All Acumatica engagements
+ACU-CUT-004,ACU,ACU-CUT,Cutover and Go-Live,Go-live date changes post-baseline are Change Requests,Approved,All Acumatica engagements
+ACU-CUT-005,ACU,ACU-CUT,Cutover and Go-Live,4-week hypercare standard; covers user queries / configuration defects / operational guidance,Approved,All Acumatica engagements
+ACU-SUP-001,ACU,ACU-SUP,Support and AMS,Post-hypercare support under separate AMS SOW; not in implementation SOW,Approved,All Acumatica engagements
+ACU-SUP-002,ACU,ACU-SUP,Support and AMS,Acumatica SaaS updates managed by Acumatica; APPSolve assesses impact under AMS,Approved,Acumatica AMS engagements
+ACU-SUP-003,ACU,ACU-SUP,Support and AMS,Acumatica platform outages are Acumatica's SaaS responsibility,Approved,All Acumatica engagements
+ACU-SUP-004,ACU,ACU-SUP,Support and AMS,AMS scope covers named modules in AMS SOW only,Approved,Acumatica AMS engagements
+ACU-SUP-005,ACU,ACU-SUP,Support and AMS,Configuration defect vs enhancement distinction governs AMS CR process,Approved,Acumatica AMS engagements
+ACU-EXT-001,ACU,ACU-EXT,External Dependencies,Acumatica licence cost not in APPSolve implementation fee,Approved,All Acumatica engagements
+ACU-EXT-002,ACU,ACU-EXT,External Dependencies,Client IT infrastructure (internet/hardware/browser) is client responsibility,Approved,All Acumatica engagements
+ACU-EXT-003,ACU,ACU-EXT,External Dependencies,ISV Marketplace products separately contracted; APPSolve support depends on competency,Approved,All Acumatica engagements
+ACU-EXT-004,ACU,ACU-EXT,External Dependencies,Acumatica SaaS SLA governs platform availability; not APPSolve's SOW,Approved,All Acumatica engagements
+ACU-EXT-005,ACU,ACU-EXT,External Dependencies,Regulatory filing submissions are client responsibility,Approved,All Acumatica engagements
+ACU-EXT-006,ACU,ACU-EXT,External Dependencies,Carrier/logistics API integration separately scoped,Approved,Acumatica Distribution engagements
+ACU-EXT-007,ACU,ACU-EXT,External Dependencies,POS integration separately scoped per POS platform,Approved,Acumatica Retail engagements
+ACU-EXT-008,ACU,ACU-EXT,External Dependencies,DMS integration separately scoped; native file attachment is standard,Approved,All Acumatica engagements
+ACU-EXT-009,ACU,ACU-EXT,External Dependencies,EDI integration separately scoped,Approved,Acumatica B2B engagements
+ACU-CUS-001,ACU,ACU-CUS,Customer Responsibilities,Dedicated Project Sponsor and Project Manager required throughout implementation,Approved,All Acumatica engagements
+ACU-CUS-002,ACU,ACU-CUS,Customer Responsibilities,Named super-users per module; minimum 50% availability during implementation,Approved,All Acumatica engagements
+ACU-CUS-003,ACU,ACU-CUS,Customer Responsibilities,Configuration decisions on time; delays are client-side and may extend schedule,Approved,All Acumatica engagements
+ACU-CUS-004,ACU,ACU-CUS,Customer Responsibilities,Master data and opening balances provided by deadline in APPSolve templates,Approved,All Acumatica engagements
+ACU-CUS-005,ACU,ACU-CUS,Customer Responsibilities,UAT executed by client; sign-off confirms readiness for production,Approved,All Acumatica engagements
+ACU-CUS-006,ACU,ACU-CUS,Customer Responsibilities,End-user training is client responsibility post super-user training,Approved,All Acumatica engagements
+ACU-CUS-007,ACU,ACU-CUS,Customer Responsibilities,Legacy system decommissioning is client decision and responsibility,Approved,All Acumatica engagements
+ACU-CUS-008,ACU,ACU-CUS,Customer Responsibilities,Active Acumatica production licence confirmed before go-live,Approved,All Acumatica engagements
+ACU-EXC-001,ACU,ACU-EXC,Explicit Exclusions,On-premises Acumatica excluded entirely,Approved,All Acumatica engagements
+ACU-EXC-002,ACU,ACU-EXC,Explicit Exclusions,Payroll processing and calculations excluded — PaySpace scope,Approved,All Acumatica engagements
+ACU-EXC-003,ACU,ACU-EXC,Explicit Exclusions,Tax advisory and regulatory submissions excluded,Approved,All Acumatica engagements
+ACU-EXC-004,ACU,ACU-EXC,Explicit Exclusions,End-user training beyond super-user sessions excluded,Approved,All Acumatica engagements
+ACU-EXC-005,ACU,ACU-EXC,Explicit Exclusions,Historical transaction migration excluded unless explicitly included,Approved,All Acumatica engagements
+ACU-EXC-006,ACU,ACU-EXC,Explicit Exclusions,Custom development outside LCNC framework excluded unless priced separately,Approved,All Acumatica engagements
+ACU-EXC-007,ACU,ACU-EXC,Explicit Exclusions,Third-party integrations not in SOW excluded,Approved,All Acumatica engagements
+ACU-EXC-008,ACU,ACU-EXC,Explicit Exclusions,Acumatica platform outage resolution excluded,Approved,All Acumatica engagements
+ACU-EXC-009,ACU,ACU-EXC,Explicit Exclusions,Business process consulting outside Acumatica scope excluded,Approved,All Acumatica engagements
+ACU-EXC-010,ACU,ACU-EXC,Explicit Exclusions,Acumatica licence negotiation and commercial advice excluded,Approved,All Acumatica engagements
+ACU-GEN-010,ACU,ACU-GEN,General Engagement Scope,Dedicated APPSolve PM included for 3+ modules or multi-BU scope; Lead Consultant manages single/dual-module delivery,Approved,All Acumatica engagements
+ACU-CFG-009,ACU,ACU-CFG,Configuration and Customisation,SSO integration not included as standard; separately scoped where required,Approved,All Acumatica engagements
+ACU-DAT-010,ACU,ACU-DAT,Data Migration,Legacy document attachments not migrated; separately scoped if required,Approved,All Acumatica engagements
+ACU-DAT-011,ACU,ACU-DAT,Data Migration,Transaction notes and inline comments not migrated,Approved,All Acumatica engagements
+ACU-DAT-012,ACU,ACU-DAT,Data Migration,Legacy audit trail not migrated; Acumatica tracks from go-live forward,Approved,All Acumatica engagements
+ACU-FIN-011,ACU,ACU-FIN,Financials,SA VAT Act tax invoice template compliance configured as standard,Approved,All Acumatica engagements
+ACU-ORG-006,ACU,ACU-ORG,Organisation Structure,Consolidated financial reporting separately scoped for multi-entity,Approved,Acumatica multi-entity engagements
+ACU-PAY-008,ACU,ACU-PAY,PaySpace Payroll Integration,Non-PaySpace payroll systems require separate pre-sales assessment,Approved,Acumatica non-PaySpace engagements
+ACU-INT-007,ACU,ACU-INT,Integration,Post-go-live integration monitoring is client responsibility unless in AMS SOW,Approved,All Acumatica integrations
+ACU-INT-008,ACU,ACU-INT,Integration,OIC as Acumatica middleware governed by OIC pack; confirmed at pre-sales,Approved,Acumatica + OIC engagements
+ACU-TRN-006,ACU,ACU-TRN,Training,Organisational change management is client responsibility; separately scoped if APPSolve involvement required,Approved,All Acumatica engagements
+ACU-SUP-006,ACU,ACU-SUP,Support and AMS,ISV upgrade compatibility under Acumatica version updates is ISV vendor responsibility,Approved,Acumatica AMS engagements
+ACU-SUP-007,ACU,ACU-SUP,Support and AMS,Non-Production environment continuity under AMS is client subscription responsibility,Approved,Acumatica AMS engagements
+ACU-SUP-008,ACU,ACU-SUP,Support and AMS,Four-step version update process; client written sign-off required before Production update,Approved,Acumatica AMS engagements
+ACU-SEC-001,ACU,ACU-SEC,Security and Access Control,Role-based security framework configured per agreed role set; post-go-live provisioning is client responsibility,Approved,All Acumatica engagements
+ACU-SEC-002,ACU,ACU-SEC,Security and Access Control,Multi-entity branch/company access matrix configured per design sign-off; changes are CR,Approved,Acumatica multi-entity engagements
+ACU-SEC-003,ACU,ACU-SEC,Security and Access Control,POPIA data residency — Acumatica SaaS data residency governed by Acumatica; not APPSolve's control,Approved,All Acumatica engagements

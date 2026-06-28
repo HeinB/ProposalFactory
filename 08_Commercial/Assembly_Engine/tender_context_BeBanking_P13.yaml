@@ -1,0 +1,24 @@
+tender_context:
+  tender_id: "REG-BEB-P13"
+  tender_date: "2026-06-28"
+  pattern: "P13"
+  platform: "BeBanking"
+  engagement_type: "Implementation"
+  modules:
+    - "BeBanking Core Banking"
+    - "BeBanking Digital Channels"
+  country: "RSA"
+  client_size: "Enterprise"
+  client_sector: "Financial Services"
+  payroll_integration: false
+  oci_in_scope: false
+  client_has_oic: false
+  dr_in_scope: true
+  security_in_scope: true
+  migration_scope: true
+  integration_scope: true
+  support_scope: false
+  pricing_type: "Time and Materials"
+  project_duration_months: 18.0
+  am_clearances: []
+  ptc_clearances: []

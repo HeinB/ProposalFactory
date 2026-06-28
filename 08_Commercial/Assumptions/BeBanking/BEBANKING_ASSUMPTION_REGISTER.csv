@@ -1,0 +1,118 @@
+assumption_id,pack,section_number,section_code,title,status,bu_decision_ref,risk_level,notes
+BB-GEN-001,BB,140,BB-GEN,BeBanking as Proprietary Managed Platform,Approved,,LOW,APPSolve = vendor and implementation partner
+BB-GEN-002,BB,140,BB-GEN,Standard Scope — Single Entity Single Country,Approved,,MEDIUM,Multi-entity and multi-country separately scoped
+BB-GEN-003,BB,140,BB-GEN,Managed Application — No Client Platform Access,Approved,,LOW,No source code or infrastructure access
+BB-GEN-004,BB,140,BB-GEN,BeBanking Not an ERP — Payment Platform Only,Approved,,LOW,All instructions originate from client ERP
+BB-GEN-005,BB,140,BB-GEN,Minimum Onboarding Period 6 Weeks,Approved,,MEDIUM,Complex implementations 12–20 weeks
+BB-GEN-006,BB,140,BB-GEN,Solution Consultant as Primary Delivery Contact,Approved,,LOW,Dedicated PM only where in SOW
+BB-GEN-007,BB,140,BB-GEN,Phased Onboarding with Sequential Sign-Off,Approved,,MEDIUM,6-phase delivery model; sign-off gates required
+BB-GEN-008,BB,140,BB-GEN,Subscription-Based Licensing — Tier Confirmation Required,Approved,,MEDIUM,Transaction volume and payment type scope confirmed in commercial schedule; tier confirmed per BU Master Review
+BB-BNK-001,BB,141,BB-BNK,Supported Banking Partner List,Approved,,HIGH,"Standard banks: ABSA, FNB, Nedbank, Standard Bank, Investec + CMA extensions (Namibia, Botswana, eSwatini, Lesotho, Zimbabwe); Citi Bank UK + Santander Chile for forex; additional banks separately scoped"
+BB-BNK-002,BB,141,BB-BNK,No Direct SWIFT Membership — Bank-Intermediated Model,Approved,,CRITICAL,APPSolve does not claim direct SWIFT connectivity
+BB-BNK-003,BB,141,BB-BNK,Bank Onboarding Timeline Outside APPSolve Control,Approved,,HIGH,4–8 weeks from registration to production approval; bank-controlled
+BB-BNK-004,BB,141,BB-BNK,Client Responsible for Bank Account Structure,Approved,,MEDIUM,Post-configuration bank account changes are CR
+BB-BNK-005,BB,141,BB-BNK,APPSolve Does Not Hold Client Funds,Approved,,CRITICAL,BeBanking transmits instructions; client bank executes; no payment service provider role
+BB-BNK-006,BB,141,BB-BNK,Client Responsible for Establishing Bank Agreements,Approved,,HIGH,H2H agreement / bulk payment facility / SFTP or API access must be in place before testing
+BB-BNK-007,BB,141,BB-BNK,SFTP and API Connectivity Supported — Method Per Bank,Approved,,MEDIUM,Method confirmed during bank onboarding assessment
+BB-BNK-008,BB,141,BB-BNK,Bank File Format Specifications Are Bank-Defined,Approved,,HIGH,Post-go-live bank format changes addressed under support arrangement
+BB-BNK-009,BB,141,BB-BNK,Namibian Banking Separately Scoped,Approved,,MEDIUM,Namibia separately scoped; CMA extensions in BB-BNK-001
+BB-BNK-010,BB,141,BB-BNK,No Cash or Treasury Management Functions,Approved,,LOW,Payment instruction and statement processing only
+BB-PAY-001,BB,142,BB-PAY,EFT Credit Payments Supported — Debit Orders Excluded,Approved,,MEDIUM,EFT debit not in standard scope
+BB-PAY-002,BB,142,BB-PAY,ERP Initiates All Payment Instructions,Approved,,MEDIUM,BeBanking does not originate payments independently
+BB-PAY-003,BB,142,BB-PAY,Two-Level Maker-Checker Approval Standard,Approved,,MEDIUM,Additional approval levels separately scoped
+BB-PAY-004,BB,142,BB-PAY,Account Verification Service — New/Changed Bank Details Trigger; Legal Owner Confirms,Approved,,MEDIUM,AVS per-transaction charges passed through; triggered on new or changed bank account details; account legal owner confirms; not all banks offer AVS
+BB-PAY-005,BB,142,BB-PAY,Bank Acknowledgement Returned to ERP,Approved,,MEDIUM,Timing and format bank-defined; APPSolve not responsible for bank delays
+BB-PAY-006,BB,142,BB-PAY,Standard Remittance Advice via Email Included,Approved,,LOW,Custom formats / SMS / portal separately scoped
+BB-PAY-007,BB,142,BB-PAY,Beneficiary Master Owned by Client ERP,Approved,,MEDIUM,BeBanking does not maintain beneficiary master
+BB-PAY-008,BB,142,BB-PAY,Duplicate Payment Detection — Same Beneficiary Control,Approved,,HIGH,Duplicate detection on same beneficiary within configurable window; post-go-live parameter changes are CR
+BB-PAY-009,BB,142,BB-PAY,RTGS Payments Subject to Bank Agreement,Approved,,MEDIUM,RTGS only; higher bank fees; client responsibility to establish bank agreement
+BB-PAY-010,BB,142,BB-PAY,No Reversal After Bank Submission — Bank-Driven Process,Approved,,HIGH,Recalls arranged directly with bank by client
+BB-PAY-011,BB,142,BB-PAY,Intercompany EFT Within Same BeBanking Instance,Approved,,MEDIUM,Cross-instance intercompany separately scoped
+BB-PAY-012,BB,142,BB-PAY,Scheduled Payment Runs Standard,Approved,,LOW,Schedules configured during onboarding; changes managed under support
+BB-PYR-001,BB,143,BB-PYR,BeBanking Does Not Perform Payroll Processing,Approved,,HIGH,Payment disbursement only; no payroll calculations
+BB-PYR-002,BB,143,BB-PYR,Oracle EBS Payroll and PaySpace as Supported Payroll Sources,Approved,,HIGH,Oracle EBS Payroll and PaySpace confirmed as supported sources; other payroll sources require separate assessment; Acumatica payroll integration prohibited
+BB-PYR-003,BB,143,BB-PYR,Employee Bank Data Owned by Payroll System,Approved,,MEDIUM,BeBanking does not validate or maintain employee bank accounts
+BB-PYR-004,BB,143,BB-PYR,Payroll Batch Segregated from AP Payments,Approved,,HIGH,Confidentiality control; payroll users separate from AP users
+BB-PYR-005,BB,143,BB-PYR,Split Payroll Disbursements Supported,Approved,,LOW,Dependent on originating payroll file format
+BB-PYR-007,BB,143,BB-PYR,Payroll Cutoff Times Bank-Defined,Approved,,HIGH,Client responsible for initiating payroll run in time for bank cutoff
+BB-PYR-008,BB,143,BB-PYR,No Payroll Reversal After Bank Submission,Approved,,HIGH,Same as EFT reversal — bank-driven recall process
+BB-PYR-009,BB,143,BB-PYR,Payroll Result Reconciliation Returned to Payroll/ERP,Approved,,MEDIUM,Format defined in integration design
+BB-PYR-010,BB,143,BB-PYR,Multiple Payroll Run Configurations Separately Defined,Approved,,MEDIUM,Each payroll run type configured individually during onboarding
+BB-FX-001,BB,144,BB-FX,Forex Payment Initiation — BeBanking Not a Forex Platform,Approved,,HIGH,Bank executes forex; BeBanking transmits instructions only
+BB-FX-002,BB,144,BB-FX,"Citi Bank UK, ABSA, Nedbank, and FNB as Standard Forex Banking Partners",Approved,,HIGH,Standard forex bank partners confirmed per BU Master Review; other forex banks separately assessed and scoped
+BB-FX-003,BB,144,BB-FX,SARB Forex Compliance Is Client Responsibility,Approved,,CRITICAL,APPSolve transmits instructions; regulatory compliance not APPSolve role
+BB-FX-004,BB,144,BB-FX,Supported Currencies Per Bank Forex Agreement,Approved,,MEDIUM,Currency additions post-go-live may be CR
+BB-FX-005,BB,144,BB-FX,Exchange Rates Bank-Determined — BeBanking Does Not Price FX,Approved,,HIGH,No rate display or rate fixing in BeBanking
+BB-FX-006,BB,144,BB-FX,SARB Supporting Documentation Is Client Responsibility,Approved,,CRITICAL,BoP declarations / invoices / contracts submitted by client to bank
+BB-FX-007,BB,144,BB-FX,Forex Acknowledgement Same Structure as EFT,Approved,,LOW,Additional forex fields returned where bank provides them
+BB-FX-008,BB,144,BB-FX,Inward Forex Remittance Not a BeBanking Function,Approved,,MEDIUM,Outward payments only; inward receipt via bank statement import
+BB-INT-001,BB,145,BB-INT,ERP Integration Mandatory — Scope Confirmed in Discovery,Approved,,HIGH,Integration design document agreed before configuration
+BB-INT-002,BB,145,BB-INT,Supported ERP Platforms — Oracle / PaySpace / Acumatica / SAP Environments,Approved,,HIGH,"Oracle EBS/Fusion, PaySpace; Acumatica integration where in scope; SAP: environments only — no module-level SAP claims without explicit confirmation"
+BB-INT-003,BB,145,BB-INT,API REST / SFTP / Bank File Exchange Supported,Approved,,MEDIUM,Method determined during discovery
+BB-INT-004,BB,145,BB-INT,ERP-Side Integration Is ERP Team Responsibility,Approved,,HIGH,Demarcation agreed in integration design document
+BB-INT-005,BB,145,BB-INT,OIC as Middleware Governed by OIC Pack,Approved,,MEDIUM,BB-INT governs BeBanking-side only
+BB-INT-006,BB,145,BB-INT,Single ERP Instance Standard,Approved,,MEDIUM,Multi-ERP separately scoped
+BB-INT-007,BB,145,BB-INT,Integration Testing Scope — 5 Areas,Approved,,HIGH,Payment / acknowledgement / result / statement / reconciliation
+BB-INT-008,BB,145,BB-INT,Bank Statement Import Included — ERP Processing via ERP Pack,Approved,,MEDIUM,Statement processing in ERP governed by ERP Pack
+BB-INT-009,BB,145,BB-INT,SFTP Endpoint Provided by APPSolve — ERP Client Configuration by Client,Approved,,MEDIUM,Firewall rules / IP whitelist are client network responsibility
+BB-INT-010,BB,145,BB-INT,API Versioning — 60-Day Deprecation Notice,Approved,,MEDIUM,BeBanking REST API; client ERP integration updated before deprecation
+BB-INT-011,BB,145,BB-INT,Third-Party Non-ERP Integrations Separately Scoped,Approved,,MEDIUM,Treasury / procurement portal / expense tools
+BB-INT-012,BB,145,BB-INT,No Real-Time Market Data or Rate Feed Integration,Approved,,LOW,All rate information from client bank at execution
+BB-SEC-001,BB,146,BB-SEC,Role-Based Access Control — 4 Standard Roles,Approved,,MEDIUM,Additional roles are CR
+BB-SEC-002,BB,146,BB-SEC,User Provisioning Is Client Responsibility,Approved,,HIGH,Client System Administrator manages ongoing user lifecycle
+BB-SEC-003,BB,146,BB-SEC,Dual Authorisation Non-Negotiable Platform Control,Approved,,CRITICAL,Maker-checker cannot be disabled; non-configurable
+BB-SEC-004,BB,146,BB-SEC,Multi-Factor Authentication Supported,Approved,,MEDIUM,MFA mechanism confirmed during onboarding; IP restriction removed from standard scope
+BB-SEC-005,BB,146,BB-SEC,TLS 1.2+ In-Transit and AES-256 At-Rest Encryption,Approved,,HIGH,Encryption standards documented in Security Architecture document
+BB-SEC-006,BB,146,BB-SEC,Dedicated Security Assessments Separately Scoped,Approved,,MEDIUM,Pen tests / audits require client + APPSolve + bank coordination
+BB-SEC-007,BB,146,BB-SEC,Audit Logs Retained and Exportable — SIEM Integration Separately Scoped,Approved,,MEDIUM,Retention per BB-DAT-001
+BB-SEC-008,BB,146,BB-SEC,Client Responsible for Own Network and Credential Security,Approved,,HIGH,APPSolve not liable for client-side credential compromise
+BB-DAT-001,BB,147,BB-DAT,7-Year Minimum Payment Data Retention,Approved,,HIGH,Companies Act and SARS requirement; longer retention in commercial schedule
+BB-DAT-002,BB,147,BB-DAT,Bank Statement Data Retained On-Platform During Retention Period,Approved,,LOW,Not archived off-platform during active retention
+BB-DAT-003,BB,147,BB-DAT,Client Data Not Shared — Used for Service Delivery Only,Approved,,HIGH,No inter-client data sharing or benchmarking
+BB-DAT-004,BB,147,BB-DAT,Historical Payment Data Migration Excluded,Approved,,MEDIUM,Transactions from go-live forward only; migration separately scoped
+BB-DAT-005,BB,147,BB-DAT,No Standing Beneficiary Master in BeBanking,Approved,,MEDIUM,Consumed from ERP at payment time; whitelist separately scoped
+BB-DAT-006,BB,147,BB-DAT,POPIA — APPSolve as Operator — Client as Responsible Party,Approved,,HIGH,APPSolve acts as POPIA Data Processor; client is Responsible Party; standard operator disclosure included
+BB-DAT-007,BB,147,BB-DAT,Data Hosted in South African Data Centres,Approved,,HIGH,OCI-hosted governed by OCI Pack; AWS-hosted confirmed in SOW
+BB-DAT-008,BB,147,BB-DAT,Database Backup Is APPSolve Operational Responsibility,Approved,,MEDIUM,RPO per subscription agreement; clients have no backup file access
+BB-RPT-001,BB,148,BB-RPT,Standard Reporting Pack — 6 Report Types,Approved,,MEDIUM,Payment Batch Status / Payment Register / Bank Account Approval / Remittance Advice / Email Error / Roles Report; PDF format; confirmed per BU Master Review
+BB-RPT-002,BB,148,BB-RPT,Custom Reports and BI Integrations Separately Scoped,Approved,,MEDIUM,Power BI / Tableau not included
+BB-RPT-003,BB,148,BB-RPT,BeBanking Does Not Produce GL Reconciliation Reports,Approved,,MEDIUM,GL reconciliation in client ERP; governed by ERP Pack
+BB-RPT-004,BB,148,BB-RPT,Payment Exception Reporting Real-Time with Email Notification,Approved,,MEDIUM,Email exceptions configurable during onboarding
+BB-RPT-006,BB,148,BB-RPT,Standard Report Modifications Post-Go-Live Are CR,Approved,,LOW,Layouts confirmed during discovery phase
+BB-ENV-001,BB,149,BB-ENV,Production Plus UAT — No Dev Environment Standard,Approved,,MEDIUM,Dedicated dev environment separately scoped
+BB-ENV-002,BB,149,BB-ENV,UAT Mirrors Production — Bank Sandbox Where Available,Approved,,MEDIUM,Controlled test transactions where sandbox not available
+BB-ENV-003,BB,149,BB-ENV,UAT Retained Post-Go-Live for Regression Testing,Approved,,HIGH,Decommissioning UAT impairs APPSolve update testing capability
+BB-ENV-004,BB,149,BB-ENV,Production Uptime Per Subscription SLA — 48h Maintenance Notice,Approved,,HIGH,Emergency maintenance with shorter notice where required
+BB-ENV-005,BB,149,BB-ENV,4-Step Update Process — No Production Without Client Sign-Off,Approved,,CRITICAL,UAT → APPSolve test → client sign-off → Production
+BB-CUT-001,BB,150,BB-CUT,5-Condition Go-Live Gate Required,Approved,,HIGH,All five conditions must be confirmed before first production payment
+BB-CUT-002,BB,150,BB-CUT,Go-Live Support Included for First Payment Cycle,Approved,,MEDIUM,Go-live support for first 1–3 business days (first payment cycle); confirmed per BU Master Review
+BB-CUT-003,BB,150,BB-CUT,Parallel Run Is Client Decision — Maximum 4 Weeks Assumed,Approved,,MEDIUM,APPSolve supports planning; operational effort is client responsibility
+BB-CUT-004,BB,150,BB-CUT,Bank Production Connectivity Approval Required Before Go-Live,Approved,,HIGH,Bank-controlled certification; APPSolve cannot override
+BB-CUT-005,BB,150,BB-CUT,Legacy Payment Process Deactivation Is ERP Team Responsibility,Approved,,MEDIUM,APPSolve provides cutover checklist; confirms BeBanking readiness
+BB-CUT-006,BB,150,BB-CUT,Phased Cutover by Payment Type Recommended,Approved,,HIGH,Simultaneous all-types cutover requires explicit client acceptance
+BB-SUP-001,BB,151,BB-SUP,Post-Go-Live Support Under BeBanking Support Arrangement,Approved,,CRITICAL,Post-go-live support included in BeBanking subscription; support model confirmed per BU Master Review
+BB-SUP-002,BB,151,BB-SUP,BeBanking Support Covers Application Layer Only,Approved,,HIGH,Bank-side issues = client to resolve with bank
+BB-SUP-003,BB,151,BB-SUP,ERP-Side Issues Governed by ERP AMS Arrangement,Approved,,HIGH,Boundary disputes resolved by joint APPSolve BeBanking + ERP team review
+BB-SUP-004,BB,151,BB-SUP,Standard Support Hours 08:00–17:00 SAST — P1 Out-of-Hours Included,Approved,,HIGH,SLA: P1=1h / P2=4h / P3=1bd / P4=3bd; P1 available outside standard hours
+BB-SUP-005,BB,151,BB-SUP,User Provisioning Is Client Admin Function,Approved,,MEDIUM,Emergency access restoration included under support
+BB-SUP-006,BB,151,BB-SUP,Post-Go-Live Configuration Changes Are Change Requests,Approved,,MEDIUM,New banks / payment types / workflow changes = CR at applicable rate
+BB-SUP-007,BB,151,BB-SUP,Bank-Initiated Like-for-Like Format Changes Are Support Activity,Approved,,MEDIUM,Structural bank format changes assessed as CR
+BB-SUP-008,BB,151,BB-SUP,Platform Updates Included in Subscription — Major Upgrades Require UAT,Approved,,MEDIUM,Update process follows BB-ENV-005
+BB-EXC-001,BB,152,BB-EXC,ERP Configuration Excluded — Governed by ERP Pack,Approved,,HIGH,AP module / bank accounts / payment formats in ERP = ERP scope
+BB-EXC-002,BB,152,BB-EXC,OIC Components Excluded — Governed by OIC Pack,Approved,,HIGH,OIC adapter / process flow / connection = OIC scope
+BB-EXC-003,BB,152,BB-EXC,OCI Infrastructure Excluded — Governed by OCI Pack,Approved,,HIGH,OCI provisioning / networking / security for OCI-hosted deployments = OCI Pack
+BB-EXC-004,BB,152,BB-EXC,Payroll Processing Functions Excluded,Approved,,CRITICAL,PAYE/UIF/SDL/IRP5/payslip = payroll system scope
+BB-EXC-005,BB,152,BB-EXC,Forex Hedging and Treasury Management Excluded,Approved,,HIGH,Forward cover / rate management = treasury system scope
+BB-EXC-006,BB,152,BB-EXC,Debit Order Processing Excluded,Approved,,HIGH,EFT credit payments only; no debit order or collections functionality
+BB-EXC-007,BB,152,BB-EXC,Card / POS / E-Commerce Payment Gateways Excluded,Approved,,MEDIUM,BeBanking = EFT and banking integration only
+BB-EXC-008,BB,152,BB-EXC,Direct SWIFT Membership Excluded,Approved,,CRITICAL,All cross-border payments via client's bank as SWIFT member
+BB-EXC-009,BB,152,BB-EXC,Inward Payment Processing Excluded,Approved,,MEDIUM,Outward payments only; inward receipts via bank statement import
+BB-EXC-010,BB,152,BB-EXC,Custom Software Development Excluded — Low-Code Only Standard,Approved,,MEDIUM,Bespoke development requires separate SOW and approval
+BB-EXT-001,BB,153,BB-EXT,Bank Onboarding Delays Outside APPSolve Control,Approved,,HIGH,Documented as project dependency; not an APPSolve delivery failure
+BB-EXT-002,BB,153,BB-EXT,ERP Implementation Readiness Is a BeBanking Dependency,Approved,,HIGH,ERP delays may delay BeBanking go-live
+BB-EXT-003,BB,153,BB-EXT,AVS Availability and Pricing Bank-Controlled,Approved,,MEDIUM,Not available from all banks; per-transaction charges are client responsibility
+BB-EXT-004,BB,153,BB-EXT,Bank SFTP/API Endpoints Maintained by Banks,Approved,,HIGH,APPSolve monitors and notifies; resolution between client and bank
+BB-EXT-005,BB,153,BB-EXT,Third-Party IT Provider Delays Outside APPSolve Control,Approved,,MEDIUM,Firewall / network / endpoint management by third party may delay onboarding
+BB-EXT-006,BB,153,BB-EXT,South African Regulatory Compliance Is Client Responsibility,Approved,,HIGH,SARB / FICA / NCA / SARS compliance not APPSolve scope
+BB-EXT-007,BB,153,BB-EXT,Audit Support Reasonable Enquiries Included — Dedicated Audit Support Scoped,Approved,,MEDIUM,Complex audit preparation separately priced
+BB-EXT-008,BB,153,BB-EXT,Post-Go-Live New Bank Requirements Are New Onboarding Engagements,Approved,BU-BB-002,HIGH,New bank = separately scoped and priced; full BB-BNK-003 process applies

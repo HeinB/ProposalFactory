@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code
+.vscode/
+
+# Claude
+.claude/
+
+# Logs
+*.log
+
+# Temporary
+tmp/
+temp/
+
+# Build outputs
+build/
+dist/
+
+# Registry builds (optional)
+*.bak

@@ -1,0 +1,175 @@
+assumption_id,pack,section_code,section_name,short_description,status,applies_to
+OCI-GEN-001,OCI,OCI-GEN,General Engagement Scope,Scope limited to workloads named in SOW; additional workloads = CR,Approved,All OCI engagements
+OCI-GEN-002,OCI,OCI-GEN,General Engagement Scope,APPSolve delivers OCI infra; not ongoing ops team without AMS SOW,Approved,All OCI engagements
+OCI-GEN-003,OCI,OCI-GEN,General Engagement Scope,Client holds OCI tenancy agreement directly with Oracle,Approved,All OCI engagements
+OCI-GEN-004,OCI,OCI-GEN,General Engagement Scope,Default region: Oracle South Africa (Johannesburg); multi-region requires explicit SOW,Approved,All OCI engagements
+OCI-GEN-005,OCI,OCI-GEN,General Engagement Scope,Single OCI tenancy assumed; multiple tenancies separately scoped,Approved,All OCI engagements
+OCI-GEN-006,OCI,OCI-GEN,General Engagement Scope,Client must provide named technical contacts with approval authority,Approved,All OCI engagements
+OCI-GEN-007,OCI,OCI-GEN,General Engagement Scope,OCI delivery based on Oracle Well-Architected Framework; deviations documented,Approved,All OCI engagements
+OCI-GEN-008,OCI,OCI-GEN,General Engagement Scope,Oracle SaaS (Fusion HCM/ERP) is Oracle-operated; OCI work limited to OIC/APEX/hybrid,Approved,All OCI engagements
+OCI-LZ-001,OCI,OCI-LZ,Landing Zone,Standard Landing Zone: compartments + IAM + tagging + budget alerts; customisation separately scoped,Approved,All OCI engagements
+OCI-LZ-002,OCI,OCI-LZ,Landing Zone,Three standard compartments: Production / Non-Production / Shared Services,Approved,All OCI engagements
+OCI-LZ-003,OCI,OCI-LZ,Landing Zone,Greenfield tenancy assumed; existing tenancy requires paid audit first,Approved,All OCI engagements
+OCI-LZ-004,OCI,OCI-LZ,Landing Zone,Landing Zone delivered as Terraform/ORM IaC; client receives artefacts at close,Approved,All OCI engagements
+OCI-LZ-005,OCI,OCI-LZ,Landing Zone,Standard tagging: environment / cost centre / project / owner; custom tags separately scoped,Approved,All OCI engagements
+OCI-LZ-006,OCI,OCI-LZ,Landing Zone,Budget alert thresholds set from client-provided budget data; APPSolve does not define budgets,Approved,All OCI engagements
+OCI-LZ-007,OCI,OCI-LZ,Landing Zone,No multi-cloud federation included (Azure Arc / AWS Control Tower),Approved,All OCI engagements
+OCI-LZ-008,OCI,OCI-LZ,Landing Zone,No automatic resource lifecycle management; optional add-on if required,Approved,All OCI engagements
+OCI-LZ-009,OCI,OCI-LZ,Landing Zone,ORM used for Terraform execution; custom pipeline separately scoped,Approved,All OCI engagements
+OCI-LZ-010,OCI,OCI-LZ,Landing Zone,Standard Landing Zone Runbook included; bespoke procedure manuals are out of scope,Approved,All OCI engagements
+OCI-IAM-001,OCI,OCI-IAM,Identity and Access Management,Oracle Identity Domains used (not legacy IDCS); IDCS migration separately scoped,Approved,All OCI engagements
+OCI-IAM-002,OCI,OCI-IAM,Identity and Access Management,Standard IAM groups: tenancy/compartment/network/security/DBA admins + read-only auditors,Approved,All OCI engagements
+OCI-IAM-003,OCI,OCI-IAM,Identity and Access Management,IdP federation (Entra ID / Okta / ADFS) in scope where stated in SOW; requires client identity team,Approved,OCI engagements with federation requirement
+OCI-IAM-004,OCI,OCI-IAM,Identity and Access Management,Single Identity Domain assumed; multiple domains separately scoped and may require additional Oracle licensing,Approved,All OCI engagements
+OCI-IAM-005,OCI,OCI-IAM,Identity and Access Management,PAM tooling integration (CyberArk / BeyondTrust) not included; specialist security scope,Approved,All OCI engagements
+OCI-IAM-006,OCI,OCI-IAM,Identity and Access Management,APPSolve automation service accounts are least-privilege; handed over at project close,Approved,All OCI engagements
+OCI-IAM-007,OCI,OCI-IAM,Identity and Access Management,Client must designate at least one internal OCI tenancy administrator,Approved,All OCI engagements
+OCI-IAM-008,OCI,OCI-IAM,Identity and Access Management,MFA enforced by default for all OCI Console users; disabling requires written client approval,Approved,All OCI engagements
+OCI-IAM-009,OCI,OCI-IAM,Identity and Access Management,Least-privilege IAM policies; no wildcard policies in production,Approved,All OCI engagements
+OCI-IAM-010,OCI,OCI-IAM,Identity and Access Management,Break-Glass access procedures documented in Runbook; APPSolve does not hold post-project credentials,Approved,All OCI engagements
+OCI-NET-001,OCI,OCI-NET,Networking,One VCN per major environment (Production / Non-Production); additional VCNs separately scoped,Approved,All OCI engagements
+OCI-NET-002,OCI,OCI-NET,Networking,VCN CIDR assigned by client network team; CIDR conflicts are client responsibility,Approved,All OCI engagements
+OCI-NET-003,OCI,OCI-NET,Networking,IPSec VPN is default on-premise connectivity; FastConnect requires separate commercial decision,Approved,All OCI engagements
+OCI-NET-004,OCI,OCI-NET,Networking,Client network team must provide VPN gateway IP / pre-shared keys / routing before configuration,Approved,All OCI engagements
+OCI-NET-005,OCI,OCI-NET,Networking,Hub-and-Spoke VCN topology is standard; flat single-VCN available for simple engagements,Approved,All OCI engagements
+OCI-NET-006,OCI,OCI-NET,Networking,Service Gateway enabled by default; Internet Gateway only where explicitly required,Approved,All OCI engagements
+OCI-NET-007,OCI,OCI-NET,Networking,OCI Private DNS for internal; external DNS managed by client DNS provider,Approved,All OCI engagements
+OCI-NET-008,OCI,OCI-NET,Networking,NSGs and Security Lists restrict traffic between tiers; client approves rules before deployment,Approved,All OCI engagements
+OCI-NET-009,OCI,OCI-NET,Networking,OCI Network Firewall (DPI / IPS) is additional licensed OCI service; separately scoped,Approved,Engagements requiring advanced firewall
+OCI-NET-010,OCI,OCI-NET,Networking,Flexible Load Balancer included where named in SOW; application-specific tuning included,Approved,Engagements with HA/public access
+OCI-NET-011,OCI,OCI-NET,Networking,OCI Bastion Service for all admin access; no direct public IP to production compute,Approved,All OCI engagements
+OCI-NET-012,OCI,OCI-NET,Networking,Third-party network appliances (Palo Alto / Fortinet) out of scope; OCI-native only,Approved,All OCI engagements
+OCI-SEC-001,OCI,OCI-SEC,Security,CIS OCI Foundations Benchmark Level 1 as baseline; higher standards separately scoped,Approved,All OCI engagements
+OCI-SEC-002,OCI,OCI-SEC,Security,Cloud Guard enabled and configured; post-handover remediation is client's responsibility,Approved,All OCI engagements
+OCI-SEC-003,OCI,OCI-SEC,Security,Security Zones applied to Production compartment; disabling requires CISO written approval,Approved,All OCI engagements
+OCI-SEC-004,OCI,OCI-SEC,Security,Oracle-managed encryption keys by default; CMEK via OCI Vault requires explicit SOW inclusion,Approved,All OCI engagements
+OCI-SEC-005,OCI,OCI-SEC,Security,TLS enforced for all data in transit; plaintext channels not configured in production,Approved,All OCI engagements
+OCI-SEC-006,OCI,OCI-SEC,Security,Audit logs retained 90 days by default; extended retention requires Object Storage export,Approved,All OCI engagements
+OCI-SEC-007,OCI,OCI-SEC,Security,Penetration testing out of APPSolve scope; procured from specialist vendor,Approved,All OCI engagements
+OCI-SEC-008,OCI,OCI-SEC,Security,Vulnerability scanning is client operational responsibility post-handover,Approved,All OCI engagements
+OCI-SEC-009,OCI,OCI-SEC,Security,Data residency maintained within contracted OCI region; cross-border requires explicit client approval,Approved,All OCI engagements
+OCI-SEC-010,OCI,OCI-SEC,Security,Security Advisor run during engagement; report provided at handover; accepted findings documented,Approved,All OCI engagements
+OCI-CMP-001,OCI,OCI-CMP,Compute,Instance sizing from client-provided or Oracle-documented specifications; APPSolve does not independently validate,Approved,All OCI engagements
+OCI-CMP-002,OCI,OCI-CMP,Compute,Standard shape: VM.Standard.E4.Flex or VM.Standard3.Flex unless application requires otherwise,Approved,All OCI engagements
+OCI-CMP-003,OCI,OCI-CMP,Compute,Oracle Linux as default OS; non-Oracle OS licensing is client responsibility,Approved,All OCI engagements
+OCI-CMP-004,OCI,OCI-CMP,Compute,Oracle baseline OS hardening; CIS/STIG/NIST hardening separately scoped,Approved,All OCI engagements
+OCI-CMP-005,OCI,OCI-CMP,Compute,All compute provisioned via Terraform/ORM; no manual console provisioning for production,Approved,All OCI engagements
+OCI-CMP-006,OCI,OCI-CMP,Compute,Auto-scaling configured where explicitly required; not assumed by default,Approved,All OCI engagements
+OCI-CMP-007,OCI,OCI-CMP,Compute,HA using Availability Domain / Fault Domain placement per application requirements,Approved,All OCI engagements
+OCI-CMP-008,OCI,OCI-CMP,Compute,Production boot volume backups included; non-production backups optional,Approved,All OCI engagements
+OCI-STO-001,OCI,OCI-STO,Storage,Object Storage for DB backups / exports / audit log archiving / static content,Approved,All OCI engagements
+OCI-STO-002,OCI,OCI-STO,Storage,All Object Storage buckets private by default; public buckets require written client approval,Approved,All OCI engagements
+OCI-STO-003,OCI,OCI-STO,Storage,Block Volume sizing from client-provided requirements; capacity planning is client responsibility,Approved,All OCI engagements
+OCI-STO-004,OCI,OCI-STO,Storage,Block Volume performance tier (Balanced/Higher/Ultra High) selected per application I/O requirements,Approved,All OCI engagements
+OCI-STO-005,OCI,OCI-STO,Storage,File Storage Service only where shared file system required; not assumed by default,Approved,Engagements with multi-node shared storage
+OCI-STO-006,OCI,OCI-STO,Storage,Object Storage lifecycle: Standard 30 days → Infrequent Access 60 days → Archive; client may override,Approved,All OCI engagements
+OCI-STO-007,OCI,OCI-STO,Storage,No cross-region Object Storage replication by default; included only where DR design requires it,Approved,All OCI engagements
+OCI-STO-008,OCI,OCI-STO,Storage,Oracle-managed storage encryption by default; CMEK via OCI Vault must be explicitly included,Approved,All OCI engagements
+OCI-DB-001,OCI,OCI-DB,Database,VM DB System as standard; Exadata / ADB requires specific design decision,Approved,All OCI DB engagements
+OCI-DB-002,OCI,OCI-DB,Database,BYOL default where client holds existing Oracle DB licences; LI otherwise,Approved,All OCI DB engagements
+OCI-DB-003,OCI,OCI-DB,Database,DB version certified for the application; non-certified version upgrade is risk-accepted variance,Approved,All OCI DB engagements
+OCI-DB-004,OCI,OCI-DB,Database,Data Guard as standard HA mechanism; RAC/Active DG requires explicit design and licensing,Approved,All OCI DB engagements
+OCI-DB-005,OCI,OCI-DB,Database,Automated RMAN backups enabled for production; 7-day default retention,Approved,All OCI DB engagements
+OCI-DB-006,OCI,OCI-DB,Database,Automated backups do not replace Data Pump / application-level exports; separate scope,Approved,All OCI DB engagements
+OCI-DB-007,OCI,OCI-DB,Database,DB patching is client operational responsibility post-handover; runbook provided,Approved,All OCI DB engagements
+OCI-DB-008,OCI,OCI-DB,Database,DBA services (tuning / schema / AWR) not in OCI infra scope; in ERP/HCM pack scope,Approved,All OCI DB engagements
+OCI-DB-009,OCI,OCI-DB,Database,Autonomous Database included where solution requires ADB services; schema design not included,Approved,Engagements with ADB requirement
+OCI-DB-010,OCI,OCI-DB,Database,Cross-region Data Guard (for DR) separately scoped; single-region HA does not include cross-region replication,Approved,OCI DR engagements
+OCI-DB-011,OCI,OCI-DB,Database,GoldenGate on OCI is separate licensed service; not assumed in standard delivery,Approved,Engagements requiring real-time replication
+OCI-DB-012,OCI,OCI-DB,Database,DB performance benchmarking / stress testing not included; separate optional activity,Approved,All OCI DB engagements
+OCI-MW-001,OCI,OCI-MW,Middleware,OIC provisioned as managed PaaS; OCI network access in scope; integration flows in OIC pack,Approved,OCI + OIC engagements
+OCI-MW-002,OCI,OCI-MW,Middleware,APEX managed service default; self-managed APEX on compute requires explicit design decision,Approved,OCI + APEX engagements
+OCI-MW-003,OCI,OCI-MW,Middleware,WebLogic on OCI via Marketplace image; post-handover patching is client responsibility,Approved,OCI + EBS / JEE engagements
+OCI-MW-004,OCI,OCI-MW,Middleware,SOA on OCI via Marketplace image; no SOA re-architecture in lift-and-shift,Approved,OCI + SOA lift-and-shift
+OCI-MW-005,OCI,OCI-MW,Middleware,OAC provisioning and VCN access in scope; OAC content development in Analytics pack,Approved,OCI + OAC engagements
+OCI-MW-006,OCI,OCI-MW,Middleware,Oracle Marketplace images as deployment baseline; custom software installation separately scoped,Approved,All OCI middleware engagements
+OCI-MW-007,OCI,OCI-MW,Middleware,Middleware HA (WebLogic cluster / SOA cluster) where required by design; single-node default for non-prod,Approved,All OCI middleware engagements
+OCI-MW-008,OCI,OCI-MW,Middleware,Third-party middleware (IBM MQ / Kafka / MuleSoft) out of OCI pack scope,Approved,All OCI engagements
+OCI-INT-001,OCI,OCI-INT,Integration,OCI integration scope = network connectivity only; integration logic in Integration pack,Approved,All OCI integration engagements
+OCI-INT-002,OCI,OCI-INT,Integration,API Gateway provisioned where managed API exposure required; API design not in OCI scope,Approved,Engagements with API exposure
+OCI-INT-003,OCI,OCI-INT,Integration,OCI Functions (serverless) provisioned where design requires; function code from app team,Approved,Engagements with serverless components
+OCI-INT-004,OCI,OCI-INT,Integration,Oracle Streaming Service provisioned where event streaming required; producers/consumers not in OCI scope,Approved,Engagements with event streaming
+OCI-INT-005,OCI,OCI-INT,Integration,B2B integration via OIC B2B Service; SFTP on compute for legacy file-based integrations,Approved,Engagements with B2B / file integration
+OCI-INT-006,OCI,OCI-INT,Integration,OCI Email Delivery configured where required; client verifies sender domain via DNS,Approved,Engagements with email delivery
+OCI-INT-007,OCI,OCI-INT,Integration,OCI Notifications/Events configured for operational monitoring; app-level event subscriptions separate,Approved,All OCI engagements
+OCI-INT-008,OCI,OCI-INT,Integration,Third-party iPaaS (Boomi / Informatica / Talend) on OCI out of OCI pack scope,Approved,All OCI engagements
+OCI-BKP-001,OCI,OCI-BKP,Backup,Backup scope: Block Volume + Boot Volume + DB System Automatic Backups; app-level backups in app pack,Approved,All OCI engagements
+OCI-BKP-002,OCI,OCI-BKP,Backup,Standard backup schedule: daily incremental (30-day retention) + weekly full (60-day retention),Approved,All OCI engagements
+OCI-BKP-003,OCI,OCI-BKP,Backup,RMAN backup to Object Storage; window agreed with client and documented in runbook,Approved,All OCI DB engagements
+OCI-BKP-004,OCI,OCI-BKP,Backup,One restore test during engagement; ongoing testing is client responsibility post-handover,Approved,All OCI engagements
+OCI-BKP-005,OCI,OCI-BKP,Backup,No cross-region backup replication by default; included only where DR design requires it,Approved,All OCI engagements
+OCI-BKP-006,OCI,OCI-BKP,Backup,Third-party backup tools (Veeam / Commvault) out of scope; OCI-native only,Approved,All OCI engagements
+OCI-BKP-007,OCI,OCI-BKP,Backup,Backup alerting via OCI Notifications to client-designated emails; PagerDuty integration not included,Approved,All OCI engagements
+OCI-BKP-008,OCI,OCI-BKP,Backup,Archive tier for long-term retention; 1–4 hour retrieval time documented in runbook,Approved,All OCI engagements
+OCI-DR-001,OCI,OCI-DR,Disaster Recovery,DR only where explicitly stated in SOW; no DR assumed by default,Approved,OCI DR engagements
+OCI-DR-002,OCI,OCI-DR,Disaster Recovery,Standard DR offering: Pilot Light (minimal state in secondary region; activated on disaster declaration),Approved,OCI DR engagements
+OCI-DR-003,OCI,OCI-DR,Disaster Recovery,Active-Active / warm standby DR is premium separately priced; typically doubles OCI cost,Approved,OCI DR engagements
+OCI-DR-004,OCI,OCI-DR,Disaster Recovery,RTO/RPO defined by client; APPSolve designs to targets but does not guarantee achievement,Approved,OCI DR engagements
+OCI-DR-005,OCI,OCI-DR,Disaster Recovery,One DR failover test included; one remediation cycle included; additional cycles are CR,Approved,OCI DR engagements
+OCI-DR-006,OCI,OCI-DR,Disaster Recovery,Data Guard cross-region for DB DR; OCI Full Stack DR or Pilot Light for app tier,Approved,OCI DR engagements
+OCI-DR-007,OCI,OCI-DR,Disaster Recovery,No DR for third-party applications hosted on OCI unless in project scope with OCI-native mechanism,Approved,OCI DR engagements
+OCI-DR-008,OCI,OCI-DR,Disaster Recovery,DR runbook is standard deliverable: declaration criteria / activation steps / recovery time / failback,Approved,OCI DR engagements
+OCI-DR-009,OCI,OCI-DR,Disaster Recovery,Network DR (routing / DNS failover) included in DR design; DNS TTL changes are client DNS team responsibility,Approved,OCI DR engagements
+OCI-DR-010,OCI,OCI-DR,Disaster Recovery,OCI Full Stack DR Service used for supported resource types; manual runbooks for unsupported types,Approved,OCI DR engagements
+OCI-MON-001,OCI,OCI-MON,Monitoring,Standard dashboards: compute / database / network / storage utilisation; custom dashboards out of scope,Approved,All OCI engagements
+OCI-MON-002,OCI,OCI-MON,Monitoring,OCI Logging enabled for all services; Logging Analytics requires client subscription,Approved,All OCI engagements
+OCI-MON-003,OCI,OCI-MON,Monitoring,Standard alert conditions: CPU >90% / Memory >85% / Disk >80% / DB unavailability / backup failure,Approved,All OCI engagements
+OCI-MON-004,OCI,OCI-MON,Monitoring,Third-party monitoring integration (Splunk / Dynatrace / Datadog) not included; optional if explicitly in SOW,Approved,All OCI engagements
+OCI-MON-005,OCI,OCI-MON,Monitoring,Application Performance Monitoring (APM) not included; requires separate scope and agent instrumentation,Approved,All OCI engagements
+OCI-MON-006,OCI,OCI-MON,Monitoring,OCI Operations Insights for DB performance is optional; not assumed by default,Approved,OCI DB engagements
+OCI-MON-007,OCI,OCI-MON,Monitoring,Monitoring Runbook delivered at close: dashboards / alerts / response procedures / escalation contacts,Approved,All OCI engagements
+OCI-MON-008,OCI,OCI-MON,Monitoring,Uptime SLA reporting not in project scope; included only under AMS Managed OCI SOW,Approved,All OCI engagements
+OCI-OPS-001,OCI,OCI-OPS,Operations,Project mode delivery; operational responsibility transfers at close; AMS SOW for ongoing ops,Approved,All OCI engagements
+OCI-OPS-002,OCI,OCI-OPS,Operations,OS Management Hub enabled for Oracle Linux patching; post-close patch execution is client responsibility,Approved,All OCI engagements
+OCI-OPS-003,OCI,OCI-OPS,Operations,Oracle Cloud Lift not assumed; APPSolve scopes and prices work independently,Approved,All OCI engagements
+OCI-OPS-004,OCI,OCI-OPS,Operations,OCI Governance rules (Quotas / Budget Alerts / Policies) configured; post-close quota management is client,Approved,All OCI engagements
+OCI-OPS-005,OCI,OCI-OPS,Operations,Post-handover changes follow client's IT change management process; project-mode changes follow CR framework,Approved,All OCI engagements
+OCI-OPS-006,OCI,OCI-OPS,Operations,Maintenance windows for patching agreed before handover; production changes coordinated with client IT,Approved,All OCI engagements
+OCI-OPS-007,OCI,OCI-OPS,Operations,Standard operational handover training included; advanced OCI admin training separately scoped,Approved,All OCI engagements
+OCI-OPS-008,OCI,OCI-OPS,Operations,Incident management uses client's ITSM tooling post-handover; AMS SOW includes ITSM integration,Approved,All OCI engagements
+OCI-CST-001,OCI,OCI-CST,Cost Management,OCI infrastructure costs are client's financial responsibility; billed by Oracle directly,Approved,All OCI engagements
+OCI-CST-002,OCI,OCI-CST,Cost Management,Indicative OCI cost estimates for budgeting only; not contractual commitments,Approved,All OCI engagements
+OCI-CST-003,OCI,OCI-CST,Cost Management,Cost optimisation recommendations provided as standard; implementation post-delivery is client responsibility,Approved,All OCI engagements
+OCI-CST-004,OCI,OCI-CST,Cost Management,Reserved Instances recommended where appropriate; purchasing is client's commercial decision with Oracle,Approved,All OCI engagements
+OCI-CST-005,OCI,OCI-CST,Cost Management,Non-production auto-shutdown configurable on request; client defines uptime schedule,Approved,All OCI engagements
+OCI-CST-006,OCI,OCI-CST,Cost Management,Network egress costs highlighted in design review; actual costs are client responsibility,Approved,All OCI engagements
+OCI-CST-007,OCI,OCI-CST,Cost Management,FinOps advisory (showback / chargeback / unit cost) not included; separate optional engagement,Approved,All OCI engagements
+OCI-CST-008,OCI,OCI-CST,Cost Management,OCI Cost Analysis and Budgets dashboards configured as part of standard Landing Zone,Approved,All OCI engagements
+OCI-MIG-001,OCI,OCI-MIG,Migration,Migration Plan mandatory deliverable for all OCI migrations; defines approach / sequence / rollback criteria,Approved,OCI migration engagements
+OCI-MIG-002,OCI,OCI-MIG,Migration,Supported approaches: Lift-and-Shift / ZDM database migration / Marketplace image re-platform,Approved,OCI migration engagements
+OCI-MIG-003,OCI,OCI-MIG,Migration,Zero Downtime Migration preferred for Oracle DB; alternative approach documented if ZDM not viable,Approved,OCI migration engagements
+OCI-MIG-004,OCI,OCI-MIG,Migration,Pre-migration assessment mandatory: inventory / dependency mapping / network / cutover risk,Approved,OCI migration engagements
+OCI-MIG-005,OCI,OCI-MIG,Migration,Cutover is planned event with agreed window; extended cutover >48h requires resourcing agreement,Approved,OCI migration engagements
+OCI-MIG-006,OCI,OCI-MIG,Migration,Rollback maintained during cutover window; rollback after acceptance sign-off is new project activity,Approved,OCI migration engagements
+OCI-MIG-007,OCI,OCI-MIG,Migration,Source environment decommissioning is client responsibility; APPSolve provides checklist only,Approved,OCI migration engagements
+OCI-MIG-008,OCI,OCI-MIG,Migration,Data volumes >10TB require data transfer strategy review (FastConnect / Data Transfer Appliance / internet),Approved,OCI migration engagements with large data
+OCI-MIG-009,OCI,OCI-MIG,Migration,Parallel run recommended during migration testing; parallel run costs are client responsibility,Approved,OCI migration engagements
+OCI-MIG-010,OCI,OCI-MIG,Migration,Application compatibility validation is client / application vendor responsibility; APPSolve ensures infra meets spec,Approved,OCI migration engagements
+OCI-MIG-011,OCI,OCI-MIG,Migration,Third-party application migration out of scope; APPSolve migrates Oracle workloads named in SOW only,Approved,OCI migration engagements
+OCI-MIG-012,OCI,OCI-MIG,Migration,Post-migration performance validation included; issues within 30 days = defect; after 30 days = operational,Approved,OCI migration engagements
+OCI-PER-001,OCI,OCI-PER,Performance,OCI infra designed to Oracle documented sizing guidelines; no independent performance modelling,Approved,All OCI engagements
+OCI-PER-002,OCI,OCI-PER,Performance,Performance testing (load / stress / soak) not included; separate scope; production tests need maintenance window,Approved,All OCI engagements
+OCI-PER-003,OCI,OCI-PER,Performance,Auto-scaling triggers based on CPU/memory metrics; app-level scale-out validation is app team responsibility,Approved,All OCI engagements
+OCI-PER-004,OCI,OCI-PER,Performance,VPN bandwidth limitation highlighted in design review; FastConnect upgrade is separate commercial item,Approved,All OCI engagements
+OCI-PER-005,OCI,OCI-PER,Performance,Block Volume IOPS from client-provided requirements; no on-premise I/O profiling without explicit scope,Approved,All OCI engagements
+OCI-PER-006,OCI,OCI-PER,Performance,DB performance subject to shape and I/O tier; incorrect sizing info from client is not a delivery defect,Approved,All OCI DB engagements
+OCI-PER-007,OCI,OCI-PER,Performance,No performance guarantees (SLA-backed) in project delivery; performance SLAs are AMS Managed OCI only,Approved,All OCI engagements
+OCI-PER-008,OCI,OCI-PER,Performance,Right-sizing recommendations provided at close and at 30-day post-go-live review; post-review actions are client operational,Approved,All OCI engagements
+OCI-SUP-001,OCI,OCI-SUP,Support,Oracle Cloud support is client's direct Oracle relationship; Premier Support recommended for production,Approved,All OCI engagements
+OCI-SUP-002,OCI,OCI-SUP,Support,APPSolve project delivery support until acceptance sign-off; post-acceptance requires AMS SOW,Approved,All OCI engagements
+OCI-SUP-003,OCI,OCI-SUP,Support,AMS OCI support covers OCI services named in AMS SOW only; expansion requires SOW amendment,Approved,OCI AMS engagements
+OCI-SUP-004,OCI,OCI-SUP,Support,OCI platform outages escalated to Oracle by APPSolve; Oracle SLA governs resolution,Approved,OCI AMS engagements
+OCI-SUP-005,OCI,OCI-SUP,Support,OCI tenancy administration included as standard service request type in AMS SOW,Approved,OCI AMS engagements
+OCI-SUP-006,OCI,OCI-SUP,Support,Security incident response follows APPSolve procedures; 24x7 SOC requires separately scoped on-call retainer,Approved,OCI AMS engagements
+OCI-SUP-007,OCI,OCI-SUP,Support,OCI cost spike investigation included as standard service request in Managed OCI AMS SOW,Approved,OCI AMS engagements
+OCI-SUP-008,OCI,OCI-SUP,Support,APPSolve OCI support team holds current OCI certifications (min: Architect Associate; senior: Architect Professional),Approved,OCI AMS engagements
+OCI-EXT-001,OCI,OCI-EXT,External and Third-Party Dependencies,FastConnect provisioning requires client to contract FastConnect partner; lead time 6–12 weeks,Approved,Engagements with FastConnect
+OCI-EXT-002,OCI,OCI-EXT,External and Third-Party Dependencies,Third-party SaaS integration = OCI network connectivity only; integration logic in Integration pack,Approved,All OCI engagements
+OCI-EXT-003,OCI,OCI-EXT,External and Third-Party Dependencies,OCI Marketplace ISV software provisioned by APPSolve; ISV support is client/ISV relationship,Approved,Engagements with Marketplace ISV software
+OCI-EXT-004,OCI,OCI-EXT,External and Third-Party Dependencies,CDN (OCI/Akamai) included only where explicitly required; not assumed by default,Approved,Engagements with CDN requirement
+OCI-EXT-005,OCI,OCI-EXT,External and Third-Party Dependencies,OCI Government regions out of standard pack scope; requires separate engagement design,Approved,Government client engagements
+OCI-EXT-006,OCI,OCI-EXT,External and Third-Party Dependencies,Product-specific OCI assumptions belong in respective product packs; OCI pack governs shared infrastructure layer,Approved,All OCI engagements
+OCI-EXT-007,OCI,OCI-EXT,External and Third-Party Dependencies,Data residency maintained within contracted OCI region; cross-border compliance is client legal responsibility,Approved,All OCI engagements
+OCI-EXT-008,OCI,OCI-EXT,External and Third-Party Dependencies,Oracle Customer Connect available to clients with Oracle support; does not replace paid Oracle support,Approved,All OCI engagements
+OCI-EXT-009,OCI,OCI-EXT,External and Third-Party Dependencies,ISV licence compliance on OCI is client responsibility; APPSolve provisions to ISV spec,Approved,Engagements with ISV software
+OCI-EXT-010,OCI,OCI-EXT,External and Third-Party Dependencies,EBS on OCI requires active EBS software support with Oracle; assumed held by client,Approved,EBS on OCI engagements

@@ -1,0 +1,24 @@
+tender_context:
+  tender_id: "REG-ACU-P11"
+  tender_date: "2026-06-28"
+  pattern: "P11"
+  platform: "Acumatica"
+  engagement_type: "Implementation"
+  modules:
+    - "Acumatica Financial Management"
+    - "Acumatica Project Accounting"
+  country: "RSA"
+  client_size: "Mid-Market"
+  client_sector: "Construction"
+  payroll_integration: false
+  oci_in_scope: false
+  client_has_oic: false
+  dr_in_scope: false
+  security_in_scope: false
+  migration_scope: true
+  integration_scope: false
+  support_scope: false
+  pricing_type: "Fixed Price"
+  project_duration_months: 4.0
+  am_clearances: []
+  ptc_clearances: []

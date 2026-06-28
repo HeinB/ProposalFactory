@@ -1,0 +1,461 @@
+---
+manifest_metadata:
+  build_id: BUILD-20260628-150801
+  generated_at: '2026-06-28T15:08:03.167523Z'
+  krpe_version: '2.0'
+  schema_version: '1.0'
+  population_rules_version: '1.0'
+files:
+- path: 08_Commercial/Assumptions/AMS/AMS_ASSUMPTIONS_V1.md
+  mtime: 1782566585
+  sha256: 4aedd3554f617ccfe64747547a5875404730de9883227ed1845deada5fc398aa
+  asset_ids_extracted:
+  - AMS-ASSUMPTIONS-V1
+  asset_types:
+  - ASP
+  - ASM
+  asm_count: 84
+- path: 08_Commercial/Assumptions/AMS/EBS_AMS_SLA_OVERLAY_V1.md
+  mtime: 1782566585
+  sha256: d03911eb8409733a1171109d6fcfbaeec74aa162419f8f3a30ab35e59ba8f58d
+  asset_ids_extracted:
+  - EBS-AMS-SLA-OVERLAY-V1
+  asset_types:
+  - ASP
+  - ASM
+  asm_count: 53
+- path: 08_Commercial/Assumptions/AMS/EBS_DEDICATED_RESOURCE_MODEL_ASSUMPTIONS_V1.md
+  mtime: 1782566585
+  sha256: d3e02a3c39f2e2bba5791913cf6e6934f648be9600a38186b1e79e7ae25e06ea
+  asset_ids_extracted:
+  - EBS-DRM-ASSUMPTIONS-V1
+  asset_types:
+  - ASP
+  - ASM
+  asm_count: 62
+- path: 08_Commercial/Assumptions/Acumatica/ACU_BASE_ASSUMPTIONS_V1.md
+  mtime: 1782566585
+  sha256: 2771f16446aab774d9bbc51307cae3d2dc4cb35f777546700774e5fff66bb3a2
+  asset_ids_extracted:
+  - ACU-BASE-ASSUMPTIONS-V1
+  asset_types:
+  - ASP
+  - ASM
+  asm_count: 152
+- path: 08_Commercial/Assumptions/BeBanking/BEBANKING_BASE_ASSUMPTIONS_V1.md
+  mtime: 1782566585
+  sha256: 75ffdafab3456a277401746f618adf1d707315c263536ffd37da045adc300dfd
+  asset_ids_extracted:
+  - BEBANKING-BASE-ASSUMPTIONS-V1
+  asset_types:
+  - ASP
+  - ASM
+  asm_count: 117
+- path: 08_Commercial/Assumptions/ERP/ERP_ASSUMPTIONS_V1.md
+  mtime: 1782566585
+  sha256: 27cf80e6fc8dd652731eff62cef1c75574ece72935d7d69110cf2a30ad45de8e
+  asset_ids_extracted:
+  - ERP-ASSUMPTIONS-V1
+  asset_types:
+  - ASP
+  - ASM
+  asm_count: 123
+- path: 08_Commercial/Assumptions/HCM/HCM_BASE_ASSUMPTIONS_V1.md
+  mtime: 1782566585
+  sha256: 9ff35a8bf36921b1489ecee0d6398bf2774695fd3d2aadd1682f77fac2ab6536
+  asset_ids_extracted:
+  - HCM-BASE-ASSUMPTIONS-V1
+  asset_types:
+  - ASP
+  - ASM
+  asm_count: 115
+- path: 08_Commercial/Assumptions/HCM/HCM_COMPENSATION_ASSUMPTIONS_V1.md
+  mtime: 1782566585
+  sha256: 322ea0752eb37adb4546edb9fbf230938dd25b32b780c3f4e110f07bf19e69e6
+  asset_ids_extracted:
+  - HCM-COMPENSATION-ASSUMPTIONS-V1
+  asset_types:
+  - ASP
+  - ASM
+  asm_count: 30
+- path: 08_Commercial/Assumptions/HCM/HCM_LEARNING_ASSUMPTIONS_V1.md
+  mtime: 1782566585
+  sha256: c1a9b154b16ef2a5c1fb3f114a8b90b0c686f5c86bb481e14b1fe303b94d3fd1
+  asset_ids_extracted:
+  - HCM-LEARNING-ASSUMPTIONS-V1
+  asset_types:
+  - ASP
+  - ASM
+  asm_count: 37
+- path: 08_Commercial/Assumptions/HCM/HCM_RECRUITING_ASSUMPTIONS_V1.md
+  mtime: 1782566585
+  sha256: 1670ebc0f3450bd59eb98fffc5b4ce18ce0c1cea21fe8e5c70ad62af53519afe
+  asset_ids_extracted:
+  - HCM-RECRUITING-ASSUMPTIONS-V1
+  asset_types:
+  - ASP
+  - ASM
+  asm_count: 54
+- path: 08_Commercial/Assumptions/HCM/HCM_TALENT_ASSUMPTIONS_V1.md
+  mtime: 1782566585
+  sha256: 37883cb58c4d1db47cb37050efd1c800769d64def1e78743fc4da29af0227e68
+  asset_ids_extracted:
+  - HCM-TALENT-ASSUMPTIONS-V1
+  asset_types:
+  - ASP
+  - ASM
+  asm_count: 31
+- path: 08_Commercial/Assumptions/OCI/OCI_ASSUMPTIONS_V1.md
+  mtime: 1782566600
+  sha256: e97189c216398ccc37e7347e2914c2c234ff097ee71c466c18d90d59b19d5816
+  asset_ids_extracted:
+  - OCI-ASSUMPTIONS-V1
+  asset_types:
+  - ASP
+  - ASM
+  asm_count: 174
+- path: 08_Commercial/Assumptions/OIC/OIC_ASSUMPTIONS_V1.md
+  mtime: 1782566585
+  sha256: 16765c0435907d1af250042c5766b2b03c4f8b033b9300d5f1b8751c5b7e524b
+  asset_ids_extracted:
+  - OIC-ASSUMPTIONS-V1
+  asset_types:
+  - ASP
+  - ASM
+  asm_count: 104
+- path: 07_Approved_Content/Approved/Cross_BU/W1S1-001-CORP-CompanyOverview.md
+  mtime: 1782566585
+  sha256: 465e965827a4a4068b52d583a82386a7f278d6a3352b018bcdaecb66b753d2a6
+  asset_ids_extracted:
+  - W1S1-001
+  asset_types:
+  - CAP
+- path: 07_Approved_Content/Approved/Cross_BU/W1S1-002-CORP-CompanyHistory.md
+  mtime: 1782566585
+  sha256: 289172d506fdaf52472a13f61a9c4e6fe6949a31df7efb7c457c794ce5b262f9
+  asset_ids_extracted:
+  - W1S1-002
+  asset_types:
+  - CAP
+- path: 07_Approved_Content/Approved/Cross_BU/W1S1-006-CORP-AwardsRecognition.md
+  mtime: 1782566585
+  sha256: f03ac811e39afd0dce1f8684af16346b3c01f3d1d86a50fb31f961ccaa1d201a
+  asset_ids_extracted:
+  - W1S1-006
+  asset_types:
+  - CAP
+- path: 07_Approved_Content/Approved/Cross_BU/W1S1-007-CORP-DeliveryModel.md
+  mtime: 1782566585
+  sha256: 83151f727ede00a21168119bcf4a6ac45ee6f1dac8466e54e935ca382cc8c070
+  asset_ids_extracted:
+  - W1S1-007
+  asset_types:
+  - CAP
+- path: 07_Approved_Content/Approved/Cross_BU/W1S1-008-CORP-GeographicPresence.md
+  mtime: 1782566585
+  sha256: 832b75e7a8dbc54e8e131a6ca7fdf77d69e11bf7ff55067180b855346fb878cc
+  asset_ids_extracted:
+  - W1S1-008
+  asset_types:
+  - CAP
+- path: 07_Approved_Content/Approved/Cross_BU/W1S1-009-CORP-KeyDifferentiators.md
+  mtime: 1782566585
+  sha256: 0a17544eb842154030ae52f39ba069bc4de8524c51895ba2ba0d5eddc91ec8a8
+  asset_ids_extracted:
+  - W1S1-009
+  asset_types:
+  - CAP
+- path: 07_Approved_Content/Approved/Cross_BU/W1S1-003-ORA-OraclePartnership.md
+  mtime: 1782566585
+  sha256: 0c6c77e01c07c2e7a378046a9a872b9fdd34f44a57469bf9188b37d303fb182a
+  asset_ids_extracted:
+  - W1S1-003
+  asset_types:
+  - CAP
+- path: 07_Approved_Content/Approved/Oracle/W2S1-001-ORA-FusionCapability.md
+  mtime: 1782566585
+  sha256: 35f776a3fcef7e7af1dc50db906ce2ac4151c453b2a42b6a2124adca6d80b3e9
+  asset_ids_extracted:
+  - W2S1-001
+  asset_types:
+  - CAP
+- path: 07_Approved_Content/Approved/Oracle/W2S1-002-ORA-EBSCapability.md
+  mtime: 1782566585
+  sha256: 8b4778f5c0a3c99d323c3f63dfd8fb481ba1caa89e01e30f883bc4b0c6ef8c7e
+  asset_ids_extracted:
+  - W2S1-002
+  asset_types:
+  - CAP
+- path: 07_Approved_Content/Approved/Oracle/W2S1-003-ORA-DBAExecutiveSummary.md
+  mtime: 1782566585
+  sha256: 5dcfa1805d1ff239844e2706e315065120e8a9ff7ebe5bcacabc6ae9c8c8f1f7
+  asset_ids_extracted:
+  - W2S1-003
+  asset_types:
+  - CAP
+- path: 07_Approved_Content/Approved/Oracle/W2S1-005-ORA-ImplementationMethodology.md
+  mtime: 1782566585
+  sha256: 63c50428bc57cc120a689f97f8f04efdd32b0b4b0260a4a870bfb5c1cb83e9f1
+  asset_ids_extracted:
+  - W2S1-005-ORA-ImplementationMethodology
+  asset_types:
+  - CAP
+- path: 07_Approved_Content/Approved/Cross_BU/W5-METH-001-ERP-ImplementationMethodology.md
+  mtime: 1782566585
+  sha256: c089b7cf6d63e1aef4e423be8c12b233bce16df63dc3cf1d6382f10f9a1441fb
+  asset_ids_extracted:
+  - W5-METH-001-ERP-ImplementationMethodology
+  asset_types:
+  - CAP
+- path: 06_Capabilities/Oracle/Oracle_HCM/W3S1-001-ORA-HCMCore.md
+  mtime: 1781359394
+  sha256: 777325e73de61e1f4e42ca3c8a423ffd6fd742b44369c15c19ab5efc96c07907
+  asset_ids_extracted:
+  - W3S1-001-ORA-HCMCore
+  asset_types:
+  - CAP
+- path: 06_Capabilities/Oracle/Oracle_HCM/W3S1-002-ORA-TalentMgmt.md
+  mtime: 1781359924
+  sha256: c8089a34c53c5c2860cc88945d84d7ef66456c34934c174ec40ae8942efacb20
+  asset_ids_extracted:
+  - W3S1-002-ORA-TalentMgmt
+  asset_types:
+  - CAP
+- path: 06_Capabilities/Oracle/Oracle_HCM/W3S1-003-ORA-RecruitingCloud.md
+  mtime: 1781360612
+  sha256: db2cdfd5f0e2c4fd04aa2270294772150aaeb31774a3b079b6b48b7e61f0e51e
+  asset_ids_extracted:
+  - W3S1-003-ORA-RecruitingCloud
+  asset_types:
+  - CAP
+- path: 06_Capabilities/Oracle/Oracle_HCM/W3S1-004-ORA-LearningCloud.md
+  mtime: 1781375121
+  sha256: e16b36b5e1c2d9e523ff6c20e9034dda06ade05d632abc22a12ff006dcf89178
+  asset_ids_extracted:
+  - W3S1-004-ORA-LearningCloud
+  asset_types:
+  - CAP
+- path: 06_Capabilities/Oracle/Oracle_HCM/W3S1-005-ORA-WorkforceCompensation.md
+  mtime: 1781375347
+  sha256: cd7866a2c6fbcb3b54aee4d094145e70dd94bc08639a7016048444f19454a58b
+  asset_ids_extracted:
+  - W3S1-005-ORA-WorkforceCompensation
+  asset_types:
+  - CAP
+- path: 06_Capabilities/Oracle/Oracle_HCM/W3S1-006-ORA-HCMAnalytics.md
+  mtime: 1781377164
+  sha256: 8b6b71e0a2f178c1421eef96cb978cefb81fb3c58cdaef39618a26e23b3e8f30
+  asset_ids_extracted:
+  - W3S1-006-ORA-HCMAnalytics
+  asset_types:
+  - CAP
+- path: 06_Capabilities/Oracle/Oracle_HCM/W3S1-007-ORA-WorkforceManagement.md
+  mtime: 1781375845
+  sha256: cc7a91cfac03c3cee05b316169d6c65f4de5b8542a5db601c4337e426dd6d593
+  asset_ids_extracted:
+  - W3S1-007-ORA-WorkforceManagement
+  asset_types:
+  - CAP
+- path: 06_Capabilities/Oracle/Oracle_HCM/W3S1-008-ORA-HelpDesk-HRServiceDelivery.md
+  mtime: 1781416189
+  sha256: b7f96741cb5959a42dbbbe51594fdc8481433b779602307efbdee629d1dff7ac
+  asset_ids_extracted:
+  - W3S1-008-ORA-HelpDesk-HRServiceDelivery
+  asset_types:
+  - CAP
+- path: 06_Capabilities/Oracle/Oracle_HCM/W3S1-009-ORA-PayrollInterface-Integration.md
+  mtime: 1781416472
+  sha256: da710b305acfb00c0dbf99c1ee3f4c806d0fae189c50922b2777affb8b944a4a
+  asset_ids_extracted:
+  - W3S1-009-ORA-PayrollInterface-Integration
+  asset_types:
+  - CAP
+- path: 06_Capabilities/Oracle/Oracle_HCM/W4-HCM-002-ORA-Journeys.md
+  mtime: 1781445077
+  sha256: 6362d2951022f6a57ff9d4ab02a3f9ba57103a6e3462a9f487f2b0d45f9b32e4
+  asset_ids_extracted:
+  - W4-HCM-002-ORA-Journeys
+  asset_types:
+  - CAP
+- path: 06_Capabilities/Oracle/Oracle_HCM/W4-AI-002-ORA-AISkills.md
+  mtime: 1781445123
+  sha256: 120e0b4b32616fedeb31d54e07ca2aaf52540d3a4b1c3dc8e1199c73ed71a895
+  asset_ids_extracted:
+  - W4-AI-002-ORA-AISkills
+  asset_types:
+  - CAP
+- path: 06_Capabilities/Oracle/Oracle_OIC/W4-INT-001-ORA-OICAccelerators.md
+  mtime: 1781445193
+  sha256: d3977c59bdeef517d2b041ed160dbef235893d635eabcd8f083597d572fedc01
+  asset_ids_extracted:
+  - W4-INT-001-ORA-OICAccelerators
+  asset_types:
+  - CAP
+- path: 06_Capabilities/Oracle/Oracle_ERP/W4-ERP-001-ORA-FusionFinancials.md
+  mtime: 1781445723
+  sha256: 3edc1c7016441ac222f59e85d6c7a452eb470f3a5499fb131fc87d4c15359386
+  asset_ids_extracted:
+  - W4-ERP-001-ORA-FusionFinancials
+  asset_types:
+  - CAP
+- path: 06_Capabilities/Oracle/Oracle_ERP/W4-ERP-002-ORA-FusionProcurement.md
+  mtime: 1781445775
+  sha256: 4dc52d2446767c48e78d5534a320bd32f24d03766233eae97468334306c3fefa
+  asset_ids_extracted:
+  - W4-ERP-002-ORA-FusionProcurement
+  asset_types:
+  - CAP
+- path: 06_Capabilities/Oracle/Oracle_ERP/W4-ERP-003-ORA-PPM.md
+  mtime: 1781445831
+  sha256: c8f8156606ed2e53f1531d44c28c69e83b0c5f2b606765c3db5f15f4c37832b3
+  asset_ids_extracted:
+  - W4-ERP-003-ORA-PPM
+  asset_types:
+  - CAP
+- path: 07_Approved_Content/Approved/Cross_BU/W1S1-004-ACU-AcumaticaPartnership.md
+  mtime: 1782566585
+  sha256: 81aa252a9fe1c9bef13e932adeca7525e11e9d8af04e577dca93be06f1466e1c
+  asset_ids_extracted:
+  - W1S1-004
+  asset_types:
+  - CAP
+- path: 07_Approved_Content/Approved/Acumatica/W1S2-001-ACU-Financials.md
+  mtime: 1782566585
+  sha256: 46173cd0896887c8b3fb8c248f42bb6999429cb9ab7e93ec74fe5eb3da7ecde0
+  asset_ids_extracted:
+  - W1S2-001
+  asset_types:
+  - CAP
+- path: 07_Approved_Content/Approved/Acumatica/W1S2-002-ACU-Distribution.md
+  mtime: 1782566585
+  sha256: e9c697cbbf9e674429ee8df964c7ea212917090e9ee320975972fc57e3734477
+  asset_ids_extracted:
+  - W1S2-002
+  asset_types:
+  - CAP
+- path: 07_Approved_Content/Approved/Acumatica/W1S2-003-ACU-Inventory.md
+  mtime: 1782566585
+  sha256: f89a274722abe73ce05bb445467d68ddc415fae75bcb0371e570d0c4eede1ef6
+  asset_ids_extracted:
+  - W1S2-003
+  asset_types:
+  - CAP
+- path: 07_Approved_Content/Approved/Acumatica/W1S2-004-ACU-Manufacturing.md
+  mtime: 1782566585
+  sha256: 4c7058089f1711936a84a715545249e2278b17641038fc7acf8164985c92af02
+  asset_ids_extracted:
+  - W1S2-004
+  asset_types:
+  - CAP
+- path: 07_Approved_Content/Approved/Acumatica/W1S2-005-ACU-CRM.md
+  mtime: 1782566585
+  sha256: e330f9f65f42a0586c475644ca718fbcb4de07069619ceb55cc4245b06841935
+  asset_ids_extracted:
+  - W1S2-005
+  asset_types:
+  - CAP
+- path: 07_Approved_Content/Approved/Acumatica/W1S2-006-ACU-FieldServices.md
+  mtime: 1782566585
+  sha256: 087eb94a68205b0d0db988bb7e574bf83a12cf21d25159b6d733a3913f25e0d0
+  asset_ids_extracted:
+  - W1S2-006-ACU-FieldServices
+  asset_types:
+  - CAP
+- path: 07_Approved_Content/Approved/Acumatica/W1S2-007-ACU-PayrollIntegration.md
+  mtime: 1782566585
+  sha256: 217e618d6ee3441b9defcfa80b311bcf53849a4954953de254781788e70394be
+  asset_ids_extracted:
+  - W1S2-007-ACU-PayrollIntegration
+  asset_types:
+  - CAP
+- path: 07_Approved_Content/Approved/Acumatica/W1S2-009-ACU-ProjectAccounting.md
+  mtime: 1782566585
+  sha256: 9aae07cfd89538024a55d84a07cd771eb5b70507aae8948e73bf85da187f545f
+  asset_ids_extracted:
+  - W1S2-009
+  asset_types:
+  - CAP
+- path: 07_Approved_Content/Approved/Acumatica/W5-ACU-001-ACU-SupportManagedServices.md
+  mtime: 1782566585
+  sha256: 7208cac7bfd3edb38e38568fb9f9027886a952604538379965548f5f93af3635
+  asset_ids_extracted:
+  - W5-ACU-001-ACU-SupportManagedServices
+  asset_types:
+  - CAP
+- path: 07_Approved_Content/Approved/Cross_BU/W1S1-005-BB-BeBankingOverview.md
+  mtime: 1782566585
+  sha256: 65dd67aa622c566220656ec72fd60b03b25ae1b4c953758961123d0655ca8d84
+  asset_ids_extracted:
+  - W1S1-005
+  asset_types:
+  - CAP
+- path: 07_Approved_Content/Approved/BeBanking/W1S3-001-BB-ProductOverview.md
+  mtime: 1782566585
+  sha256: 0e3ff702edd242c322dbfef1ad63f872173331944fbd004836fd170c2ecdbb59
+  asset_ids_extracted:
+  - W1S3-001
+  asset_types:
+  - CAP
+- path: 07_Approved_Content/Approved/BeBanking/W1S3-002-BB-HostToHostBanking.md
+  mtime: 1782566585
+  sha256: e70ff6a77fa28e5f971730c96a71a78a42555b2d690e027460ffabc89c335476
+  asset_ids_extracted:
+  - W1S3-002
+  asset_types:
+  - CAP
+- path: 07_Approved_Content/Approved/BeBanking/W1S3-003-BB-SupplierPayments.md
+  mtime: 1782566585
+  sha256: 2a4f93ecb435fdd1a9466f6d2da1b3e0953b2d47372ff088afc59838be4ab6b9
+  asset_ids_extracted:
+  - W1S3-003
+  asset_types:
+  - CAP
+- path: 07_Approved_Content/Approved/BeBanking/W1S3-004-BB-PayrollPayments.md
+  mtime: 1782566585
+  sha256: 215de2de64260259fd653c40694234a1da7669d2bfe42ad48646066e3f3a2e8e
+  asset_ids_extracted:
+  - W1S3-004
+  asset_types:
+  - CAP
+- path: 07_Approved_Content/Approved/BeBanking/W1S3-005-BB-InternationalAndForexPayments.md
+  mtime: 1782566585
+  sha256: 2f9cff900730de003aebbcb3a6b5f1069e21902e22e9decd2daccba3b149719d
+  asset_ids_extracted:
+  - W1S3-005
+  asset_types:
+  - CAP
+- path: 07_Approved_Content/Approved/BeBanking/W1S3-006-BB-ERPIntegration.md
+  mtime: 1782566585
+  sha256: a3f1d88689538b130f2b808996c75ff9c56493f81d8fcb6ece7326283455df31
+  asset_ids_extracted:
+  - W1S3-006
+  asset_types:
+  - CAP
+- path: 07_Approved_Content/Approved/BeBanking/W1S3-007-BB-Security.md
+  mtime: 1782566585
+  sha256: a85f5312355d071e8391cb3a96043816edf4f7211c1a3b3bbe6dec9dc58dcc9f
+  asset_ids_extracted:
+  - W1S3-007
+  asset_types:
+  - CAP
+- path: 07_Approved_Content/Approved/BeBanking/W1S3-008-BB-Architecture.md
+  mtime: 1782566585
+  sha256: fdd3b3a1981d3b25e8e9bd1bb57238d1c0e4cbd02f19e6619c6bb9a2324aa577
+  asset_ids_extracted:
+  - W1S3-008
+  asset_types:
+  - CAP
+- path: 07_Approved_Content/Approved/BeBanking/W1S3-009-BB-HostingModel.md
+  mtime: 1782566585
+  sha256: 64c7b95ab17e51f6f2a125bc605f3242b6a9456c6ed97e700d977f830d7e272d
+  asset_ids_extracted:
+  - W1S3-009
+  asset_types:
+  - CAP
+- path: 07_Approved_Content/Approved/BeBanking/W1S3-010-BB-MonitoringAutomation.md
+  mtime: 1782566585
+  sha256: 6f92eae208fd2872074a90c76402df4e498df4d69c781b2fbeacfe001f1b8aee
+  asset_ids_extracted:
+  - W1S3-010
+  asset_types:
+  - CAP

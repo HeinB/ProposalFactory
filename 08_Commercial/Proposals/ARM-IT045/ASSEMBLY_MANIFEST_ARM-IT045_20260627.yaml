@@ -1,0 +1,23 @@
+---
+manifest_id: ARM-IT045-MANIFEST-20260627
+report_type: ASSEMBLY_MANIFEST
+tender_id: ARM-IT045
+tender_pattern: P1
+tender_platform: Oracle HCM Cloud
+engagement_type: Implementation
+manifest_status: BLOCKED
+proceed: false
+manifest_timestamp: '2026-06-27T16:57:39Z'
+registry_version: '1.0'
+registry_build_id: BUILD-20260627-132342
+validation_report_ref: 08_Commercial/Proposals/ARM-IT045/ASSEMBLY_VALIDATION_REPORT_ARM-IT045_20260627.md
+blocks: 1
+errors: 1
+warnings: 1
+assets_in_manifest: 0
+
+manifest_assets: []
+
+# NOTE: Empty manifest — pattern_applicability not yet populated in registry.
+# Populate assembly_rules.mandatory_if and pattern_applicability fields
+# in source files and regenerate registry via KRPE to enable manifest population.

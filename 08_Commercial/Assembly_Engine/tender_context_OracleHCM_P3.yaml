@@ -1,0 +1,25 @@
+tender_context:
+  tender_id: "REG-HCM-P3"
+  tender_date: "2026-06-28"
+  pattern: "P3"
+  platform: "Oracle HCM Cloud"
+  engagement_type: "Implementation"
+  modules:
+    - "Oracle HCM Core"
+    - "Oracle Payroll Cloud"
+    - "Oracle Time and Labor"
+  country: "RSA"
+  client_size: "Enterprise"
+  client_sector: "Mining"
+  payroll_integration: true
+  oci_in_scope: false
+  client_has_oic: false
+  dr_in_scope: false
+  security_in_scope: false
+  migration_scope: false
+  integration_scope: true
+  support_scope: false
+  pricing_type: "Fixed Price"
+  project_duration_months: 9.0
+  am_clearances: []
+  ptc_clearances: []
