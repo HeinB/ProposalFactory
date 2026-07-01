@@ -1,5 +1,33 @@
 # AI Context
-**Last updated:** 2026-06-28 — **WP19D COMPLETE (KNOWLEDGE PLATFORM VERSION 1.0 COMPLETE).** KVE v2.0: 76 validation rules; AREL V1.0 recursive-descent evaluator (86/86 tests PASS, no eval()); Mode 1 Platform Health — KHS 91/100 EXCELLENT (D1=90 D2=100 D3=100 D4=68 D5=100 D6=100 D7=68); KNOWLEDGE_HEALTH_REPORT generated. 5 regression scenarios all 76 rules deterministic. VALID_PLATFORMS canonical 6-value set. KVE is sole governance gateway. Platform maturity **L5.1**. **NEXT: WP18D (Risk Selection Engine) → assembly_rules population → data quality: RC-OPS-001 mandatory_if_engagement + ASM section_code + CAP content_source_type.**
+**Last updated:** 2026-06-30 — **PF2-010 (V5) COMPLETE — PROPOSAL V5 NARRATIVE & STYLE ENGINE.** `proposal_v5_engine.py` v1.0. 11/11 sections authored (0 pending). Writing standard: four questions per section (challenge / proposal / why / outcome). Key rewrites: Exec Summary (Plennegy-specific from scratch); Understanding (specific problem statement); Proposed Solution (story structure); Why APPSolve (trust argument not company profile); Commercial (collaborative not legal); Next Steps (joint initiation). Two outputs: `CLIENT_PROPOSAL_PLENNEGY_V5.docx` (48 KB) + `CLIENT_PROPOSAL_PLENNEGY_V5.md` (10 KB — new type). TD-027 PROPOSAL_STYLE_GUIDE.md. Readiness 91/100. OUM = 0. 6/6 regression PASS. Platform **L6.5**.
+
+*Previous: 2026-06-30 — **PF2-009 (PNE) COMPLETE.** `proposal_narrative_engine.py` v1.0: 11-section authored narrative (9 authored / 2 PENDING). Business-outcome framework. Three outputs: CLIENT (45 KB) + INTERNAL (429 KB) + TRACEABILITY (39 KB). Content compression: HCM 555 segs→6 pages; Methodology 140 segs→4 pages; Assumptions 497 segs→2 pages. GOV-PAE-001 enforced — zero OUM in client. TD-026. CLI: `python3 proposal_narrative_engine.py --tender <ID>`. 6/6 regression PASS. Platform **L6.4**.
+
+*Previous: 2026-06-30 — **PF2-010 COMPLETE (PPPE OPERATIONAL).** `proposal_publishing_policy.py` v1.0: 10-rule policy enforcement layer between Renderer and DOCX. R6 fixed 48 OUM occurrences in KB-sourced content (R6 applies to ALL rendered KB sections — not just PAE-authored). R5 replaced 10 assumption packs (3 duplicate sections → 1 appendix executive summaries). R1 removed 64 governance subsections (Extraction Notes, Fact Verification, BU Decisions). Three profiles: CUSTOMER (94 KB / 33 secs) + INTERNAL (421 KB / 41 V2 secs) + REVIEW. TD-023/024/025. CLI: `python3 proposal_publishing_policy.py --tender <ID>`. 7/7 regression PASS. Platform **L6.3**.
+
+*Previous: 2026-06-30 — **PF2-009 COMPLETE (PROPOSAL AUTHORING ENGINE OPERATIONAL).** `proposal_authoring_engine.py` v1.0: PAE authors client proposals from scratch. Two outputs: `CLIENT_PROPOSAL_[Tender].docx` (9 authored sections + 2 pending + 2 appendices; 61 KB Plennegy) + `INTERNAL_REVIEW_PACK_[Tender].docx` (Action Register + all 41 V2 KB sections; 431 KB Plennegy). **PERMANENT RULE GOV-PAE-001:** Oracle Fusion Cloud → Oracle Modern Best Practices / Oracle Success Navigator (OUM prohibited for Fusion Cloud). Architecture docs: TD-020 PROPOSAL_AUTHORING_STANDARD.md + TD-021 CLIENT_PROPOSAL_STANDARD.md + TD-022 INTERNAL_REVIEW_PACK_STANDARD.md. CLI: `python3 proposal_authoring_engine.py --tender <ID>`. 6/6 regression PASS, 0 violations. Full pipeline: KRPE→KVE→ARE→RSE→PSAE→Renderer→PPE→Shaper→PEE→**PAE**. Platform **L6.2**.
+
+*Previous: 2026-06-30 — **PF2-008 COMPLETE (PROPOSAL EDITORIAL ENGINE OPERATIONAL).** `pee.py` v1.0: 5 editorial transforms (CF+BP+DD+BG+AU); V4 structure 11 body + 5 app; 6 authored sections; boilerplate strip (8 regex patterns); cross-section dedup (MD5); per-section budget caps. Plennegy V4: CLIENT 94KB / INTERNAL 97KB / TRACEABILITY 40KB / Editorial MD 5KB. Readiness 4.1→4.5/5. EDITORIAL_RULE_LIBRARY.md (33 rules) + PROPOSAL_EDITORIAL_STANDARD.md. CLI: `python3 pee.py --tender <ID>`. Full pipeline: KRPE→KVE→ARE→RSE→PSAE→Renderer→PPE→Shaper→PEE. Platform **L6.1**.
+
+*Previous: 2026-06-30 — **PF2-008 COMPLETE (PROPOSAL SHAPING LAYER OPERATIONAL).** `proposal_shaper.py` v1.0: 5 modes (passthrough/full/full_multi/authored/authored_with_excerpt); V3 structure 10 body + 3 app; 4 authored sections (Governance table + Assumptions summary + Commercial framework + Next steps priority table). Plennegy V3 outputs: CLIENT 307 KB / INTERNAL 309 KB / TRACEABILITY 40 KB / Review MD 5 KB. V3 readiness 4.1/5 (V2 was 2.0/5). Pipeline: KRPE → KVE → ARE → RSE → PSAE → Renderer → PPE (V2) → Shaper (V3). PPE regression PASS. CLI: `python3 proposal_shaper.py --tender <ID>`. Platform maturity **L6.0**.
+
+*Previous: 2026-06-30 — **PF2-007 COMPLETE (PROPOSAL PUBLISHING ENGINE OPERATIONAL).** `ppe.py` v1.0: 4 audience-specific DOCX outputs from rendered Markdown + Section Manifest. CLIENT (410 KB / 19 sections / no metadata) + INTERNAL (422 KB / 40 sections / completeness matrix) + TRACEABILITY (423 KB / 40 sections / manifest panels) + REVIEW REPORT (44 KB / 10-criteria / 65/100). Section classifier: PLACEHOLDER comment authoritative; AI sentinel para excluded from has_body. CLI: `python3 ppe.py --tender <ID>`. Architecture: PUBLISHING_ENGINE.md + PUBLICATION_PROFILE_STANDARD.md. Proposal Factory pipeline COMPLETE. Platform maturity **L5.9**. Open human actions: OAR-A01 (B-BBEE 2026-07-31 URGENT), OAR-C01/C02/C04.
+
+*Previous: 2026-06-30 — **PF2-004A COMPLETE (DOCX RENDERER OPERATIONAL).** `docx_renderer.py` v1.0: professional Word proposal from Markdown; APPSolve brand styles; PLACEHOLDER/AI-DRAFT/HUMAN REVIEW callout boxes in review mode; auto-TOC; cover page; headers+footers+page numbers; tables with navy header rows. Plennegy pilot: 422 KB DOCX (4,259 paras / 332 tables / 40 sections) + 45 KB Review Report (10-criteria / 62/100 proposal readiness). 6/6 regression PASS. CLI: `python3 docx_renderer.py --tender <ID>`. Platform maturity **L5.8**.
+
+*Previous: 2026-06-30 — **PF2-006 COMPLETE (FIRST LIVE OPERATIONAL VALIDATION — PLENNEGY BOM).** PLENNEGY-HCM-001 rendered end-to-end. 2 Platform Defects fixed: C-PSAE-001 (`--context YAML_FILE` added to PSAE); C-RENDERER-001 (S-49/S-51/A-01 DIRECT→MERGE; all assumption packs now rendered). Plennegy: RENDERED=21/PH=18/AI=3/NF=0 / 11,066 lines / 5 ASP packs / G-001 enforced. 6/6 regression PASS. Operational Readiness 78/100. Platform maturity **L5.7**. Open: OAR-C01/C02/A01.
+
+*Previous: 2026-06-30 — PF2-005 COMPLETE (ASSUMPTION LIBRARY MATERIALISATION COMPLETE). `AssetIndex` extended with `additional_roots` + `document_id` indexing from YAML frontmatter. `ASSUMPTIONS_ROOT` (`08_Commercial/Assumptions/`) added as secondary scan root. BeBanking `document_id` defect fixed. AssetIndex 76 files / 125 IDs. Full pipeline: KRPE SUCCESS → KVE KHS 91/100 → PSAE 6/6 PASS → Renderer 6/6 PASS / NF=0. ARM-IT045: RENDERED=25/PH=17/AI=3/NF=0 (7,347 lines). Platform maturity **L5.6**.
+
+*Previous: 2026-06-29 — PF2-004 COMPLETE (MARKDOWN PROPOSAL RENDERER OPERATIONAL). Renderer v1.0 (`proposal_renderer.py`): AssetIndex 50 files / 99 IDs; frontmatter stripping + internal section stripping + heading demotion; 6/6 regression PASS; ARM-IT045 full render 3,537 lines (RENDERED=16/PH=17/AI=3/NF=9); per-section audit 261 lines; 4 standard documents. Platform maturity L5.5.*
+
+*Previous: 2026-06-29 — PF2-003 COMPLETE (PROPOSAL SECTION ASSEMBLY ENGINE OPERATIONAL). PSAE v1.0 (`proposal_section_engine.py`): 82 sections; deterministic Proposal Section Manifest per tender; 22/22 self-tests PASS; 6 regression scenarios (ARM-IT045 EBS-AMS→43, HCM-Mining→41, OIC→41, ERP→42, Acumatica→41, BeBanking→40 mandatory); 0 violations; SI-001/005/006/007 ordering rules enforced; GOV-010/ADR-001/B-BBEE governance encoded; Section Manifest YAML written for all 6 regression tenders. Platform maturity L5.4.*
+
+*Previous: 2026-06-29 — PF2-002 COMPLETE (ASSEMBLY RULE ENRICHMENT ENGINE OPERATIONAL). ARE v1.0 (`are.py`): 49 CAP + 13 ASP enriched; 20/20 PASS; 62/62 valid; 6 regression 0 violations; GOV-010 encoded. Registry BUILD-20260629-ARE-001. Platform maturity L5.3.*
+
+*Previous: 2026-06-29 — PF2-001 COMPLETE (RISK SELECTION ENGINE OPERATIONAL). RSE v1.0 (`rse.py`): 40 RSK via AREL V1.0; 17/17 PASS; 5 regression, 0 violations. Platform maturity L5.2.*
+
+*Previous: 2026-06-28 — WP19D COMPLETE (KNOWLEDGE PLATFORM VERSION 1.0 COMPLETE). KVE v2.0: 76 rules; AREL V1.0 evaluator (86/86 PASS); KHS 91/100 EXCELLENT; platform maturity L5.1.*
 
 *Previous: 2026-06-28 — WP18B-EXT.2 COMPLETE (Enterprise Risk Library APPROVED). 40/40 risks approved; TD-001 RESOLVED; AV-011 BLOCK UNBLOCKED. 1 rating reversion: RC-DATA-004 CRITICAL→HIGH (BU-RL-007 Option B). mandatory_if=TRUE confirmed for RC-OPS-001. Platform maturity L4.3.*
 
@@ -21,11 +49,31 @@
 
 ---
 
+## Governing Principles (Post-V5 — Established 2026-06-30)
+
+These principles apply to all future AI proposal work. They were established when V5 (Proposal Narrative & Style Engine) set a new quality floor of 91/100 readiness.
+
+**Narrative quality is permanent.** Do not regress to V2-style knowledge-dump output. V5 is the floor. The PROPOSAL_STYLE_GUIDE.md (TD-027) is the governing standard for all client-facing proposal writing.
+
+**The four questions.** Every section of every client proposal must answer: (1) What is the customer's challenge? (2) What does APPSolve propose? (3) Why is this approach better? (4) What business outcome will the customer receive? If a paragraph does not answer one of these, it should not exist.
+
+**Knowledge assets are source material.** They are not proposal sections. Never paste KB content verbatim into a client proposal. Compress, author, and narrate.
+
+**GOV-PAE-001 is permanent.** Oracle Unified Method (OUM) must never appear in a Fusion Cloud proposal. Oracle Modern Best Practices / Oracle Success Navigator are the required terms.
+
+**Client proposal clean room.** No IDs (ASM, CAP, ADR, etc.), no governance artefacts, no draft markers, no extraction notes, no source evidence tables in any client-facing document.
+
+**Architecture is stable.** The Proposal Factory pipeline is COMPLETE at L6.5. Do not add architectural complexity unless a defect requires it. Future work is narrative quality, KB content, and new tender contexts — not new pipeline components.
+
+**Human gate before next engine work.** The immediate next action after any session that produces a client proposal is human review of the DOCX, not the next AI work package.
+
+---
+
 ## Tender Factory Objective
 
 Build and maintain a reusable, governed Knowledge Base that enables APPSolve to assemble high-quality, factually accurate, commercially protected tender responses for Oracle, Acumatica, and BeBanking engagements — without authoring from scratch each time.
 
-**Current active work:** WP19D COMPLETE 2026-06-28 — Knowledge Platform Version 1.0 COMPLETE. KVE v2.0 (76 rules, AREL V1.0, Mode 1 Health, KHS 91). kve_engine.py at `08_Commercial/Assembly_Engine/`. KNOWLEDGE_HEALTH_REPORT_20260628.md + WP19D_KVE_PLATFORM_COMPLETION.md at `08_Commercial/Reports/`. Platform maturity **L5.1**. Open business actions: Plennegy (OAR-C01 + OAR-C02); B-BBEE renewal 2026-07-31 (OAR-A01 URGENT). Next AI session: WP18D (Risk Selection Engine) OR data quality remediation (RC-OPS-001 / ASM section_code / CAP content_source_type).
+**Current active work:** PF2-010 (V5) COMPLETE 2026-06-30 — Proposal V5 Narrative & Style Engine operational. Outputs: `CLIENT_PROPOSAL_PLENNEGY_V5.docx` + `CLIENT_PROPOSAL_PLENNEGY_V5.md`. Platform maturity **L6.5**. Open Plennegy human actions: OAR-A01 (B-BBEE URGENT 2026-07-31), OAR-C01 (HB AM), OAR-C02 (Costing), OAR-C04 (client parameters). Next AI work: PIR-001 (sub-section EXTRACT), RFP extractor, or KB Wave 5 assets.
 
 **WP17D-1 status (correction):** COMPLETE 2026-06-25 — Inline text assembly operational. ARM IT045: 594 assumptions inline text + 175 body Key Assumptions (dual-output Option B). 10/10 validation PASS.
 

@@ -1,0 +1,210 @@
+---
+build_metadata:
+  report_type: REGISTRY_BUILD_REPORT
+  schema_version: '1.0'
+  build_id: BUILD-20260630-063414
+  build_mode: FULL
+  generated_at: '2026-06-30T06:34:15.762813Z'
+  generated_by: KRPE v2.0
+  source_repo: /Users/heinb/Library/CloudStorage/OneDrive-appsolve.co.za/APPSolve Company Docs/Tender Knowledge Base
+  population_rules_version: '1.0'
+  build_duration_seconds: 1.47
+  build_status: SUCCESS_WITH_WARNINGS
+  phase: A+B (CAP/ASP/ASM/RSK/MTH/REF/PAT/SEC)
+summary:
+  files_scanned: 68
+  total_assets_extracted: 1349
+  extraction_errors: 0
+  extraction_warnings: 24
+  entries_by_type:
+    CAP: 49
+    ASP: 13
+    ASM: 1136
+    RSK: 40
+    MTH: 0
+    REF: 16
+    PAT: 13
+    SEC: 82
+extraction_errors: []
+extraction_warnings:
+- warning_code: FILE_NOT_FOUND
+  severity: WARNING
+  asset_id: W2S1-004
+  file_path: 07_Approved_Content/Approved/Oracle/W2S1-004-ORA-ManagedServices.md
+  message: 'Approved document not found: 07_Approved_Content/Approved/Oracle/W2S1-004-ORA-ManagedServices.md'
+  action_taken: REGISTERED_FROM_INDEX_ONLY
+- warning_code: ID_MISMATCH
+  severity: WARNING
+  asset_id: W2S1-005
+  file_path: 07_Approved_Content/Approved/Oracle/W2S1-005-ORA-ImplementationMethodology.md
+  message: Index Cap ID 'W2S1-005' differs from file document_id 'W2S1-005-ORA-ImplementationMethodology'. Using 'W2S1-005-ORA-ImplementationMethodology'.
+  action_taken: USING_FILE_DOCUMENT_ID
+- warning_code: ID_MISMATCH
+  severity: WARNING
+  asset_id: W5-METH-001
+  file_path: 07_Approved_Content/Approved/Cross_BU/W5-METH-001-ERP-ImplementationMethodology.md
+  message: Index Cap ID 'W5-METH-001' differs from file document_id 'W5-METH-001-ERP-ImplementationMethodology'. Using 'W5-METH-001-ERP-ImplementationMethodology'.
+  action_taken: USING_FILE_DOCUMENT_ID
+- warning_code: ID_MISMATCH
+  severity: WARNING
+  asset_id: W3S1-001
+  file_path: 06_Capabilities/Oracle/Oracle_HCM/W3S1-001-ORA-HCMCore.md
+  message: Index Cap ID 'W3S1-001' differs from file document_id 'W3S1-001-ORA-HCMCore'. Using 'W3S1-001-ORA-HCMCore'.
+  action_taken: USING_FILE_DOCUMENT_ID
+- warning_code: ID_MISMATCH
+  severity: WARNING
+  asset_id: W3S1-002
+  file_path: 06_Capabilities/Oracle/Oracle_HCM/W3S1-002-ORA-TalentMgmt.md
+  message: Index Cap ID 'W3S1-002' differs from file document_id 'W3S1-002-ORA-TalentMgmt'. Using 'W3S1-002-ORA-TalentMgmt'.
+  action_taken: USING_FILE_DOCUMENT_ID
+- warning_code: ID_MISMATCH
+  severity: WARNING
+  asset_id: W3S1-003
+  file_path: 06_Capabilities/Oracle/Oracle_HCM/W3S1-003-ORA-RecruitingCloud.md
+  message: Index Cap ID 'W3S1-003' differs from file document_id 'W3S1-003-ORA-RecruitingCloud'. Using 'W3S1-003-ORA-RecruitingCloud'.
+  action_taken: USING_FILE_DOCUMENT_ID
+- warning_code: ID_MISMATCH
+  severity: WARNING
+  asset_id: W3S1-004
+  file_path: 06_Capabilities/Oracle/Oracle_HCM/W3S1-004-ORA-LearningCloud.md
+  message: Index Cap ID 'W3S1-004' differs from file document_id 'W3S1-004-ORA-LearningCloud'. Using 'W3S1-004-ORA-LearningCloud'.
+  action_taken: USING_FILE_DOCUMENT_ID
+- warning_code: ID_MISMATCH
+  severity: WARNING
+  asset_id: W3S1-005
+  file_path: 06_Capabilities/Oracle/Oracle_HCM/W3S1-005-ORA-WorkforceCompensation.md
+  message: Index Cap ID 'W3S1-005' differs from file document_id 'W3S1-005-ORA-WorkforceCompensation'. Using 'W3S1-005-ORA-WorkforceCompensation'.
+  action_taken: USING_FILE_DOCUMENT_ID
+- warning_code: ID_MISMATCH
+  severity: WARNING
+  asset_id: W3S1-006
+  file_path: 06_Capabilities/Oracle/Oracle_HCM/W3S1-006-ORA-HCMAnalytics.md
+  message: Index Cap ID 'W3S1-006' differs from file document_id 'W3S1-006-ORA-HCMAnalytics'. Using 'W3S1-006-ORA-HCMAnalytics'.
+  action_taken: USING_FILE_DOCUMENT_ID
+- warning_code: ID_MISMATCH
+  severity: WARNING
+  asset_id: W3S1-007
+  file_path: 06_Capabilities/Oracle/Oracle_HCM/W3S1-007-ORA-WorkforceManagement.md
+  message: Index Cap ID 'W3S1-007' differs from file document_id 'W3S1-007-ORA-WorkforceManagement'. Using 'W3S1-007-ORA-WorkforceManagement'.
+  action_taken: USING_FILE_DOCUMENT_ID
+- warning_code: ID_MISMATCH
+  severity: WARNING
+  asset_id: W3S1-008
+  file_path: 06_Capabilities/Oracle/Oracle_HCM/W3S1-008-ORA-HelpDesk-HRServiceDelivery.md
+  message: Index Cap ID 'W3S1-008' differs from file document_id 'W3S1-008-ORA-HelpDesk-HRServiceDelivery'. Using 'W3S1-008-ORA-HelpDesk-HRServiceDelivery'.
+  action_taken: USING_FILE_DOCUMENT_ID
+- warning_code: ID_MISMATCH
+  severity: WARNING
+  asset_id: W3S1-009
+  file_path: 06_Capabilities/Oracle/Oracle_HCM/W3S1-009-ORA-PayrollInterface-Integration.md
+  message: Index Cap ID 'W3S1-009' differs from file document_id 'W3S1-009-ORA-PayrollInterface-Integration'. Using 'W3S1-009-ORA-PayrollInterface-Integration'.
+  action_taken: USING_FILE_DOCUMENT_ID
+- warning_code: ID_MISMATCH
+  severity: WARNING
+  asset_id: W4-HCM-002
+  file_path: 06_Capabilities/Oracle/Oracle_HCM/W4-HCM-002-ORA-Journeys.md
+  message: Index Cap ID 'W4-HCM-002' differs from file document_id 'W4-HCM-002-ORA-Journeys'. Using 'W4-HCM-002-ORA-Journeys'.
+  action_taken: USING_FILE_DOCUMENT_ID
+- warning_code: ID_MISMATCH
+  severity: WARNING
+  asset_id: W4-AI-002
+  file_path: 06_Capabilities/Oracle/Oracle_HCM/W4-AI-002-ORA-AISkills.md
+  message: Index Cap ID 'W4-AI-002' differs from file document_id 'W4-AI-002-ORA-AISkills'. Using 'W4-AI-002-ORA-AISkills'.
+  action_taken: USING_FILE_DOCUMENT_ID
+- warning_code: ID_MISMATCH
+  severity: WARNING
+  asset_id: W4-INT-001
+  file_path: 06_Capabilities/Oracle/Oracle_OIC/W4-INT-001-ORA-OICAccelerators.md
+  message: Index Cap ID 'W4-INT-001' differs from file document_id 'W4-INT-001-ORA-OICAccelerators'. Using 'W4-INT-001-ORA-OICAccelerators'.
+  action_taken: USING_FILE_DOCUMENT_ID
+- warning_code: ID_MISMATCH
+  severity: WARNING
+  asset_id: W4-ERP-001
+  file_path: 06_Capabilities/Oracle/Oracle_ERP/W4-ERP-001-ORA-FusionFinancials.md
+  message: Index Cap ID 'W4-ERP-001' differs from file document_id 'W4-ERP-001-ORA-FusionFinancials'. Using 'W4-ERP-001-ORA-FusionFinancials'.
+  action_taken: USING_FILE_DOCUMENT_ID
+- warning_code: ID_MISMATCH
+  severity: WARNING
+  asset_id: W4-ERP-002
+  file_path: 06_Capabilities/Oracle/Oracle_ERP/W4-ERP-002-ORA-FusionProcurement.md
+  message: Index Cap ID 'W4-ERP-002' differs from file document_id 'W4-ERP-002-ORA-FusionProcurement'. Using 'W4-ERP-002-ORA-FusionProcurement'.
+  action_taken: USING_FILE_DOCUMENT_ID
+- warning_code: ID_MISMATCH
+  severity: WARNING
+  asset_id: W4-ERP-003
+  file_path: 06_Capabilities/Oracle/Oracle_ERP/W4-ERP-003-ORA-PPM.md
+  message: Index Cap ID 'W4-ERP-003' differs from file document_id 'W4-ERP-003-ORA-PPM'. Using 'W4-ERP-003-ORA-PPM'.
+  action_taken: USING_FILE_DOCUMENT_ID
+- warning_code: ID_MISMATCH
+  severity: WARNING
+  asset_id: W1S2-006
+  file_path: 07_Approved_Content/Approved/Acumatica/W1S2-006-ACU-FieldServices.md
+  message: Index Cap ID 'W1S2-006' differs from file document_id 'W1S2-006-ACU-FieldServices'. Using 'W1S2-006-ACU-FieldServices'.
+  action_taken: USING_FILE_DOCUMENT_ID
+- warning_code: ID_MISMATCH
+  severity: WARNING
+  asset_id: W1S2-007
+  file_path: 07_Approved_Content/Approved/Acumatica/W1S2-007-ACU-PayrollIntegration.md
+  message: Index Cap ID 'W1S2-007' differs from file document_id 'W1S2-007-ACU-PayrollIntegration'. Using 'W1S2-007-ACU-PayrollIntegration'.
+  action_taken: USING_FILE_DOCUMENT_ID
+- warning_code: ID_MISMATCH
+  severity: WARNING
+  asset_id: W5-ACU-001
+  file_path: 07_Approved_Content/Approved/Acumatica/W5-ACU-001-ACU-SupportManagedServices.md
+  message: Index Cap ID 'W5-ACU-001' differs from file document_id 'W5-ACU-001-ACU-SupportManagedServices'. Using 'W5-ACU-001-ACU-SupportManagedServices'.
+  action_taken: USING_FILE_DOCUMENT_ID
+- warning_code: MTH_ALREADY_REGISTERED_AS_CAP
+  severity: WARNING
+  asset_id: W2S1-005-ORA-ImplementationMethodology
+  file_path: 05_Methodologies/Implementation/W2S1-005-ORA-ImplementationMethodology.md
+  message: MTH asset W2S1-005-ORA-ImplementationMethodology already registered as CAP — methodology file is dual-purpose (CAP
+    + MTH). Skipping MTH re-registration.
+  action_taken: SKIPPED — CAP entry authoritative
+- warning_code: MTH_DEPLOYMENT_ANOMALY
+  severity: WARNING
+  asset_id: W5-METH-001-ERP-ImplementationMethodology
+  file_path: 07_Approved_Content/Approved/Cross_BU/W5-METH-001-ERP-ImplementationMethodology.md
+  message: 'Deployment anomaly: file in 07_Approved_Content/; target is 05_Methodologies/Implementation/W5-METH-001-ERP-ImplementationMethodology.md'
+  action_taken: EXTRACTED_FROM_CURRENT_LOCATION
+- warning_code: MTH_ALREADY_REGISTERED_AS_CAP
+  severity: WARNING
+  asset_id: W5-METH-001-ERP-ImplementationMethodology
+  file_path: 07_Approved_Content/Approved/Cross_BU/W5-METH-001-ERP-ImplementationMethodology.md
+  message: MTH asset W5-METH-001-ERP-ImplementationMethodology already registered as CAP — methodology file is dual-purpose
+    (CAP + MTH). Skipping MTH re-registration.
+  action_taken: SKIPPED — CAP entry authoritative
+duplicate_id_conflicts: []
+discovery_log:
+- 'CAP: 49 rows discovered from 06_Capabilities/MASTER_CAPABILITY_INDEX.md'
+- 'ASP: 08_Commercial/Assumptions/AMS/AMS_ASSUMPTIONS_V1.md'
+- 'ASP: 08_Commercial/Assumptions/AMS/EBS_AMS_SLA_OVERLAY_V1.md'
+- 'ASP: 08_Commercial/Assumptions/AMS/EBS_DEDICATED_RESOURCE_MODEL_ASSUMPTIONS_V1.md'
+- 'ASP: 08_Commercial/Assumptions/Acumatica/ACU_BASE_ASSUMPTIONS_V1.md'
+- 'ASP: 08_Commercial/Assumptions/BeBanking/BEBANKING_BASE_ASSUMPTIONS_V1.md'
+- 'ASP: 08_Commercial/Assumptions/ERP/ERP_ASSUMPTIONS_V1.md'
+- 'ASP: 08_Commercial/Assumptions/HCM/HCM_BASE_ASSUMPTIONS_V1.md'
+- 'ASP: 08_Commercial/Assumptions/HCM/HCM_COMPENSATION_ASSUMPTIONS_V1.md'
+- 'ASP: 08_Commercial/Assumptions/HCM/HCM_LEARNING_ASSUMPTIONS_V1.md'
+- 'ASP: 08_Commercial/Assumptions/HCM/HCM_RECRUITING_ASSUMPTIONS_V1.md'
+- 'ASP: 08_Commercial/Assumptions/HCM/HCM_TALENT_ASSUMPTIONS_V1.md'
+- 'ASP: 08_Commercial/Assumptions/OCI/OCI_ASSUMPTIONS_V1.md'
+- 'ASP: 08_Commercial/Assumptions/OIC/OIC_ASSUMPTIONS_V1.md'
+- 'MTH: 05_Methodologies/Implementation/W2S1-005-ORA-ImplementationMethodology.md'
+- 'MTH: 07_Approved_Content/Approved/Cross_BU/W5-METH-001-ERP-ImplementationMethodology.md'
+output_files_written:
+- path: 00_Governance/Knowledge_Standards/KNOWLEDGE_ASSET_REGISTRY.yaml
+  entries: 213
+  size_bytes: 446288
+- path: 00_Governance/Knowledge_Standards/KNOWLEDGE_ASSET_REGISTRY_ASSUMPTIONS.yaml
+  entries: 1136
+  size_bytes: 1864996
+- path: 00_Governance/Knowledge_Standards/KNOWLEDGE_RELATIONSHIP_GRAPH.yaml
+  entries: 1855
+  size_bytes: 494070
+- path: 00_Governance/Knowledge_Standards/KNOWLEDGE_LOOKUP_INDEX.yaml
+  entries: 20
+  size_bytes: 163657
+recommendations:
+- priority: INFO
+  recommendation: 'Phase A+B complete. Registry V1.0 operational. Next: KVE Phase B (76-rule set), AREL evaluator, WP18D Risk
+    Selection Engine.'

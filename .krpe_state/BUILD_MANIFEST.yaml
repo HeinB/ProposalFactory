@@ -1,7 +1,7 @@
 ---
 manifest_metadata:
-  build_id: BUILD-20260628-150801
-  generated_at: '2026-06-28T15:08:03.167523Z'
+  build_id: BUILD-20260630-063414
+  generated_at: '2026-06-30T06:34:15.755659Z'
   krpe_version: '2.0'
   schema_version: '1.0'
   population_rules_version: '1.0'
@@ -43,8 +43,8 @@ files:
   - ASM
   asm_count: 152
 - path: 08_Commercial/Assumptions/BeBanking/BEBANKING_BASE_ASSUMPTIONS_V1.md
-  mtime: 1782566585
-  sha256: 75ffdafab3456a277401746f618adf1d707315c263536ffd37da045adc300dfd
+  mtime: 1782730305
+  sha256: 11f94ddb5ccb4512b7938c12a408be9b4c5495bdd50f0506f128e3352d1e1139
   asset_ids_extracted:
   - BEBANKING-BASE-ASSUMPTIONS-V1
   asset_types:

@@ -1,0 +1,35 @@
+---
+# Plennegy Oracle HCM Full Suite — Tender Context
+# PF2-006 Operational Validation | 2026-06-30
+# Pattern P1 — Oracle HCM Cloud Full Suite Implementation
+# Source: PLENNEGY_TENDER_PROFILE.md; PLENNEGY_ASSEMBLY_TEST.md (WP12)
+
+tender_context:
+  tender_id: "PLENNEGY-HCM-001"
+  pattern: "P1"
+  platform: "Oracle HCM Cloud"
+  engagement_type: "Implementation"
+  modules:
+    - "Oracle HCM Core"
+    - "Oracle Recruiting Cloud"
+    - "Oracle Learning Cloud"
+    - "Oracle Talent Management"
+    - "Oracle Workforce Compensation"
+    - "Oracle AI Skills"
+    - "Oracle Payroll Interface"
+  country: "RSA"
+  client_size: "Enterprise"
+  client_sector: "Agribusiness"
+  industry: "Agribusiness"
+  payroll_integration: true
+  integration_scope: true
+  oci_in_scope: false
+  client_has_oic: false
+  dr_in_scope: false
+  security_in_scope: false
+  migration_scope: false
+  support_scope: false
+  pricing_type: "Fixed Price"
+  project_duration_months: 10.0
+  am_clearances: []
+  ptc_clearances: []

@@ -2,9 +2,9 @@
 registry_metadata:
   schema_version: '1.0'
   population_rules_version: '1.0'
-  generated_at: '2026-06-28T15:08:01.918826Z'
+  generated_at: '2026-06-30T06:34:14.407156Z'
   generated_by: KRPE v2.0
-  build_id: BUILD-20260628-150801
+  build_id: BUILD-20260630-063414
   build_mode: FULL
   source_repo_root: /Users/heinb/Library/CloudStorage/OneDrive-appsolve.co.za/APPSolve Company Docs/Tender Knowledge Base
   total_entries: 213
@@ -54,7 +54,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -113,7 +113,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -172,7 +172,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -231,7 +231,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -289,7 +289,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -348,7 +348,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -407,7 +407,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -466,7 +466,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -525,7 +525,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -583,7 +583,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -641,7 +641,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -700,7 +700,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -760,7 +760,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -819,7 +819,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -877,7 +877,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -936,7 +936,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -996,7 +996,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -1056,7 +1056,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -1114,7 +1114,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -1172,7 +1172,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -1230,7 +1230,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -1289,7 +1289,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -1350,7 +1350,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -1408,7 +1408,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -1466,7 +1466,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -1524,7 +1524,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -1582,7 +1582,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -1654,7 +1654,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -1725,7 +1725,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -1799,7 +1799,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -1859,7 +1859,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -1920,7 +1920,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -1989,7 +1989,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -2058,7 +2058,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -2130,7 +2130,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -2205,7 +2205,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -2282,7 +2282,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -2358,7 +2358,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -2433,7 +2433,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -2512,7 +2512,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -2591,7 +2591,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -2668,7 +2668,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -2746,7 +2746,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -2825,7 +2825,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -2900,7 +2900,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -2972,7 +2972,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -3047,7 +3047,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -3115,7 +3115,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -3179,7 +3179,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 06_Capabilities/MASTER_CAPABILITY_INDEX.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -3252,7 +3252,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: ''
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -3319,7 +3319,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: ''
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -3380,7 +3380,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: ''
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -3429,7 +3429,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: ''
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -3479,7 +3479,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: ''
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -3538,7 +3538,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: ''
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -3599,7 +3599,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: ''
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -3650,7 +3650,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: ''
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -3700,7 +3700,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: ''
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -3750,7 +3750,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: ''
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -3800,7 +3800,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: ''
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -3863,7 +3863,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: ''
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -3925,7 +3925,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: ''
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -4020,7 +4020,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_PATTERN_ENGINE.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -4135,7 +4135,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_PATTERN_ENGINE.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -4229,7 +4229,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_PATTERN_ENGINE.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -4343,7 +4343,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_PATTERN_ENGINE.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -4436,7 +4436,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_PATTERN_ENGINE.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -4528,7 +4528,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_PATTERN_ENGINE.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -4646,7 +4646,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_PATTERN_ENGINE.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -4760,7 +4760,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_PATTERN_ENGINE.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -4874,7 +4874,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_PATTERN_ENGINE.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -4979,7 +4979,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_PATTERN_ENGINE.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -5111,7 +5111,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_PATTERN_ENGINE.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -5213,7 +5213,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_PATTERN_ENGINE.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -5328,7 +5328,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_PATTERN_ENGINE.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -5404,7 +5404,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -5457,7 +5457,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -5510,7 +5510,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -5563,7 +5563,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -5616,7 +5616,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -5669,7 +5669,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -5722,7 +5722,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -5775,7 +5775,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -5828,7 +5828,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -5881,7 +5881,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -5934,7 +5934,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -5987,7 +5987,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -6040,7 +6040,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -6093,7 +6093,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -6155,7 +6155,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -6208,7 +6208,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -6261,7 +6261,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -6314,7 +6314,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -6367,7 +6367,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -6420,7 +6420,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -6473,7 +6473,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -6526,7 +6526,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -6579,7 +6579,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -6632,7 +6632,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -6685,7 +6685,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -6738,7 +6738,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -6791,7 +6791,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -6844,7 +6844,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -6897,7 +6897,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -6950,7 +6950,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -7003,7 +7003,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -7056,7 +7056,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -7109,7 +7109,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -7162,7 +7162,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -7215,7 +7215,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -7268,7 +7268,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -7321,7 +7321,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -7374,7 +7374,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -7427,7 +7427,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -7480,7 +7480,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -7533,7 +7533,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -7586,7 +7586,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -7639,7 +7639,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -7692,7 +7692,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -7745,7 +7745,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -7798,7 +7798,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -7851,7 +7851,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -7904,7 +7904,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -7957,7 +7957,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -8010,7 +8010,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -8063,7 +8063,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -8116,7 +8116,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -8169,7 +8169,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -8222,7 +8222,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -8275,7 +8275,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -8328,7 +8328,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -8381,7 +8381,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -8434,7 +8434,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -8487,7 +8487,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -8540,7 +8540,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -8593,7 +8593,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -8646,7 +8646,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -8699,7 +8699,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -8752,7 +8752,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -8805,7 +8805,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -8858,7 +8858,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -8911,7 +8911,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -8973,7 +8973,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -9026,7 +9026,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -9079,7 +9079,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -9132,7 +9132,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -9185,7 +9185,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -9238,7 +9238,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -9291,7 +9291,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -9344,7 +9344,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -9397,7 +9397,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -9450,7 +9450,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -9503,7 +9503,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -9556,7 +9556,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -9609,7 +9609,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -9662,7 +9662,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -9715,7 +9715,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Assembly_Engine/PROPOSAL_SECTION_LIBRARY.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -9771,7 +9771,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 00_Governance/REFERENCE_MASTER.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -9831,7 +9831,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 00_Governance/REFERENCE_MASTER.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -9889,7 +9889,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 00_Governance/REFERENCE_MASTER.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -9948,7 +9948,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 00_Governance/REFERENCE_MASTER.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -10012,7 +10012,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 00_Governance/REFERENCE_MASTER.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -10091,7 +10091,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 00_Governance/REFERENCE_MASTER.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -10165,7 +10165,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 00_Governance/REFERENCE_MASTER.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -10241,7 +10241,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 00_Governance/REFERENCE_MASTER.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -10311,7 +10311,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 00_Governance/REFERENCE_MASTER.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -10384,7 +10384,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 00_Governance/REFERENCE_MASTER.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -10460,7 +10460,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 00_Governance/REFERENCE_MASTER.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -10533,7 +10533,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 00_Governance/REFERENCE_MASTER.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -10606,7 +10606,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 00_Governance/REFERENCE_MASTER.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -10682,7 +10682,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 00_Governance/REFERENCE_MASTER.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -10760,7 +10760,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 00_Governance/REFERENCE_MASTER.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -10833,7 +10833,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 00_Governance/REFERENCE_MASTER.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -10908,7 +10908,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Risk_Library/ENTERPRISE_RISK_REGISTER_V1.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -11004,7 +11004,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Risk_Library/ENTERPRISE_RISK_REGISTER_V1.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -11088,7 +11088,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Risk_Library/ENTERPRISE_RISK_REGISTER_V1.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -11170,7 +11170,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Risk_Library/ENTERPRISE_RISK_REGISTER_V1.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -11255,7 +11255,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Risk_Library/ENTERPRISE_RISK_REGISTER_V1.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -11339,7 +11339,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Risk_Library/ENTERPRISE_RISK_REGISTER_V1.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -11425,7 +11425,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Risk_Library/ENTERPRISE_RISK_REGISTER_V1.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -11516,7 +11516,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Risk_Library/ENTERPRISE_RISK_REGISTER_V1.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -11596,7 +11596,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Risk_Library/ENTERPRISE_RISK_REGISTER_V1.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -11677,7 +11677,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Risk_Library/ENTERPRISE_RISK_REGISTER_V1.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -11763,7 +11763,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Risk_Library/ENTERPRISE_RISK_REGISTER_V1.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -11861,7 +11861,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Risk_Library/ENTERPRISE_RISK_REGISTER_V1.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -11947,7 +11947,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Risk_Library/ENTERPRISE_RISK_REGISTER_V1.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -12032,7 +12032,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Risk_Library/ENTERPRISE_RISK_REGISTER_V1.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -12118,7 +12118,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Risk_Library/ENTERPRISE_RISK_REGISTER_V1.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -12192,7 +12192,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Risk_Library/ENTERPRISE_RISK_REGISTER_V1.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -12273,7 +12273,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Risk_Library/ENTERPRISE_RISK_REGISTER_V1.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -12368,7 +12368,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Risk_Library/ENTERPRISE_RISK_REGISTER_V1.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -12458,7 +12458,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Risk_Library/ENTERPRISE_RISK_REGISTER_V1.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -12543,7 +12543,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Risk_Library/ENTERPRISE_RISK_REGISTER_V1.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -12626,7 +12626,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Risk_Library/ENTERPRISE_RISK_REGISTER_V1.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -12716,7 +12716,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Risk_Library/ENTERPRISE_RISK_REGISTER_V1.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -12803,7 +12803,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Risk_Library/ENTERPRISE_RISK_REGISTER_V1.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -12902,7 +12902,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Risk_Library/ENTERPRISE_RISK_REGISTER_V1.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -13010,7 +13010,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Risk_Library/ENTERPRISE_RISK_REGISTER_V1.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -13097,7 +13097,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Risk_Library/ENTERPRISE_RISK_REGISTER_V1.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -13192,7 +13192,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Risk_Library/ENTERPRISE_RISK_REGISTER_V1.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -13282,7 +13282,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Risk_Library/ENTERPRISE_RISK_REGISTER_V1.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -13369,7 +13369,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Risk_Library/ENTERPRISE_RISK_REGISTER_V1.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -13451,7 +13451,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Risk_Library/ENTERPRISE_RISK_REGISTER_V1.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -13538,7 +13538,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Risk_Library/ENTERPRISE_RISK_REGISTER_V1.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -13620,7 +13620,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Risk_Library/ENTERPRISE_RISK_REGISTER_V1.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -13696,7 +13696,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Risk_Library/ENTERPRISE_RISK_REGISTER_V1.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -13774,7 +13774,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Risk_Library/ENTERPRISE_RISK_REGISTER_V1.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -13850,7 +13850,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Risk_Library/ENTERPRISE_RISK_REGISTER_V1.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -13930,7 +13930,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Risk_Library/ENTERPRISE_RISK_REGISTER_V1.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -14007,7 +14007,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Risk_Library/ENTERPRISE_RISK_REGISTER_V1.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -14083,7 +14083,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Risk_Library/ENTERPRISE_RISK_REGISTER_V1.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -14164,7 +14164,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Risk_Library/ENTERPRISE_RISK_REGISTER_V1.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:
@@ -14248,7 +14248,7 @@ assets:
   supersedes: ''
   superseded_by: ''
   library_index_ref: 08_Commercial/Risk_Library/ENTERPRISE_RISK_REGISTER_V1.md
-  registry_last_synced: '2026-06-28'
+  registry_last_synced: '2026-06-30'
   validation_status: ''
   validation_issues: []
   assembly_rules:

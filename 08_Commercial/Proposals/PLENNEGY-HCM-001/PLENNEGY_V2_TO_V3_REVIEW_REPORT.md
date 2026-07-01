@@ -1,0 +1,103 @@
+---
+document_id: PLENNEGY-V2-V3-REVIEW-V1
+title: "Plennegy Proposal V2 → V3 Review Report"
+version: "1.0"
+status: "COMPLETE"
+created: "2026-06-30"
+created_by: "PF2-008 — Proposal Shaping Layer"
+---
+
+# Plennegy Proposal V2 → V3 Review Report
+
+**Tender:** PLENNEGY-HCM-001  
+**Date:** 2026-06-30  
+**Shaping Engine:** proposal_shaper.py v1.0 (PF2-008)  
+**Platform:** L5.9
+
+---
+
+## 1. Structural Comparison
+
+| Dimension | V2 | V3 |
+|---|---|---|
+| Total sections | 41 (numbered) | 10 body + 3 appendices = 13 |
+| Structure type | Flat 40-section list | 10-section narrative + appendices |
+| Credential sections in body | 7 (Secs 1–7) | Consolidated into 1 (Sec 4: Why APPSolve) |
+| Capability sections in body | 3 (Secs 12–14) | Moved to Appendix A |
+| Numbered sections in body | 37 | 10 |
+| Appendices | 3 (A, D, E) | 3 (A, B, C) |
+| Compliance sections in body | 7 (Secs 30–36) | Not in CLIENT body (separate submission) |
+
+## 2. Section Status Comparison
+
+| Status | V2 | V3 Body | V3 App | Change |
+|---|---|---|---|---|
+| RENDERED (from KB) | 20 | 2 | 3 | Capability moved to appendices |
+| AUTHORED (by shaper) | 0 | 4 | 0 | New: governance, commercial, next steps |
+| PLACEHOLDER | 18 | 1 | 0 | Consolidated |
+| AI_DRAFT | 3 | 3 | 0 | Unchanged |
+
+## 3. Key Structural Changes
+
+### 3.1 Consolidation of Credential Sections
+
+V2 contained 7 separate credential sections (Company Overview, Company History, Awards and Recognition, Delivery Model, Geographic Presence, Key Differentiators, Oracle Partnership) as individual numbered sections in the body. In V3 these are consolidated into a single **Section 4: Why APPSolve**, providing a unified, narrative credential argument rather than a disconnected list of corporate facts.
+
+### 3.2 Capability Content Moved to Appendix A
+
+V2 Sections 12 (Oracle HCM), 13 (Oracle ERP), and 14 (Oracle OIC) contained full, detailed Oracle capability documentation from governed Knowledge Base assets. In V3 CLIENT, this content is moved to **Appendix A: Detailed Oracle HCM Capability**. The body sections (1–10) focus on the proposal narrative; evaluators can reference the appendix for technical depth.
+
+### 3.3 Authored Governance and Commercial Sections
+
+V2 had no authored content — all content came from the Knowledge Base. V3 introduces three authored body sections (Governance, Commercial, Next Steps) that provide client-specific narrative and clear action visibility. These sections are authored by the Shaping Layer and must be reviewed by BU Lead before submission.
+
+### 3.4 Compliance Sections
+
+V2 Sections 30–36 (Compliance Schedule, Company Registration, Tax Clearance, Directors' Resolution, B-BBEE, Public Liability, OPN Certificate) were PLACEHOLDER sections in the body. In V3, compliance documents are not included in the body or appendices of the CLIENT document — they are submitted as separate physical attachments. The Internal Workbook tracks their status.
+
+## 4. Numbering
+
+| Issue | V2 | V3 |
+|---|---|---|
+| Numbered sections | 37 (too many for client body) | 10 body sections |
+| Consistent numbering | No (appendix lettering mixed) | Yes (1–10 body, A–C appendix) |
+| Capability sections numbered | Yes (12, 13, 14) | Moved to appendix (unlabelled) |
+| Governance/compliance numbered | Yes (29–36) | Not in CLIENT body |
+
+## 5. Proposal Readiness Assessment
+
+| Criterion | V2 Score | V3 Score | Notes |
+|---|---|---|---|
+| Reads like a proposal (not a KB dump) | 3/5 | 4/5 | Structured narrative; V3 Sec 4 much cleaner |
+| Correct structure | 2/5 | 4/5 | 10-section structure maps to evaluator expectations |
+| Numbering | 2/5 | 5/5 | Clean 1–10 + A–C; no over-numbered body |
+| Credential conciseness | 2/5 | 4/5 | 7 sections → 1 section |
+| Evidence/traceability separated | 1/5 | 5/5 | Appendix A full capability; App B assumptions |
+| Pending content visibility | 3/5 | 4/5 | Clean 'content pending' notices in CLIENT |
+| Commercial sections | 2/5 | 4/5 | Authored commercial framework section added |
+| Next steps clarity | 1/5 | 5/5 | Explicit 10-point next steps with owners |
+| **Overall** | **2.0/5** | **4.1/5** | **V3 substantially more client-ready** |
+
+## 6. Remaining Gaps (same as V2)
+
+| Section | Gap | Owner | Priority |
+|---|---|---|---|
+| 1. Executive Summary | AI-Draft required | BU Lead | P1 |
+| 2. Understanding of Requirements | AI-Draft from RFP | Account Manager | P1 |
+| 3. Proposed Oracle HCM Solution | Human authored | BU Lead + AM | P1 |
+| 8. Key Risks and Mitigations | AI-Draft + BU review | BU Lead | P2 |
+| 9. Commercial section | Pricing from Commercial Director | Commercial Director | P1 |
+| Appendix C | Client references approval per AM | Account Manager | P2 |
+| B-BBEE Certificate | Renewal deadline 2026-07-31 | Finance Director | **P0 URGENT** |
+
+## 7. V3 Document Statistics
+
+| Document | Sections |
+|---|---|
+| CLIENT V3 body sections | 10 |
+| CLIENT V3 appendices | 3 |
+| CLIENT V3 RENDERED/AUTHORED sections | 6 |
+| CLIENT V3 PENDING sections | 4 |
+
+
+*Generated by proposal_shaper.py v1.0 (PF2-008) | 2026-06-30 13:41 | Platform L5.9*

@@ -1,4 +1,5 @@
 ---
+document_id: BEBANKING-BASE-ASSUMPTIONS-V1
 title: BeBanking Base Assumption Pack
 version: v1.0-Approved
 status: Approved v1.0

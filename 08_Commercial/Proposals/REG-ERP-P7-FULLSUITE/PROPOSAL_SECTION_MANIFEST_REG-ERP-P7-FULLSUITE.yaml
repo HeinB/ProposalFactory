@@ -1,0 +1,1506 @@
+manifest_id: REG-ERP-P7-FULLSUITE-PSM-20260629-100759
+tender_id: REG-ERP-P7-FULLSUITE
+tender_pattern: '7'
+platform: Oracle ERP Cloud
+engagement_type: Implementation
+industry: Manufacturing
+generated_at: '2026-06-29T10:07:59.230291+00:00'
+engine_version: '1.0'
+summary:
+  mandatory_sections: 42
+  optional_sections: 1
+  excluded_sections: 18
+  default_excluded_sections: 21
+  total_sections: 82
+  assembly_sequence_length: 43
+  validation_status: PASS
+assembly_sequence:
+- S-01
+- S-02
+- S-03
+- S-04
+- S-05
+- S-06
+- S-07
+- S-08
+- S-09
+- S-12
+- S-13
+- S-14
+- S-15
+- S-17
+- S-19
+- S-22
+- S-30
+- S-31
+- S-32
+- S-33
+- S-34
+- S-35
+- S-36
+- S-37
+- S-38
+- S-42
+- S-45
+- S-46
+- S-49
+- S-50
+- S-51
+- S-52
+- S-55
+- S-56
+- S-57
+- S-58
+- S-59
+- S-60
+- S-62
+- S-67
+- A-01
+- A-04
+- A-05
+validation_errors: []
+validation_warnings: []
+governance_flags:
+- 'GOV-BBEE-001: B-BBEE cert expires 2026-07-31 (OAR-C01/C02/A01); verify renewal before submission after that date'
+- 'GOV-ADR-001: CVs (S-47, S-48, A-02) from APPTime only — never from KB records'
+sections:
+  S-01:
+    section_id: S-01
+    section_name: Cover Page / Transmittal
+    include_status: MANDATORY
+    rationale: M-ALL — mandatory in all proposals
+    assembly_order: 1
+    assembly_method: TEMPLATE
+    merge_strategy: N/A
+    source_assets: []
+    placeholders:
+    - client_name
+    - submission_date
+    - rfp_reference
+    - tender_title
+    human_input_required: true
+    human_input_notes: Client name, submission date, RFP/tender reference
+    renderer_metadata:
+      section_type: cover
+      page_break_before: true
+    governance_constraints: []
+    si_rules_applied: []
+  S-02:
+    section_id: S-02
+    section_name: Table of Contents
+    include_status: MANDATORY
+    rationale: M-ALL — mandatory in all proposals
+    assembly_order: 2
+    assembly_method: TEMPLATE
+    merge_strategy: N/A
+    source_assets: []
+    placeholders: []
+    human_input_required: true
+    human_input_notes: Verify heading titles after assembly
+    renderer_metadata:
+      section_type: toc
+      auto_generate: true
+    governance_constraints: []
+    si_rules_applied: []
+  S-03:
+    section_id: S-03
+    section_name: Company Overview
+    include_status: MANDATORY
+    rationale: M-ALL — mandatory in all proposals
+    assembly_order: 3
+    assembly_method: DIRECT
+    merge_strategy: N/A
+    source_assets:
+    - W1S1-001
+    placeholders: []
+    human_input_required: false
+    human_input_notes: ''
+    renderer_metadata:
+      automation_pct: 90
+    governance_constraints:
+    - Never use old company profile; KB-approved content supersedes
+    si_rules_applied: []
+  S-04:
+    section_id: S-04
+    section_name: Company History
+    include_status: MANDATORY
+    rationale: M-ALL — mandatory in all proposals
+    assembly_order: 4
+    assembly_method: DIRECT
+    merge_strategy: N/A
+    source_assets:
+    - W1S1-002
+    placeholders: []
+    human_input_required: false
+    human_input_notes: ''
+    renderer_metadata:
+      automation_pct: 90
+    governance_constraints: []
+    si_rules_applied: []
+  S-05:
+    section_id: S-05
+    section_name: Awards and Recognition
+    include_status: MANDATORY
+    rationale: M-ALL — mandatory in all proposals
+    assembly_order: 5
+    assembly_method: DIRECT
+    merge_strategy: N/A
+    source_assets:
+    - W1S1-006
+    placeholders: []
+    human_input_required: true
+    human_input_notes: Verify award table is current before submission
+    renderer_metadata:
+      automation_pct: 85
+    governance_constraints: []
+    si_rules_applied: []
+  S-06:
+    section_id: S-06
+    section_name: Delivery Model
+    include_status: MANDATORY
+    rationale: M-ALL — mandatory in all proposals
+    assembly_order: 6
+    assembly_method: DIRECT
+    merge_strategy: N/A
+    source_assets:
+    - W1S1-007
+    placeholders: []
+    human_input_required: false
+    human_input_notes: ''
+    renderer_metadata:
+      automation_pct: 90
+    governance_constraints:
+    - 'Headcount: ''more than 50 Senior Consultants'' ONLY'
+    si_rules_applied: []
+  S-07:
+    section_id: S-07
+    section_name: Geographic Presence
+    include_status: MANDATORY
+    rationale: M-ALL — mandatory in all proposals
+    assembly_order: 7
+    assembly_method: DIRECT
+    merge_strategy: N/A
+    source_assets:
+    - W1S1-008
+    placeholders: []
+    human_input_required: false
+    human_input_notes: ''
+    renderer_metadata:
+      automation_pct: 90
+    governance_constraints: []
+    si_rules_applied: []
+  S-08:
+    section_id: S-08
+    section_name: Key Differentiators
+    include_status: MANDATORY
+    rationale: 'OPT — driver assets selected: [''W1S1-009'']'
+    assembly_order: 8
+    assembly_method: DIRECT
+    merge_strategy: N/A
+    source_assets:
+    - W1S1-009
+    placeholders: []
+    human_input_required: false
+    human_input_notes: ''
+    renderer_metadata:
+      automation_pct: 85
+    governance_constraints:
+    - Included when W1S1-009 mandatory (always in corporate block)
+    si_rules_applied: []
+  S-09:
+    section_id: S-09
+    section_name: Oracle Partnership
+    include_status: MANDATORY
+    rationale: 'COND-ORA — platform=Oracle ERP Cloud; drivers: [''W1S1-003'']'
+    assembly_order: 9
+    assembly_method: DIRECT
+    merge_strategy: N/A
+    source_assets:
+    - W1S1-003
+    placeholders: []
+    human_input_required: true
+    human_input_notes: Verify OPN Level 1 revalidation; never cite Oracle Gold Partner
+    renderer_metadata:
+      automation_pct: 85
+    governance_constraints:
+    - Never cite 'Oracle Gold Partner' — expired August 2021. Level 1 Partner only.
+    si_rules_applied: []
+  S-10:
+    section_id: S-10
+    section_name: Acumatica Partnership
+    include_status: EXCLUDED
+    rationale: EXCLUDED — S-10 requires Acumatica platform
+    assembly_order: 0
+    assembly_method: DIRECT
+    merge_strategy: N/A
+    source_assets: []
+    placeholders: []
+    human_input_required: true
+    human_input_notes: Verify certificate currency; Gold Partner — not Gold Certified
+    renderer_metadata:
+      automation_pct: 85
+    governance_constraints:
+    - OAR-E03 Acumatica cert gap — flag if not obtained
+    si_rules_applied: []
+  S-11:
+    section_id: S-11
+    section_name: BeBanking Product Overview
+    include_status: EXCLUDED
+    rationale: EXCLUDED — S-11 requires BeBanking platform
+    assembly_order: 0
+    assembly_method: DIRECT
+    merge_strategy: N/A
+    source_assets: []
+    placeholders: []
+    human_input_required: false
+    human_input_notes: ''
+    renderer_metadata:
+      automation_pct: 85
+    governance_constraints: []
+    si_rules_applied: []
+  S-12:
+    section_id: S-12
+    section_name: B-BBEE Compliance Statement
+    include_status: MANDATORY
+    rationale: M-ALL — mandatory in all proposals
+    assembly_order: 10
+    assembly_method: DIRECT
+    merge_strategy: N/A
+    source_assets: []
+    placeholders: []
+    human_input_required: true
+    human_input_notes: Verify B-BBEE cert expiry date; never cite status after 2026-07-31 without renewal
+    renderer_metadata:
+      automation_pct: 70
+    governance_constraints:
+    - B-BBEE cert expires 2026-07-31 (OAR-C01/C02/A01); flag if submission after that date
+    si_rules_applied: []
+  S-13:
+    section_id: S-13
+    section_name: Executive Summary
+    include_status: MANDATORY
+    rationale: M-ALL — mandatory in all proposals
+    assembly_order: 11
+    assembly_method: AI-GENERATE
+    merge_strategy: N/A
+    source_assets:
+    - W1S1-001
+    placeholders:
+    - client_name
+    - tender_title
+    - proposed_solution_summary
+    human_input_required: true
+    human_input_notes: Mandatory human review; tailor to tender-specific win themes
+    renderer_metadata:
+      automation_pct: 20
+      ai_assisted: true
+    governance_constraints:
+    - Never use Candidate_Content/ or Review_Required/ in any tender
+    si_rules_applied: []
+  S-14:
+    section_id: S-14
+    section_name: Understanding of Requirements
+    include_status: MANDATORY
+    rationale: M-ALL — mandatory in all proposals
+    assembly_order: 12
+    assembly_method: AI-GENERATE
+    merge_strategy: N/A
+    source_assets: []
+    placeholders:
+    - rfp_requirements_summary
+    human_input_required: true
+    human_input_notes: Mandatory human review; drawn from tender RFP/RFQ document
+    renderer_metadata:
+      automation_pct: 10
+      ai_assisted: true
+    governance_constraints: []
+    si_rules_applied: []
+  S-15:
+    section_id: S-15
+    section_name: Proposed Solution Overview
+    include_status: MANDATORY
+    rationale: M-ALL — mandatory in all proposals
+    assembly_order: 13
+    assembly_method: MERGE
+    merge_strategy: Ordered concatenation; primary asset first; secondary assets appended by module selection order
+    source_assets: []
+    placeholders: []
+    human_input_required: true
+    human_input_notes: Review merged content for coherence across modules
+    renderer_metadata:
+      automation_pct: 40
+      ai_assisted: true
+    governance_constraints: []
+    si_rules_applied: []
+  S-16:
+    section_id: S-16
+    section_name: Oracle Fusion HCM Capability
+    include_status: DEFAULT_EXCLUDED
+    rationale: COND-HCM — no driver assets selected
+    assembly_order: 0
+    assembly_method: MERGE
+    merge_strategy: Ordered concatenation; primary asset first; secondary assets appended by module selection order
+    source_assets: []
+    placeholders: []
+    human_input_required: false
+    human_input_notes: ''
+    renderer_metadata:
+      automation_pct: 85
+    governance_constraints:
+    - Section 14.2 (W3S1-008) and Section 13.2 (W3S1-009 payroll section) NEVER in external submissions
+    si_rules_applied: []
+  S-17:
+    section_id: S-17
+    section_name: Oracle Fusion ERP Capability
+    include_status: MANDATORY
+    rationale: 'COND-ERP — drivers: [''W2S1-001'', ''W4-ERP-001-ORA-FusionFinancials'', ''W4-ERP-002-ORA-FusionProcurement'',
+      ''W4-ERP-003-ORA-PPM'']'
+    assembly_order: 14
+    assembly_method: MERGE
+    merge_strategy: Ordered concatenation; primary asset first; secondary assets appended by module selection order
+    source_assets:
+    - W2S1-001
+    - W4-ERP-001-ORA-FusionFinancials
+    - W4-ERP-002-ORA-FusionProcurement
+    - W4-ERP-003-ORA-PPM
+    placeholders: []
+    human_input_required: false
+    human_input_notes: ''
+    renderer_metadata:
+      automation_pct: 85
+    governance_constraints:
+    - AM-W4E3-001 ACTIVE — KPMG must NOT be named; anonymous reference only until signed letter registered
+    si_rules_applied: []
+  S-18:
+    section_id: S-18
+    section_name: Oracle EBS Capability
+    include_status: DEFAULT_EXCLUDED
+    rationale: COND-EBS — no driver assets selected
+    assembly_order: 0
+    assembly_method: DIRECT
+    merge_strategy: N/A
+    source_assets: []
+    placeholders: []
+    human_input_required: true
+    human_input_notes: Vintage content 2012–2014 — flag for modernisation; verify statistics before submission
+    renderer_metadata:
+      automation_pct: 60
+    governance_constraints: []
+    si_rules_applied: []
+  S-19:
+    section_id: S-19
+    section_name: Oracle OIC / Integration Capability
+    include_status: OPTIONAL_SELECTED
+    rationale: 'COND-OIC — drivers: [''W4-INT-001-ORA-OICAccelerators'']'
+    assembly_order: 15
+    assembly_method: DIRECT
+    merge_strategy: N/A
+    source_assets:
+    - W4-INT-001-ORA-OICAccelerators
+    placeholders: []
+    human_input_required: false
+    human_input_notes: ''
+    renderer_metadata:
+      automation_pct: 85
+    governance_constraints:
+    - HIST-018 billing (R825,170) MUST NEVER appear in external submissions. Section 13.2 (W3S1-009) NEVER external.
+    si_rules_applied: []
+  S-20:
+    section_id: S-20
+    section_name: Oracle DBA Capability
+    include_status: DEFAULT_EXCLUDED
+    rationale: COND-DBA — no driver assets selected
+    assembly_order: 0
+    assembly_method: DIRECT
+    merge_strategy: N/A
+    source_assets: []
+    placeholders: []
+    human_input_required: true
+    human_input_notes: Verify stats are current before submission
+    renderer_metadata:
+      automation_pct: 70
+    governance_constraints: []
+    si_rules_applied: []
+  S-21:
+    section_id: S-21
+    section_name: Oracle Managed Services Capability
+    include_status: EXCLUDED
+    rationale: EXCLUDED — S-21 applies to AMS only
+    assembly_order: 0
+    assembly_method: DIRECT
+    merge_strategy: N/A
+    source_assets: []
+    placeholders: []
+    human_input_required: false
+    human_input_notes: ''
+    renderer_metadata:
+      automation_pct: 80
+    governance_constraints:
+    - Oracle platforms only; excluded for Acumatica/BeBanking
+    si_rules_applied: []
+  S-22:
+    section_id: S-22
+    section_name: OCI Infrastructure
+    include_status: MANDATORY
+    rationale: 'COND-OCI — drivers: [''OCI-ASSUMPTIONS-V1'']'
+    assembly_order: 16
+    assembly_method: AI-GENERATE
+    merge_strategy: N/A
+    source_assets:
+    - OCI-ASSUMPTIONS-V1
+    placeholders:
+    - oci_scope_description
+    human_input_required: true
+    human_input_notes: No standalone OCI narrative yet; use OCI assumption pack as proxy; mandatory review
+    renderer_metadata:
+      automation_pct: 20
+      ai_assisted: true
+    governance_constraints: []
+    si_rules_applied: []
+  S-23:
+    section_id: S-23
+    section_name: Acumatica Financials
+    include_status: EXCLUDED
+    rationale: EXCLUDED — S-23 requires Acumatica platform
+    assembly_order: 0
+    assembly_method: DIRECT
+    merge_strategy: N/A
+    source_assets: []
+    placeholders: []
+    human_input_required: false
+    human_input_notes: ''
+    renderer_metadata:
+      automation_pct: 85
+    governance_constraints: []
+    si_rules_applied: []
+  S-24:
+    section_id: S-24
+    section_name: Acumatica Distribution
+    include_status: EXCLUDED
+    rationale: EXCLUDED — S-24 requires Acumatica platform
+    assembly_order: 0
+    assembly_method: DIRECT
+    merge_strategy: N/A
+    source_assets: []
+    placeholders: []
+    human_input_required: false
+    human_input_notes: ''
+    renderer_metadata:
+      automation_pct: 85
+    governance_constraints: []
+    si_rules_applied: []
+  S-25:
+    section_id: S-25
+    section_name: Acumatica Manufacturing
+    include_status: EXCLUDED
+    rationale: EXCLUDED — S-25 requires Acumatica platform
+    assembly_order: 0
+    assembly_method: DIRECT
+    merge_strategy: N/A
+    source_assets: []
+    placeholders: []
+    human_input_required: false
+    human_input_notes: ''
+    renderer_metadata:
+      automation_pct: 85
+    governance_constraints:
+    - HyDac sole KB source for manufacturing
+    si_rules_applied: []
+  S-26:
+    section_id: S-26
+    section_name: Acumatica CRM
+    include_status: EXCLUDED
+    rationale: EXCLUDED — S-26 requires Acumatica platform
+    assembly_order: 0
+    assembly_method: DIRECT
+    merge_strategy: N/A
+    source_assets: []
+    placeholders: []
+    human_input_required: false
+    human_input_notes: ''
+    renderer_metadata:
+      automation_pct: 85
+    governance_constraints: []
+    si_rules_applied: []
+  S-27:
+    section_id: S-27
+    section_name: Acumatica Other Modules
+    include_status: EXCLUDED
+    rationale: EXCLUDED — S-27 requires Acumatica platform
+    assembly_order: 0
+    assembly_method: DIRECT
+    merge_strategy: N/A
+    source_assets: []
+    placeholders: []
+    human_input_required: false
+    human_input_notes: ''
+    renderer_metadata:
+      automation_pct: 85
+    governance_constraints: []
+    si_rules_applied: []
+  S-28:
+    section_id: S-28
+    section_name: Acumatica Managed Services
+    include_status: EXCLUDED
+    rationale: EXCLUDED — S-28 requires Acumatica AMS
+    assembly_order: 0
+    assembly_method: DIRECT
+    merge_strategy: N/A
+    source_assets: []
+    placeholders: []
+    human_input_required: false
+    human_input_notes: ''
+    renderer_metadata:
+      automation_pct: 80
+    governance_constraints: []
+    si_rules_applied: []
+  S-29:
+    section_id: S-29
+    section_name: BeBanking H2H Banking
+    include_status: EXCLUDED
+    rationale: EXCLUDED — S-29 requires BeBanking platform
+    assembly_order: 0
+    assembly_method: MERGE
+    merge_strategy: Ordered concatenation; primary asset first; secondary assets appended by module selection order
+    source_assets: []
+    placeholders: []
+    human_input_required: false
+    human_input_notes: ''
+    renderer_metadata:
+      automation_pct: 85
+    governance_constraints: []
+    si_rules_applied: []
+  S-30:
+    section_id: S-30
+    section_name: Scope of Work — Inclusions
+    include_status: MANDATORY
+    rationale: M-FIXED — mandatory in all proposals
+    assembly_order: 17
+    assembly_method: EXTRACT
+    merge_strategy: Extract designated sub-sections from source documents
+    source_assets: []
+    placeholders: []
+    human_input_required: true
+    human_input_notes: Review extracted scope inclusions before submission
+    renderer_metadata:
+      automation_pct: 50
+    governance_constraints: []
+    si_rules_applied: []
+  S-31:
+    section_id: S-31
+    section_name: Scope of Work — Exclusions
+    include_status: MANDATORY
+    rationale: M-FIXED — mandatory in all proposals
+    assembly_order: 18
+    assembly_method: EXTRACT
+    merge_strategy: Extract designated sub-sections from source documents
+    source_assets: []
+    placeholders: []
+    human_input_required: true
+    human_input_notes: Review extracted scope exclusions before submission
+    renderer_metadata:
+      automation_pct: 70
+    governance_constraints: []
+    si_rules_applied: []
+  S-32:
+    section_id: S-32
+    section_name: Deliverables
+    include_status: MANDATORY
+    rationale: M-ALL — mandatory in all proposals
+    assembly_order: 19
+    assembly_method: EXTRACT
+    merge_strategy: Extract designated sub-sections from source documents
+    source_assets: []
+    placeholders: []
+    human_input_required: true
+    human_input_notes: Review deliverables list for completeness
+    renderer_metadata:
+      automation_pct: 50
+    governance_constraints: []
+    si_rules_applied: []
+  S-33:
+    section_id: S-33
+    section_name: Dependencies
+    include_status: MANDATORY
+    rationale: M-FIXED — mandatory in all proposals
+    assembly_order: 20
+    assembly_method: EXTRACT
+    merge_strategy: Extract designated sub-sections from source documents
+    source_assets: []
+    placeholders: []
+    human_input_required: true
+    human_input_notes: Review client dependencies extracted from assumption packs
+    renderer_metadata:
+      automation_pct: 60
+    governance_constraints: []
+    si_rules_applied: []
+  S-34:
+    section_id: S-34
+    section_name: Implementation Methodology
+    include_status: MANDATORY
+    rationale: M-ALL — mandatory in all proposals
+    assembly_order: 21
+    assembly_method: DIRECT
+    merge_strategy: N/A
+    source_assets:
+    - W2S1-005-ORA-ImplementationMethodology
+    placeholders: []
+    human_input_required: true
+    human_input_notes: 'Tailor phases to tender-specific timeline; AMS: EXCLUDED (use S-73 instead)'
+    renderer_metadata:
+      automation_pct: 65
+    governance_constraints:
+    - 'SI-001: EXCLUDED for Pattern 13 AMS; W2S1-005 for Oracle; W5-METH-001 for Acumatica/BeBanking'
+    si_rules_applied:
+    - SI-001
+  S-35:
+    section_id: S-35
+    section_name: Project Plan / Timeline
+    include_status: MANDATORY
+    rationale: M-ALL — mandatory in all proposals
+    assembly_order: 22
+    assembly_method: TEMPLATE
+    merge_strategy: N/A
+    source_assets: []
+    placeholders:
+    - project_start_date
+    - go_live_date
+    - project_duration_weeks
+    human_input_required: true
+    human_input_notes: Insert project dates and resource assignments; EXCLUDED for AMS
+    renderer_metadata:
+      automation_pct: 50
+    governance_constraints:
+    - EXCLUDED for Pattern 13 AMS
+    si_rules_applied:
+    - SI-001
+  S-36:
+    section_id: S-36
+    section_name: Project Governance
+    include_status: MANDATORY
+    rationale: M-ALL — governance mandatory in all proposals
+    assembly_order: 23
+    assembly_method: EXTRACT
+    merge_strategy: Extract designated sub-sections from source documents
+    source_assets:
+    - W2S1-005-ORA-ImplementationMethodology
+    placeholders: []
+    human_input_required: false
+    human_input_notes: ''
+    renderer_metadata:
+      automation_pct: 70
+    governance_constraints: []
+    si_rules_applied: []
+  S-37:
+    section_id: S-37
+    section_name: RAID Framework
+    include_status: MANDATORY
+    rationale: M-ALL — mandatory in all proposals
+    assembly_order: 24
+    assembly_method: MERGE
+    merge_strategy: Ordered concatenation; primary asset first; secondary assets appended by module selection order
+    source_assets: []
+    placeholders: []
+    human_input_required: true
+    human_input_notes: Risk register populated from Risk Library; review before submission
+    renderer_metadata:
+      automation_pct: 30
+    governance_constraints: []
+    si_rules_applied: []
+  S-38:
+    section_id: S-38
+    section_name: Change Control Framework
+    include_status: MANDATORY
+    rationale: M-FIXED — mandatory in all proposals
+    assembly_order: 25
+    assembly_method: DIRECT
+    merge_strategy: N/A
+    source_assets: []
+    placeholders: []
+    human_input_required: false
+    human_input_notes: Do not expose CR thresholds or rates; EXCLUDED for AMS — use S-73
+    renderer_metadata:
+      automation_pct: 60
+    governance_constraints:
+    - 'SI-001: EXCLUDED for Pattern 13 AMS; S-73 is the single AMS change management section'
+    si_rules_applied:
+    - SI-001
+  S-39:
+    section_id: S-39
+    section_name: Testing Strategy
+    include_status: DEFAULT_EXCLUDED
+    rationale: OPT — no condition triggered; not in scope
+    assembly_order: 0
+    assembly_method: EXTRACT
+    merge_strategy: Extract designated sub-sections from source documents
+    source_assets: []
+    placeholders: []
+    human_input_required: false
+    human_input_notes: EXCLUDED for AMS
+    renderer_metadata:
+      automation_pct: 50
+    governance_constraints:
+    - EXCLUDED for Pattern 13 AMS
+    si_rules_applied: []
+  S-40:
+    section_id: S-40
+    section_name: Data Migration
+    include_status: DEFAULT_EXCLUDED
+    rationale: COND-MIG — no driver assets selected
+    assembly_order: 0
+    assembly_method: EXTRACT
+    merge_strategy: Extract designated sub-sections from source documents
+    source_assets: []
+    placeholders: []
+    human_input_required: true
+    human_input_notes: EXCLUDED for AMS
+    renderer_metadata:
+      automation_pct: 60
+    governance_constraints:
+    - EXCLUDED for Pattern 13 AMS
+    si_rules_applied: []
+  S-41:
+    section_id: S-41
+    section_name: Training Plan
+    include_status: DEFAULT_EXCLUDED
+    rationale: OPT — no condition triggered; not in scope
+    assembly_order: 0
+    assembly_method: EXTRACT
+    merge_strategy: Extract designated sub-sections from source documents
+    source_assets: []
+    placeholders: []
+    human_input_required: true
+    human_input_notes: EXCLUDED for AMS
+    renderer_metadata:
+      automation_pct: 50
+    governance_constraints:
+    - EXCLUDED for Pattern 13 AMS
+    si_rules_applied: []
+  S-42:
+    section_id: S-42
+    section_name: Cutover / Go-Live Plan
+    include_status: MANDATORY
+    rationale: M-FIXED — mandatory in all proposals
+    assembly_order: 26
+    assembly_method: EXTRACT
+    merge_strategy: Extract designated sub-sections from source documents
+    source_assets: []
+    placeholders: []
+    human_input_required: true
+    human_input_notes: EXCLUDED for AMS (no cutover in ongoing AMS)
+    renderer_metadata:
+      automation_pct: 50
+    governance_constraints:
+    - EXCLUDED for Pattern 13 AMS
+    si_rules_applied: []
+  S-43:
+    section_id: S-43
+    section_name: Hypercare / Post-Go-Live Transition
+    include_status: DEFAULT_EXCLUDED
+    rationale: COND-POST-GOLIVE — no driver assets selected
+    assembly_order: 0
+    assembly_method: EXTRACT
+    merge_strategy: Extract designated sub-sections from source documents
+    source_assets: []
+    placeholders: []
+    human_input_required: false
+    human_input_notes: EXCLUDED for AMS
+    renderer_metadata:
+      automation_pct: 50
+    governance_constraints:
+    - EXCLUDED for Pattern 13 AMS
+    si_rules_applied: []
+  S-44:
+    section_id: S-44
+    section_name: Disaster Recovery
+    include_status: DEFAULT_EXCLUDED
+    rationale: OPT — no condition triggered; not in scope
+    assembly_order: 0
+    assembly_method: PLACEHOLDER
+    merge_strategy: N/A
+    source_assets: []
+    placeholders:
+    - disaster_recovery_plan
+    human_input_required: true
+    human_input_notes: Disaster Recovery methodology folder is EMPTY — placeholder only
+    renderer_metadata:
+      automation_pct: 0
+      gap: DR methodology not authored
+    governance_constraints: []
+    si_rules_applied: []
+  S-45:
+    section_id: S-45
+    section_name: Security Architecture
+    include_status: MANDATORY
+    rationale: 'COND-OCI — drivers: [''OCI-ASSUMPTIONS-V1'']'
+    assembly_order: 27
+    assembly_method: EXTRACT
+    merge_strategy: Extract designated sub-sections from source documents
+    source_assets:
+    - OCI-ASSUMPTIONS-V1
+    placeholders: []
+    human_input_required: true
+    human_input_notes: Included when security_in_scope or OCI in scope
+    renderer_metadata:
+      automation_pct: 30
+    governance_constraints: []
+    si_rules_applied: []
+  S-46:
+    section_id: S-46
+    section_name: Team Structure
+    include_status: MANDATORY
+    rationale: M-ALL — mandatory in all proposals
+    assembly_order: 28
+    assembly_method: TEMPLATE
+    merge_strategy: N/A
+    source_assets: []
+    placeholders:
+    - team_structure_diagram
+    human_input_required: true
+    human_input_notes: BU Lead selects named consultants; EXCLUDED for AMS
+    renderer_metadata:
+      automation_pct: 30
+    governance_constraints:
+    - EXCLUDED for Pattern 13 AMS
+    si_rules_applied: []
+  S-47:
+    section_id: S-47
+    section_name: Named Consultant CVs
+    include_status: DEFAULT_EXCLUDED
+    rationale: OPT — no condition triggered; not in scope
+    assembly_order: 0
+    assembly_method: PLACEHOLDER
+    merge_strategy: N/A
+    source_assets: []
+    placeholders:
+    - consultant_cvs
+    human_input_required: true
+    human_input_notes: 'ADR-001: CVs from APPTime only — never from KB records; EXCLUDED for AMS'
+    renderer_metadata:
+      automation_pct: 0
+    governance_constraints:
+    - ADR-001 applies always — never generate CV text from KB consultant records
+    si_rules_applied:
+    - ADR-001
+  S-48:
+    section_id: S-48
+    section_name: Consultant Profiles (Summary)
+    include_status: DEFAULT_EXCLUDED
+    rationale: OPT — no condition triggered; not in scope
+    assembly_order: 0
+    assembly_method: PLACEHOLDER
+    merge_strategy: N/A
+    source_assets: []
+    placeholders:
+    - consultant_profiles
+    human_input_required: true
+    human_input_notes: 'ADR-001: APPTime is authoritative; EXCLUDED for AMS'
+    renderer_metadata:
+      automation_pct: 0
+    governance_constraints:
+    - 'ADR-001: Never generate CV text from KB records'
+    si_rules_applied:
+    - ADR-001
+  S-49:
+    section_id: S-49
+    section_name: Key Assumptions (Body Section)
+    include_status: MANDATORY
+    rationale: M-FIXED — mandatory in all proposals
+    assembly_order: 29
+    assembly_method: DIRECT
+    merge_strategy: N/A
+    source_assets:
+    - OIC-ASSUMPTIONS-V1
+    - ERP-ASSUMPTIONS-V1
+    - OCI-ASSUMPTIONS-V1
+    placeholders: []
+    human_input_required: true
+    human_input_notes: 'Governance sign-off required; SI-006: must appear BEFORE S-52 Pricing'
+    renderer_metadata:
+      automation_pct: 95
+    governance_constraints:
+    - 'SI-006: S-49 Key Assumptions assembled BEFORE S-52 Pricing in all proposals'
+    si_rules_applied:
+    - SI-006
+  S-50:
+    section_id: S-50
+    section_name: Risk Register
+    include_status: MANDATORY
+    rationale: M-FIXED — mandatory in all proposals
+    assembly_order: 30
+    assembly_method: AI-GENERATE
+    merge_strategy: N/A
+    source_assets: []
+    placeholders: []
+    human_input_required: true
+    human_input_notes: Mandatory human review; Risk Library standard defined (WP18B)
+    renderer_metadata:
+      automation_pct: 5
+      ai_assisted: true
+    governance_constraints: []
+    si_rules_applied: []
+  S-51:
+    section_id: S-51
+    section_name: Commercial Assumptions
+    include_status: MANDATORY
+    rationale: M-FIXED — mandatory in all proposals
+    assembly_order: 31
+    assembly_method: DIRECT
+    merge_strategy: N/A
+    source_assets:
+    - OIC-ASSUMPTIONS-V1
+    - ERP-ASSUMPTIONS-V1
+    - OCI-ASSUMPTIONS-V1
+    placeholders: []
+    human_input_required: true
+    human_input_notes: Governance sign-off required; extracted from selected assumption packs
+    renderer_metadata:
+      automation_pct: 95
+    governance_constraints:
+    - Never assemble a fixed-price proposal without the commercial file
+    si_rules_applied: []
+  S-52:
+    section_id: S-52
+    section_name: Commercials / Pricing
+    include_status: MANDATORY
+    rationale: M-FIXED — mandatory in all proposals
+    assembly_order: 32
+    assembly_method: PLACEHOLDER
+    merge_strategy: N/A
+    source_assets: []
+    placeholders:
+    - pricing_table
+    - commercial_terms
+    human_input_required: true
+    human_input_notes: 'Commercial Director authority; never expose rates; SI-006: S-49 must precede this'
+    renderer_metadata:
+      automation_pct: 0
+    governance_constraints:
+    - 'SI-006: S-49 Key Assumptions BEFORE S-52 Pricing in all proposals'
+    si_rules_applied:
+    - SI-006
+  S-53:
+    section_id: S-53
+    section_name: Rate Card Basis
+    include_status: DEFAULT_EXCLUDED
+    rationale: OPT — no condition triggered; not in scope
+    assembly_order: 0
+    assembly_method: PLACEHOLDER
+    merge_strategy: N/A
+    source_assets: []
+    placeholders:
+    - rate_card_basis
+    human_input_required: true
+    human_input_notes: Never expose rate card values directly
+    renderer_metadata:
+      automation_pct: 0
+    governance_constraints: []
+    si_rules_applied: []
+  S-54:
+    section_id: S-54
+    section_name: Estimation Basis
+    include_status: DEFAULT_EXCLUDED
+    rationale: OPT — no condition triggered; not in scope
+    assembly_order: 0
+    assembly_method: PLACEHOLDER
+    merge_strategy: N/A
+    source_assets: []
+    placeholders:
+    - estimation_basis
+    human_input_required: true
+    human_input_notes: BU Lead sign-off
+    renderer_metadata:
+      automation_pct: 0
+    governance_constraints: []
+    si_rules_applied: []
+  S-55:
+    section_id: S-55
+    section_name: Compliance Schedule
+    include_status: MANDATORY
+    rationale: M-ALL — mandatory in all proposals
+    assembly_order: 33
+    assembly_method: EXTRACT
+    merge_strategy: Extract designated sub-sections from source documents
+    source_assets: []
+    placeholders: []
+    human_input_required: true
+    human_input_notes: Verify all expiry dates > submission date; expired items flagged
+    renderer_metadata:
+      automation_pct: 70
+    governance_constraints:
+    - Never submit a proposal with expired compliance documents
+    si_rules_applied: []
+  S-56:
+    section_id: S-56
+    section_name: Company Registration
+    include_status: MANDATORY
+    rationale: M-ALL — mandatory in all proposals
+    assembly_order: 34
+    assembly_method: DIRECT
+    merge_strategy: N/A
+    source_assets: []
+    placeholders: []
+    human_input_required: true
+    human_input_notes: Verify CIPC registration current
+    renderer_metadata:
+      automation_pct: 60
+    governance_constraints: []
+    si_rules_applied: []
+  S-57:
+    section_id: S-57
+    section_name: Tax Clearance
+    include_status: MANDATORY
+    rationale: M-ALL — mandatory in all proposals
+    assembly_order: 35
+    assembly_method: DIRECT
+    merge_strategy: N/A
+    source_assets: []
+    placeholders: []
+    human_input_required: true
+    human_input_notes: Verify expiry date > submission date (current valid to 2027-02-23)
+    renderer_metadata:
+      automation_pct: 70
+    governance_constraints: []
+    si_rules_applied: []
+  S-58:
+    section_id: S-58
+    section_name: Directors' Resolution
+    include_status: MANDATORY
+    rationale: M-ALL — mandatory in all proposals
+    assembly_order: 36
+    assembly_method: DIRECT
+    merge_strategy: N/A
+    source_assets: []
+    placeholders: []
+    human_input_required: true
+    human_input_notes: Renewed 2026-06-15; confirm still valid at submission date
+    renderer_metadata:
+      automation_pct: 70
+    governance_constraints: []
+    si_rules_applied: []
+  S-59:
+    section_id: S-59
+    section_name: B-BBEE Certificate
+    include_status: MANDATORY
+    rationale: M-SA — mandatory in all proposals
+    assembly_order: 37
+    assembly_method: DIRECT
+    merge_strategy: N/A
+    source_assets: []
+    placeholders: []
+    human_input_required: true
+    human_input_notes: Expires 2026-07-31 — do not submit after that date without renewal cert
+    renderer_metadata:
+      automation_pct: 70
+    governance_constraints:
+    - 'OAR-C01/C02/A01: B-BBEE cert expires 2026-07-31; never cite BEE status after that date without renewal'
+    si_rules_applied: []
+  S-60:
+    section_id: S-60
+    section_name: Public Liability Insurance
+    include_status: MANDATORY
+    rationale: M-ALL — mandatory in all proposals
+    assembly_order: 38
+    assembly_method: DIRECT
+    merge_strategy: N/A
+    source_assets: []
+    placeholders: []
+    human_input_required: true
+    human_input_notes: Obtained 2026-06-15; confirm exact expiry from policy (OAR pending confirmation)
+    renderer_metadata:
+      automation_pct: 70
+    governance_constraints: []
+    si_rules_applied: []
+  S-61:
+    section_id: S-61
+    section_name: Professional Indemnity
+    include_status: DEFAULT_EXCLUDED
+    rationale: OPT — no condition triggered; not in scope
+    assembly_order: 0
+    assembly_method: DIRECT
+    merge_strategy: N/A
+    source_assets: []
+    placeholders: []
+    human_input_required: true
+    human_input_notes: Verify expiry date > submission date
+    renderer_metadata:
+      automation_pct: 60
+    governance_constraints: []
+    si_rules_applied: []
+  S-62:
+    section_id: S-62
+    section_name: Oracle OPN Certificate
+    include_status: MANDATORY
+    rationale: 'COND-ORA — platform=Oracle ERP Cloud; drivers: [''W1S1-003'']'
+    assembly_order: 39
+    assembly_method: DIRECT
+    merge_strategy: N/A
+    source_assets:
+    - W1S1-003
+    placeholders: []
+    human_input_required: true
+    human_input_notes: Level 1 Partner only; annual OPN revalidation; never cite Gold Partner
+    renderer_metadata:
+      automation_pct: 60
+    governance_constraints:
+    - Never cite 'Oracle Gold Partner' — expired August 2021
+    si_rules_applied: []
+  S-63:
+    section_id: S-63
+    section_name: Acumatica Partner Certificate
+    include_status: EXCLUDED
+    rationale: EXCLUDED — S-63 requires Acumatica platform
+    assembly_order: 0
+    assembly_method: DIRECT
+    merge_strategy: N/A
+    source_assets: []
+    placeholders: []
+    human_input_required: true
+    human_input_notes: Gold Partner — not Gold Certified; OAR-E03 gap — flag if cert not obtained
+    renderer_metadata:
+      automation_pct: 30
+    governance_constraints:
+    - OAR-E03 Acumatica partner cert gap
+    si_rules_applied: []
+  S-64:
+    section_id: S-64
+    section_name: ISO / Other Certifications
+    include_status: DEFAULT_EXCLUDED
+    rationale: OPT — no condition triggered; not in scope
+    assembly_order: 0
+    assembly_method: DIRECT
+    merge_strategy: N/A
+    source_assets: []
+    placeholders: []
+    human_input_required: true
+    human_input_notes: Verify expiry dates > submission date
+    renderer_metadata:
+      automation_pct: 60
+    governance_constraints: []
+    si_rules_applied: []
+  S-65:
+    section_id: S-65
+    section_name: POPIA Policy
+    include_status: DEFAULT_EXCLUDED
+    rationale: OPT — no condition triggered; not in scope
+    assembly_order: 0
+    assembly_method: PLACEHOLDER
+    merge_strategy: N/A
+    source_assets: []
+    placeholders:
+    - popia_policy
+    human_input_required: true
+    human_input_notes: OAR-E01 — document not yet obtained; placeholder only
+    renderer_metadata:
+      automation_pct: 0
+      gap: OAR-E01 not resolved
+    governance_constraints: []
+    si_rules_applied: []
+  S-66:
+    section_id: S-66
+    section_name: PAIA Manual
+    include_status: DEFAULT_EXCLUDED
+    rationale: OPT — no condition triggered; not in scope
+    assembly_order: 0
+    assembly_method: PLACEHOLDER
+    merge_strategy: N/A
+    source_assets: []
+    placeholders:
+    - paia_manual
+    human_input_required: true
+    human_input_notes: OAR-E02 — document not yet obtained; placeholder only
+    renderer_metadata:
+      automation_pct: 0
+      gap: OAR-E02 not resolved
+    governance_constraints: []
+    si_rules_applied: []
+  S-67:
+    section_id: S-67
+    section_name: Client References
+    include_status: MANDATORY
+    rationale: M-ALL — mandatory in all proposals
+    assembly_order: 40
+    assembly_method: TEMPLATE
+    merge_strategy: N/A
+    source_assets: []
+    placeholders:
+    - client_references_table
+    human_input_required: true
+    human_input_notes: AM approval mandatory at each tender; only signed letters; vintage >5 years flagged
+    renderer_metadata:
+      automation_pct: 50
+    governance_constraints:
+    - Never cite DFA, CCBA, SAA. Never cite Redpath Mining until Rule 21.5 waived. Never name Hollywood Bets without AM approval.
+      Never name KPMG in PPM/ERP until AM-W4E3-001 cleared.
+    si_rules_applied:
+    - SI-005
+  S-68:
+    section_id: S-68
+    section_name: Case Studies
+    include_status: DEFAULT_EXCLUDED
+    rationale: OPT — no condition triggered; not in scope
+    assembly_order: 0
+    assembly_method: AI-GENERATE
+    merge_strategy: N/A
+    source_assets: []
+    placeholders: []
+    human_input_required: true
+    human_input_notes: Mandatory human review; client naming restrictions apply; all facts from approved KB sources only
+    renderer_metadata:
+      automation_pct: 15
+      ai_assisted: true
+    governance_constraints:
+    - 'Client naming restrictions: no DFA/CCBA/SAA; all facts from approved KB sources only'
+    si_rules_applied: []
+  S-69:
+    section_id: S-69
+    section_name: Reference Letters
+    include_status: DEFAULT_EXCLUDED
+    rationale: OPT — no condition triggered; not in scope
+    assembly_order: 0
+    assembly_method: DIRECT
+    merge_strategy: N/A
+    source_assets: []
+    placeholders: []
+    human_input_required: true
+    human_input_notes: AM approval; only signed, registered letters; REFERENCE_MASTER.csv canonical register
+    renderer_metadata:
+      automation_pct: 60
+    governance_constraints: []
+    si_rules_applied:
+    - SI-005
+  S-70:
+    section_id: S-70
+    section_name: Support Model
+    include_status: EXCLUDED
+    rationale: EXCLUDED — S-70 applies to AMS engagements only
+    assembly_order: 0
+    assembly_method: MERGE
+    merge_strategy: Ordered concatenation; primary asset first; secondary assets appended by module selection order
+    source_assets: []
+    placeholders: []
+    human_input_required: false
+    human_input_notes: ''
+    renderer_metadata:
+      automation_pct: 75
+    governance_constraints:
+    - AMS-only section; assembled second in AMS Support block
+    si_rules_applied:
+    - SI-001
+  S-71:
+    section_id: S-71
+    section_name: SLA Framework
+    include_status: EXCLUDED
+    rationale: EXCLUDED — S-71 applies to AMS engagements only
+    assembly_order: 0
+    assembly_method: EXTRACT
+    merge_strategy: Extract designated sub-sections from source documents
+    source_assets: []
+    placeholders: []
+    human_input_required: false
+    human_input_notes: ''
+    renderer_metadata:
+      automation_pct: 75
+    governance_constraints:
+    - 'SI-007: SLA tier table ONLY (P1=1h, P2=4h, P3=1BD, P4=3BD); response ≠ resolution disclaimer; DO NOT include incident
+      process — belongs in S-72'
+    si_rules_applied:
+    - SI-001
+    - SI-007
+  S-72:
+    section_id: S-72
+    section_name: Incident Management
+    include_status: EXCLUDED
+    rationale: EXCLUDED — S-72 applies to AMS engagements only
+    assembly_order: 0
+    assembly_method: EXTRACT
+    merge_strategy: Extract designated sub-sections from source documents
+    source_assets: []
+    placeholders: []
+    human_input_required: false
+    human_input_notes: ''
+    renderer_metadata:
+      automation_pct: 70
+    governance_constraints:
+    - 'SI-007: Incident classification process ONLY; escalation path; lifecycle (log→triage→assign→resolve→close→review);
+      DO NOT re-state SLA tier values — reference as ''per S-71 SLA Framework'''
+    si_rules_applied:
+    - SI-001
+    - SI-007
+  S-73:
+    section_id: S-73
+    section_name: Change Request Process
+    include_status: EXCLUDED
+    rationale: EXCLUDED — S-73 applies to AMS engagements only
+    assembly_order: 0
+    assembly_method: EXTRACT
+    merge_strategy: Extract designated sub-sections from source documents
+    source_assets: []
+    placeholders: []
+    human_input_required: false
+    human_input_notes: Do not expose CR thresholds or BU decisions; use assumption pack language verbatim
+    renderer_metadata:
+      automation_pct: 70
+    governance_constraints:
+    - 'SI-001: This section REPLACES S-38 for all AMS proposals (Pattern 13). Single governing change management section for
+      AMS.'
+    si_rules_applied:
+    - SI-001
+  S-74:
+    section_id: S-74
+    section_name: Resource Model (AMS)
+    include_status: EXCLUDED
+    rationale: EXCLUDED — S-74 applies to AMS engagements only
+    assembly_order: 0
+    assembly_method: EXTRACT
+    merge_strategy: Extract designated sub-sections from source documents
+    source_assets: []
+    placeholders: []
+    human_input_required: false
+    human_input_notes: ''
+    renderer_metadata:
+      automation_pct: 70
+    governance_constraints:
+    - AMS-only; assembled FIRST in AMS Support block (before S-70)
+    si_rules_applied:
+    - SI-001
+  S-75:
+    section_id: S-75
+    section_name: Release Management
+    include_status: EXCLUDED
+    rationale: EXCLUDED — S-75 applies to AMS engagements only
+    assembly_order: 0
+    assembly_method: EXTRACT
+    merge_strategy: Extract designated sub-sections from source documents
+    source_assets: []
+    placeholders: []
+    human_input_required: false
+    human_input_notes: ''
+    renderer_metadata:
+      automation_pct: 70
+    governance_constraints:
+    - Oracle quarterly release advisory included; regression testing of patch = excluded unless scoped
+    si_rules_applied:
+    - SI-001
+  S-76:
+    section_id: S-76
+    section_name: Monitoring and Reporting
+    include_status: EXCLUDED
+    rationale: EXCLUDED — S-76 applies to AMS engagements only
+    assembly_order: 0
+    assembly_method: EXTRACT
+    merge_strategy: Extract designated sub-sections from source documents
+    source_assets: []
+    placeholders: []
+    human_input_required: false
+    human_input_notes: ''
+    renderer_metadata:
+      automation_pct: 70
+    governance_constraints:
+    - Mailbox monitoring standard; proactive monitoring = separate scope unless contracted
+    si_rules_applied:
+    - SI-001
+  A-01:
+    section_id: A-01
+    section_name: Complete Assumption Schedule
+    include_status: MANDATORY
+    rationale: M-FIXED — mandatory in all proposals
+    assembly_order: 41
+    assembly_method: DIRECT
+    merge_strategy: N/A
+    source_assets:
+    - OIC-ASSUMPTIONS-V1
+    - ERP-ASSUMPTIONS-V1
+    - OCI-ASSUMPTIONS-V1
+    placeholders: []
+    human_input_required: true
+    human_input_notes: Governance sign-off; all WP17D-1 validation checks must pass; counts match body sections
+    renderer_metadata:
+      automation_pct: 95
+    governance_constraints: []
+    si_rules_applied: []
+  A-02:
+    section_id: A-02
+    section_name: Consultant CVs
+    include_status: DEFAULT_EXCLUDED
+    rationale: OPT — no condition triggered; not in scope
+    assembly_order: 0
+    assembly_method: PLACEHOLDER
+    merge_strategy: N/A
+    source_assets: []
+    placeholders:
+    - consultant_cvs
+    human_input_required: true
+    human_input_notes: 'ADR-001: APPTime is authoritative — never generate from KB records'
+    renderer_metadata:
+      automation_pct: 0
+    governance_constraints:
+    - ADR-001 applies always — never generate CV text from KB consultant records
+    si_rules_applied:
+    - ADR-001
+  A-03:
+    section_id: A-03
+    section_name: Reference Letters
+    include_status: DEFAULT_EXCLUDED
+    rationale: OPT — no condition triggered; not in scope
+    assembly_order: 0
+    assembly_method: DIRECT
+    merge_strategy: N/A
+    source_assets: []
+    placeholders: []
+    human_input_required: true
+    human_input_notes: AM approval; signed only
+    renderer_metadata:
+      automation_pct: 60
+    governance_constraints: []
+    si_rules_applied: []
+  A-04:
+    section_id: A-04
+    section_name: Certifications and Compliance
+    include_status: MANDATORY
+    rationale: M-ALL — mandatory in all proposals
+    assembly_order: 42
+    assembly_method: DIRECT
+    merge_strategy: N/A
+    source_assets: []
+    placeholders: []
+    human_input_required: true
+    human_input_notes: All expiry dates must be > submission date
+    renderer_metadata:
+      automation_pct: 70
+    governance_constraints:
+    - Never submit a proposal with expired compliance documents
+    si_rules_applied: []
+  A-05:
+    section_id: A-05
+    section_name: B-BBEE Certificate
+    include_status: MANDATORY
+    rationale: M-SA — mandatory in all proposals
+    assembly_order: 43
+    assembly_method: DIRECT
+    merge_strategy: N/A
+    source_assets: []
+    placeholders: []
+    human_input_required: true
+    human_input_notes: Expiry 2026-07-31; OAR-C01/C02/A01 BEE blocker
+    renderer_metadata:
+      automation_pct: 70
+    governance_constraints:
+    - B-BBEE cert expires 2026-07-31; never cite BEE status after that date without renewal cert
+    si_rules_applied: []
+  A-06:
+    section_id: A-06
+    section_name: Company Registration
+    include_status: DEFAULT_EXCLUDED
+    rationale: OPT — no condition triggered; not in scope
+    assembly_order: 0
+    assembly_method: DIRECT
+    merge_strategy: N/A
+    source_assets: []
+    placeholders: []
+    human_input_required: true
+    human_input_notes: CIPC current
+    renderer_metadata:
+      automation_pct: 70
+    governance_constraints: []
+    si_rules_applied: []
